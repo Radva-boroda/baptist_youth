@@ -17,3 +17,10 @@ document.addEventListener("DOMContentLoaded", function () {
       mySwiper.slideNext(1); 
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    var mySwiper = new Swiper('.swiperr_mySwiper', {
+        slidesPerView: 1.8,
+        spaceBetween: 20,
+    });
+});
