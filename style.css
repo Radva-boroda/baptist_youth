@@ -77,3 +77,63 @@ body {
     min-height: 885px;
 }
 
+.banner__our_vision_inner {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: 2px solid  #6F6F6F;
+    margin-bottom: 30px
+}
+
+.title_main {
+    font-family: "Euclid Circular A";
+    color: #2A2A2A;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.title_secondary {
+    font-family: e-Ukraine;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.objectives_title_secondary {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .banner__content_missionary {
+    display: flex; 
+    border-bottom: 2px solid  #6F6F6F;
+    margin-bottom: 38px;
+  }
+.objectives_title_main {
+    color: #2A2A2A;
+    font-family: "Euclid Circular A";
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+
+.text {
+    margin-left: 100px;
+}
+
+.banner__team_text_inner {
+    display: flex;
+    border-bottom: 2px solid #6F6F6F;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  
+  .title_main {
+    margin-right: auto;
+  }
+  .btn_back,
+  .btn_go {
+    margin-left: auto; 
+    margin-left: 10px;
+  }
