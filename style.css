@@ -132,8 +132,42 @@ body {
   .title_main {
     margin-right: auto;
   }
+
   .btn_back,
   .btn_go {
     margin-left: auto; 
     margin-left: 10px;
+  }
+
+.position_user {
+    display: flex;
+}
+
+.banner__team_info {
+    padding: 20px 0;
+  }
+  
+  .swiper_mySwiper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .swiper-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .banner__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .banner__content img {
+    max-width: 100%;
+    height: auto;
   }
