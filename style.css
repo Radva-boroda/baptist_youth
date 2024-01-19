@@ -179,7 +179,51 @@ body {
     align-items: center;
 }
 
+.banner__donat{
+    display: flex;
+}
+
+.banner__card_account_details{
+    margin-left: 300px;
+}
 .data{
     display: flex;
     padding: 20px;
+}
+.text_top{
+    display: flex;
+}
+.subscription{
+    margin-left: 10px;
+}
+.money_amount{
+    display: flex;
+}
+.money {
+    display: flex;
+}
+.money button {
+    white-space: nowrap; /* Prevent text from wrapping */
+}
+.payment_method{
+    margin-bottom: 30px;
+}
+.banner__organization{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.edr{
+    display: flex;
+}
+.edrpou{
+    margin-right:500px;
+}
+.donation_btn{
+    display: flex;
+}
+.column_one{
+    margin-right: auto;
+}
+.column_two{
+    margin-left:500px;
 }
