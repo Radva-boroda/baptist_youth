@@ -84,7 +84,7 @@ body {
     z-index: 1; /* Менше значення, ніж .header__top-inner */
 }
 
-.top__inner{
+.banner__top-inner{
     min-height: 885px;
 }
 
@@ -104,11 +104,23 @@ body {
     font-weight: 600;
 }
 
-.title_secondary {
+.banner__top-subtitle {
     font-family: e-Ukraine;
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 30px;
+}
+
+.banner__our-vision-inner {
+    display: flex;
+    align-items: center;
+}
+.banner__our-vision-subtitle{
+    margin-left: 70px;
+}
+
+.banner__objectives {
+    border-top: 2px solid  #6F6F6F;
 }
 
 .objectives_title_secondary {
@@ -116,22 +128,36 @@ body {
     line-height: 1.5;
   }
 
-  .banner__content_missionary {
+.banner__content_missionary {
     display: flex; 
     justify-content: center;
     border-bottom: 2px solid  #6F6F6F;
+    margin-top: 50px;
     margin-bottom: 38px;
   }
+
 .objectives_title_main {
     color: #2A2A2A;
     font-family: "Euclid Circular A";
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 25px;
-  }
+}
 
 .text {
     margin-left: 100px;
+}
+
+.title_secondary {
+margin-bottom: 50px;
+}
+
+.banner__expanded_information_btn {
+    margin-bottom: 100px;
+}
+
+.banner__expanded_information {
+    margin-top: 0px;
 }
 
 .banner__team_text_inner {
@@ -141,18 +167,44 @@ body {
     align-items: center;
   }
   
-  .title_main {
+.title_main {
     margin-right: auto;
-  }
+    margin-bottom: 50px;
+}
 
-  .btn_back,
-  .btn_go {
+.btn_back,
+.btn_go {
     margin-left: auto; 
     margin-left: 10px;
-  }
+}
 
 .position_user {
+    margin-top: 15px;
+    margin-bottom: 15px;
     display: flex;
+    justify-content:space-between
+}
+
+.text_one {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text_two {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info_user_position {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.banner__expanded_information_btn {
+    display: flex; 
+}
+.btn {
+    margin-left: auto;
 }
 
 .banner__team_info {
@@ -169,20 +221,30 @@ body {
     margin-bottom: 20px;
   }
   
-  .banner__content {
+.banner__content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 20px;
     background-color: #fff;
-  }
+}
   
-  .banner__content img {
+.swiperr_mySwiper {
+    overflow: hidden; 
+}
+
+.banner__team_info .swiper-slide {
+    box-sizing: border-box;
+    width: 100%; 
+} 
+
+
+.banner__content img {
     max-width: 100%;
     height: auto;
   }
+
 .banner__our_text{
     display: flex;
     border-bottom: 2px solid #6F6F6F;
@@ -199,35 +261,57 @@ body {
 }
 .data{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 20px;
 }
+
 .text_top{
     display: flex;
+    white-space: nowrap;
 }
+
+
 .subscription{
-    margin-left: 10px;
+    margin-left: 30px;
 }
-.money_amount{
+
+.money_amount {
     display: flex;
+    justify-content: space-between;
+    margin-top: 44px;
+    margin-bottom: 20px;
 }
+
+.sum {
+    margin-right: auto;
+}
+
 .money {
     display: flex;
+    margin-bottom: 50px;
 }
-.money button {
-    white-space: nowrap; /* Prevent text from wrapping */
+
+to_support {
+    justify-content: center;
+
 }
-.payment_method{
-    margin-bottom: 30px;
+
+.payment_method {
+    margin-top: 25px;
+    margin-bottom: 50px;
 }
+
 .banner__organization{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
 .edr{
     display: flex;
+    justify-content: space-around;
 }
-.edrpou{
-    margin-right:500px;
+.edrpou {
+    margin-right: 50xp;
 }
 .donation_btn{
     display: flex;
