@@ -24,3 +24,26 @@ document.addEventListener("DOMContentLoaded", function () {
         spaceBetween: 20,
     });
 });
+
+let prevScrollpos = window.pageYOffset;
+
+let headerDiv = document.querySelector("header");
+
+window.onscroll = function () {
+    let body = document.body;
+    let scrolled = false;
+    let currentScrollPos = window.pageYOffset;
+
+    if (body.scrollTop > 200 || document.documentElement.scrollTop > 150) {
+        if (!scrolled) {
+            if (prevScrollpos <= currentScrollPos) {
+                headerDiv.style.transform = 'translateY(-100%)';
+            } else {
+                headerDiv.style.transform = 'translateY(0%)';
+            }
+            scrolled = true; 
+        }
+    }
+ 
+    prevScrollpos = currentScrollPos;
+}
