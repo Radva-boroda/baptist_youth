@@ -66,13 +66,17 @@ ul {
     font-family: "Euclid Circular A";
     display: flex;
     align-items: center;
-    gap: 0 100px;
     font-weight: 400;
     font-size: 18px;
+    margin-right: 10px;
 }
 
-.menu__list :last-child {
-    margin-right: 10px;
+.menu__list > li {
+    margin-right: 100px;
+}
+
+.menu__list > li:last-child {
+    margin-right: 0; 
 }
 
 .banner__top {
@@ -93,6 +97,17 @@ ul {
 .inner__content {
     position:relative;
     top: 300px; 
+}
+
+.social_content {
+    position: sticky;
+    margin-top: auto; 
+    display: flex;
+    justify-content: flex-start;
+}
+
+.social-networks {
+    display: flex;
 }
 
 .our-vision-inner {
