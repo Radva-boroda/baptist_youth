@@ -116,11 +116,32 @@ ul {
 .social-networks > *:not(:last-child) {
     margin-right: 40px;
 }
+
 .btn-сonference {
     position: relative;
-    left: 500px ;
+    bottom: 0vh; 
+    left: 40vw; 
 }
 
+.banner__btn {
+    border: 1px solid grey;
+    color: #242424;
+    text-align: center;
+    font-family: "Euclid Circular A";
+    font-size: 14px;
+    text-decoration: none;
+    padding: 4px 14px;
+    font-weight: 700;
+    border-radius: 30%;
+}
+
+.btn {
+    background-color: #FFF;
+}
+
+.btn--violet {
+    background-color: #6A00fa; 
+}
 .our-vision-inner {
     display: flex;
     align-items: center;
@@ -130,7 +151,7 @@ ul {
 }
 
 .title--1 {
-    color: var(--Main-Color-2, #FFF);
+    color:  #FFF;
     text-align: center;
     text-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
     font-family: "e-Ukraine Head";
@@ -168,6 +189,46 @@ ul {
     font-style: normal;
     font-weight: 700;
 }
+
+.title--5{
+    color:#FFF;
+    text-align: center;
+    font-family: "Euclid Circular A";
+    font-size: 14px;
+    background-color: #6A00fa;
+    text-decoration: none;
+    padding: 4px 14px;
+    font-weight: 700;
+    border-radius: 30%;
+}
+
+.title--6 {
+    color:#242424;
+    text-align: center;
+    font-family: "Euclid Circular A";
+    font-size: 14px;
+    text-decoration: none;
+    padding: 14px 18px;
+    font-weight: 700;
+}
+
+.title--7{
+    color: #242424;
+    font-family: e-UkraineHead;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.title--8{
+    color:#6F6F6F;
+    text-align: center;
+    font-family: e-Ukraine;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
 .banner__top-subtitle {
     font-family: e-Ukraine;
     font-size: 18px;
@@ -234,14 +295,13 @@ ul {
     margin-top: 15px;
     margin-bottom: 15px;
     display: flex;
-    justify-content:space-between;
     align-items: center;
 }
 
 .banner__expanded_btn {
     display: flex; 
 }
-.btn {
+.expanded--btn {
     margin-left: auto;
 }
 
@@ -266,10 +326,7 @@ ul {
     justify-content: center;
     text-align: center;
     background-color: #fff;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
-    border-left:1px solid grey; 
-    border-right: 1px solid grey;
+    border: 1px solid grey;
     border-radius: 10px; 
     box-sizing: border-box;
 }
