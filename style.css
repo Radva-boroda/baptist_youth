@@ -28,7 +28,7 @@ a {
 ul {
     list-style:none;
 }
-
+ /* * - марджін 0 падінг 0 ; */
 .container {
     max-width: 1500px;
     margin: 0 auto;
@@ -52,13 +52,12 @@ body {
     border-radius: 50px;
     margin-top: 40px;
     min-height: 70px;
-    position: relative; /* Додано для використання z-index */
-    z-index: 2; /* Забезпечити, що він буде вище, ніж .banner__top */
+    position: relative; 
+    z-index: 2; 
 }
 
-.logo {
+.logo__link {
    margin: 10px;
-   
 }
 
 .menu__list {
@@ -80,15 +79,15 @@ body {
     background-position: bottom center;
     background-size: cover;
     margin-top: -130px;
-    position: relative; /* Додано для використання z-index */
-    z-index: 1; /* Менше значення, ніж .header__top-inner */
+    position: relative; 
+    z-index: 1; 
 }
 
 .banner__top-inner{
     min-height: 885px;
 }
 
-.banner__our_vision_inner {
+.our-vision-inner {
     display: flex;
     align-items: center;
     padding: 10px 10px;
@@ -109,26 +108,16 @@ body {
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 30px;
-}
-
-.banner__our-vision-inner {
-    display: flex;
-    align-items: center;
-}
-.banner__our-vision-subtitle{
     margin-left: 70px;
 }
 
-.banner__objectives--inner {
-    border-top: 2px solid  #6F6F6F;
-}
 
 .objectives_title_secondary {
     font-size: 16px;
     line-height: 1.5;
   }
 
-.banner__missionary {
+.missionary {
     display: flex; 
     justify-content: center;
     border-bottom: 2px solid  #6F6F6F;
@@ -149,15 +138,16 @@ body {
 margin-bottom: 50px;
 }
 
-.banner__expanded_information_btn {
+.banner__expanded_btn {
     margin-bottom: 100px;
 }
 
-.banner__expanded_information {
+.banner__expanded {
     margin-top: 0px;
 }
 
-.banner__team_text--inner {
+
+.team__text--inner {
     display: flex;
     border-bottom: 2px solid #6F6F6F;
     margin-bottom: 30px;
@@ -182,7 +172,7 @@ margin-bottom: 50px;
     justify-content:space-between
 }
 
-.banner__expanded_information_btn {
+.banner__expanded_btn {
     display: flex; 
 }
 .btn {
@@ -203,7 +193,7 @@ margin-bottom: 50px;
     margin-bottom: 20px;
   }
   
-.banner__content {
+.team-info__content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -216,13 +206,13 @@ margin-bottom: 50px;
     overflow: hidden; 
 }
 
-.banner__team_info .swiper-slide {
+.banner__team-info .swiper-slide {
     box-sizing: border-box;
     width: 100%; 
 } 
 
 
-.banner__content img {
+.team-info__content img {
     max-width: 100%;
     height: auto;
   }
