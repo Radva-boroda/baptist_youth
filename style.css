@@ -103,15 +103,11 @@ ul {
 }
 
 .social_content {
-    position: sticky;
-    margin-top: auto; 
+    position: absolute;
+    bottom: 50px;
     display: flex;
-    justify-content: flex-start;
 }
 
-.social-networks {
-    display: flex;
-}
 
 .our-vision-inner {
     display: flex;
@@ -168,6 +164,12 @@ ul {
     margin-left: 70px;
 }
 
+.our-vision-inner {
+    margin-top: 80px;
+}
+.our {
+    margin-bottom: 50px;
+}
 
 .objectives_title_secondary {
     font-size: 16px;
@@ -180,40 +182,38 @@ ul {
     border-bottom: 2px solid  #6F6F6F;
     margin-top: 50px;
     margin-bottom: 38px;
-  }
+}
+.vision {
+    justify-content: start;
+    align-items: start;
+    text-align: start
+}
 
-.text__title--main{
-    color: #2A2A2A;
-    font-family: "Euclid Circular A";
-    font-size: 30px;
-    font-weight: 500;
+.banner__vision .title--4 {
     margin-bottom: 25px;
 }
 
-
 .banner__expanded_btn {
+    margin-top: 40px;
     margin-bottom: 100px;
-}
-
-.banner__expanded {
-    margin-top: 0px;
 }
 
 
 .team__text--inner {
     display: flex;
     border-bottom: 2px solid #6F6F6F;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     align-items: center;
   }
   
 .team {
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .btn_back,
 .btn_go {
+    margin-bottom: 30px;
     margin-left: auto; 
     margin-left: 10px;
 }
