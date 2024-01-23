@@ -95,14 +95,40 @@ body {
     margin-bottom: 30px
 }
 
-.title_main {
-    font-family: "Euclid Circular A";
-    color: #2A2A2A;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 600;
+.title--1 {
+    color: var(--Main-Color-2, #FFF);
+    text-align: center;
+    text-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+    font-family: "e-Ukraine Head";
+    font-size: 75px;
+    font-weight: 700;
+    text-transform: capitalize;
 }
 
+.title--2 {
+    color: #6F6F6F;
+    font-family: "Euclid Circular A";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.title--3 {
+    color: #2A2A2A;
+    font-family: "Euclid Circular A";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700; 
+}
+
+.title--4 {
+    color: #242424;
+    font-family: e-Ukraine;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+}
 .banner__top-subtitle {
     font-family: e-Ukraine;
     font-size: 18px;
@@ -134,10 +160,6 @@ body {
 }
 
 
-.title_secondary {
-margin-bottom: 50px;
-}
-
 .banner__expanded_btn {
     margin-bottom: 100px;
 }
@@ -154,7 +176,7 @@ margin-bottom: 50px;
     align-items: center;
   }
   
-.title_main {
+.team {
     margin-right: auto;
     margin-bottom: 50px;
 }
