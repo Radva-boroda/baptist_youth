@@ -104,10 +104,22 @@ ul {
 
 .social_content {
     position: absolute;
-    bottom: 50px;
-    display: flex;
+    bottom: 30px;
 }
 
+.social-networks {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.social-networks > *:not(:last-child) {
+    margin-right: 40px;
+}
+.btn-сonference {
+    position: relative;
+    left: 500px ;
+}
 
 .our-vision-inner {
     display: flex;
