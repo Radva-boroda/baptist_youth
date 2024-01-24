@@ -309,6 +309,7 @@ ul {
 
 .banner__expanded_btn {
     display: flex; 
+    justify-content: space-between;
 }
 .expanded--btn {
     margin-left: auto;
