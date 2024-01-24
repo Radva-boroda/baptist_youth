@@ -58,7 +58,7 @@ ul {
     z-index: 2;
 }
 .header__menu {
-    flex-grow:1
+     flex-grow:1
 }
 
 .header__logo {
@@ -70,9 +70,12 @@ ul {
     font-family: "Euclid Circular A";
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-between;
     font-weight: 400;
     font-size: 18px;
+}
+
+.banner__all_btn {
     margin-right: 10px;
 }
 
@@ -128,18 +131,31 @@ ul {
     color: #242424;
     text-align: center;
     font-family: "Euclid Circular A";
-    font-size: 14px;
     text-decoration: none;
-    padding: 4px 14px;
-    font-weight: 700;
-    border-radius: 30%;
+    margin-left: 10px;
+    padding: 20px 80px;
+    font-weight: 500;
+    border-radius: 50px;
 }
 
 .btn {
     background-color: #FFF;
 }
 
+.banner__all_btn {
+    border: 1px solid grey;
+    color: #FFF;
+    text-align: center;
+    font-family: "Euclid Circular A";
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 20px 50px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
 .btn--violet {
+    color: #FFF;
     background-color: #6A00fa; 
 }
 .our-vision-inner {

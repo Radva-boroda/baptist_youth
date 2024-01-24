@@ -8,7 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     });
   
-   
     document.querySelector('.btn_back').addEventListener('click', function () {
       mySwiper.slidePrev(1);
     });
