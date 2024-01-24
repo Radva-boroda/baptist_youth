@@ -1,22 +1,22 @@
 @font-face {
     font-family: 'e-UkraineHead';
     src: url(fons/e-UkraineHead.woff) format('woff'),
-         url(fons/e-UkraineHead.woff2) format('woff2');
+        url(fons/e-UkraineHead.woff2) format('woff2');
 }
 
 @font-face {
     font-family: 'e-Ukraine';
     src: url(fons/e-Ukraine.woff) format('woff'),
-         url(fons/e-Ukraine.woff2) format('woff2');
+        url(fons/e-Ukraine.woff2) format('woff2');
 }
 
-html{
+html {
     box-sizing: border-box;
 }
 
 *,
 *::after,
-*::before{
+*::before {
     box-sizing: inherit;
 }
 
@@ -31,7 +31,7 @@ a {
 }
 
 ul {
-    list-style:none;
+    list-style: none;
 }
 
 .container {
@@ -53,12 +53,13 @@ ul {
     position: fixed;
     margin-left: 75px;
     margin-right: 75px;
-    left: 0; 
+    left: 0;
     right: 0;
     z-index: 2;
 }
+
 .header__menu {
-     flex-grow:1
+    flex-grow: 1
 }
 
 .header__logo {
@@ -81,21 +82,21 @@ ul {
 
 .banner__top {
     width: 100%;
-    height: 100vh; 
+    height: 100vh;
     background-image: url(../baptist_youth/img/bg.svg);
     background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     z-index: 1;
 }
 
 .banner__top-inner {
     width: 100%;
-    height: 100vh; 
+    height: 100vh;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: #fff; 
+    color: #fff;
 }
 
 .inner__content {
@@ -121,7 +122,7 @@ ul {
     text-align: center;
 }
 
-.social-networks > *:not(:last-child) {
+.social-networks>*:not(:last-child) {
     margin-right: 40px;
 }
 
@@ -156,13 +157,14 @@ ul {
 
 .btn--violet {
     color: #FFF;
-    background-color: #6A00fa; 
+    background-color: #6A00fa;
 }
+
 .our-vision-inner {
     display: flex;
     align-items: center;
     padding: 10px 10px;
-    border-bottom: 2px solid  #6F6F6F;
+    border-bottom: 2px solid #6F6F6F;
     margin-bottom: 30px
 }
 
@@ -170,9 +172,9 @@ ul {
     font-family: "Euclid Circular A";
     font-style: normal;
     font-weight: 700;
-  }
-  
-  .title--1 {
+}
+
+.title--1 {
     color: #FFF;
     text-align: center;
     text-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
@@ -181,31 +183,31 @@ ul {
     font-weight: 700;
     text-transform: capitalize;
     white-space: nowrap;
-  }
-  
-  .title--2 {
+}
+
+.title--2 {
     color: #6F6F6F;
     font-size: 18px;
     margin-bottom: 50px;
-  }
-  
-  .inner_title--2 {
+}
+
+.inner_title--2 {
     color: #FFF;
     line-height: 2;
-  }
-  
-  .title--3 {
+}
+
+.title--3 {
     color: #2A2A2A;
     font-size: 60px;
-  }
-  
-  .title--4 {
+}
+
+.title--4 {
     color: #242424;
     font-family: e-Ukraine;
     font-size: 30px;
-  }
-  
-  .title--5 {
+}
+
+.title--5 {
     color: #FFF;
     text-align: center;
     font-size: 14px;
@@ -213,30 +215,30 @@ ul {
     text-decoration: none;
     padding: 4px 14px;
     border-radius: 30%;
-  }
-  
-  .title--6 {
+}
+
+.title--6 {
     color: #242424;
     text-align: center;
     font-size: 14px;
     text-decoration: none;
     padding: 14px 18px;
-  }
-  
-  .title--7 {
+}
+
+.title--7 {
     color: #242424;
     font-family: e-UkraineHead;
     font-size: 24px;
-  }
-  
-  .title--8 {
+}
+
+.title--8 {
     color: #6F6F6F;
     text-align: center;
     font-size: 14px;
     font-weight: 300;
     margin-top: 10px;
     margin-bottom: 30px;
-  }
+}
 
 .banner__top-subtitle {
     font-family: e-Ukraine;
@@ -249,6 +251,7 @@ ul {
 .our-vision-inner {
     margin-top: 80px;
 }
+
 .our {
     margin-bottom: 50px;
 }
@@ -256,15 +259,16 @@ ul {
 .objectives_title_secondary {
     font-size: 16px;
     line-height: 1.5;
-  }
+}
 
 .missionary {
-    display: flex; 
+    display: flex;
     justify-content: center;
-    border-bottom: 2px solid  #6F6F6F;
+    border-bottom: 2px solid #6F6F6F;
     margin-top: 50px;
     margin-bottom: 38px;
 }
+
 .vision {
     justify-content: start;
     align-items: start;
@@ -286,8 +290,8 @@ ul {
     border-bottom: 2px solid #6F6F6F;
     margin-bottom: 50px;
     align-items: center;
-  }
-  
+}
+
 .team {
     margin-right: auto;
     margin-bottom: 30px;
@@ -296,7 +300,7 @@ ul {
 .btn_back,
 .btn_go {
     margin-bottom: 30px;
-    margin-left: auto; 
+    margin-left: auto;
     margin-left: 10px;
 }
 
@@ -308,27 +312,34 @@ ul {
 }
 
 .banner__expanded_btn {
-    display: flex; 
+    display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+.banner__expanded_btn>* {
+    flex-grow: 1;
+
+}
+
 .expanded--btn {
     margin-left: auto;
 }
 
 .banner__team_info {
     padding: 20px 0;
-  }
-  
-  .swiper_mySwiper {
+}
+
+.swiper_mySwiper {
     position: relative;
     overflow: hidden;
-  }
-  
-  .swiper-container {
+}
+
+.swiper-container {
     width: 100%;
     margin-bottom: 20px;
-  }
-  
+}
+
 .team-info__content {
     display: flex;
     flex-direction: column;
@@ -337,37 +348,37 @@ ul {
     text-align: center;
     background-color: #fff;
     border: 1px solid grey;
-    border-radius: 10px; 
+    border-radius: 10px;
     box-sizing: border-box;
 }
-  
+
 .swiperr_mySwiper {
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .banner__team-info .swiper-slide {
     box-sizing: border-box;
-    width: 100%; 
-} 
+    width: 100%;
+}
 
 
 .team-info__content img {
     max-width: 100%;
     height: auto;
-  }
+}
 
-.banner__our--text{
+.banner__our--text {
     display: flex;
     border-bottom: 2px solid #6F6F6F;
     margin-bottom: 50px;
     align-items: center;
 }
 
-.banner__donat--inner{
+.banner__donat--inner {
     display: flex;
 }
 
-.account_details{
+.account_details {
     margin-left: 100px;
 }
 
@@ -378,13 +389,13 @@ ul {
     padding: 20px;
 }
 
-.text_top{
+.text_top {
     display: flex;
     white-space: nowrap;
 }
 
 
-.subscription{
+.subscription {
     margin-left: 30px;
 }
 
@@ -414,27 +425,33 @@ ul {
     margin-bottom: 50px;
 }
 
-.organization{
+.organization {
     margin-top: 50px;
     margin-bottom: 10px;
 }
-.edr{
+
+.edr {
     display: flex;
     justify-content: space-around;
 }
+
 .edrpou {
     margin-right: 50xp;
 }
-.donation_btn{
+
+.donation_btn {
     display: flex;
 }
-.column_one{
+
+.column_one {
     margin-right: auto;
 }
-.column_two{
-    margin-left:500px;
+
+.column_two {
+    margin-left: 500px;
 }
-.footer__left{
+
+.footer__left {
     display: flex;
 }
 
@@ -444,22 +461,26 @@ ul {
     background-color: black;
     color: floralwhite;
 }
+
 .container__footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .social_networks {
     display: flex;
     justify-content: space-between;
-    width: 100%; 
+    width: 100%;
 }
-.footer__info{
+
+.footer__info {
     display: flex;
     justify-content: space-between;
     align-items: to;
 }
-.footer__text_main{
+
+.footer__text_main {
     margin-left: 20px;
     white-space: nowrap;
 }
@@ -470,15 +491,17 @@ ul {
     margin-bottom: 50px;
 }
 
-.privacy_policy{
+.privacy_policy {
     margin-top: 56px;
     margin-bottom: 20px;
 }
+
 .footer__networks {
     display: flex;
     margin-right: 50px;
 }
-.left__top{
+
+.left__top {
     display: flex;
     align-items: center;
     white-space: nowrap;
@@ -493,6 +516,7 @@ ul {
     margin-right: 30px;
     margin-left: 30px;
 }
+
 .footter__bottom {
     display: flex;
     margin-top: auto;
@@ -506,12 +530,12 @@ ul {
 
 @media only screen and (min-width: 700px) {
     div.example {
-      font-size: 80px;
+        font-size: 80px;
     }
-  }
+}
 
-  @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px) {
     div.example {
-      font-size: 30px;
+        font-size: 30px;
     }
-  }
+}
