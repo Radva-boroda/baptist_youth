@@ -348,7 +348,8 @@ ul {
 }
 
 .banner__team {
-    margin-right: auto;  
+    margin-right: auto; 
+    margin-right: 10px; 
 }
 
 .btn_back,
