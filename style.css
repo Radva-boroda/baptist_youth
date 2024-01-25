@@ -559,23 +559,23 @@ ul {
     white-space: nowrap;
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 800px) {
     .user_name {
-        font-size: 14px;
+        font-size: 20px;
         font-weight: 700;
     }
 }
 
-@media screen and (max-width: 570px) {
+@media (max-width: 570px) {
     .user_name {
         font-size: 16px;
         font-weight: 700;
     }
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 320px) {
     .user_name {
-        font-size: 20px;
+        font-size: 14px;
         font-weight: 700;
     }
 }
