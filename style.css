@@ -291,6 +291,7 @@ ul {
     margin-bottom: 30px;
   }
 
+
 .banner__top-subtitle {
     font-family: e-Ukraine;
     font-size: 18px;
@@ -402,7 +403,17 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 10px; 
+    box-sizing: border-box;
+}
+
+.project-info__content {
+    flex-direction: column;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
     border: 1px solid grey;
     border-radius: 10px; 
@@ -418,6 +429,10 @@ ul {
     width: 100%; 
 } 
 
+.project-info__content img{
+    max-width: 100%;
+    height: auto;
+}
 
 .team-info__content img {
     max-width: 100%;
@@ -445,7 +460,20 @@ ul {
     justify-content: space-between;
     padding: 20px;
 }
+.con {
+   display: flex; 
+   flex-wrap: wrap;
+}
 
+.icon_calendar {
+    margin-left: 20px;
+}
+
+.date {
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
 .text_top{
     display: flex;
     white-space: nowrap;
