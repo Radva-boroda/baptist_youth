@@ -462,7 +462,6 @@ ul {
 }
 .con {
    display: flex; 
-   flex-wrap: wrap;
 }
 
 .icon_calendar {
@@ -627,5 +626,8 @@ ul {
     }
     .banner__team_btn{
         padding: 14px 48px;
+    }
+    .con {
+        flex-wrap: wrap;
     }
 }
