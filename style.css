@@ -369,10 +369,15 @@ ul {
 }
 
 .banner__team_expanded_btn {
+    width: min-content;
+    align-items: center;
     display: flex;
-    flex-wrap: wrap;
     margin-top: 40px;
     margin-bottom: 30px;
+}
+
+.banner__team_btn:last-child {
+    margin-left: auto;
 }
 
 .banner__expanded_btn {
