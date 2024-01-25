@@ -206,7 +206,6 @@ ul {
 
 .title {
     font-family: "Euclid Circular A";
-    font-style: normal;
     font-weight: 700;
   }
   
@@ -263,7 +262,8 @@ ul {
     font-weight: 300;
   }
   
-  .title--7 {
+  .user_name {
+    font-weight: 700;
     color: #242424;
     font-family: e-UkraineHead;
     font-size: 24px;
@@ -559,8 +559,9 @@ ul {
     white-space: nowrap;
 }
 
-@media (max-width: 400px) {
-    .title--7 {
+@media screen and (max-width: 320px) {
+    .user_name {
         font-size: 0.5em;
+        font-weight: 700;
     }
 }
