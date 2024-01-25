@@ -199,6 +199,7 @@ ul {
   .title--2 {
     color: #6F6F6F;
     font-size: 18px;
+    font-weight: 400;
     margin-bottom: 50px;
   }
   
@@ -224,8 +225,8 @@ ul {
     font-size: 14px;
     background-color: #6A00fa;
     text-decoration: none;
-    padding: 4px 14px;
-    border-radius: 30%;
+    padding: 2px 30px;
+    border-radius: 50px;
   }
   
   .title--6 {
@@ -324,6 +325,9 @@ ul {
     margin-bottom: 15px;
     display: flex;
     align-items: center;
+    text-align: center;
+    justify-content:center;
+    flex-wrap: wrap;
 }
 
 .banner__team_expanded_btn {
