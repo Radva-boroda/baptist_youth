@@ -197,7 +197,6 @@ ul {
     align-items: center;
     font-family: "Euclid Circular A";
     text-decoration: none;
-    margin-right: 20px;
     padding: 18px 40px;
     font-weight: 500;
     border-radius: 50px;
@@ -371,6 +370,7 @@ ul {
 }
 
 .banner__team_expanded_btn {
+    justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     margin-top: 40px;
