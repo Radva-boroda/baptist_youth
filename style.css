@@ -184,7 +184,7 @@ ul {
     text-align: center;
     font-family: "Euclid Circular A";
     text-decoration: none;
-    margin-right: 30px;
+    margin-right: 20px;
     padding: 18px 40px;
     font-weight: 500;
     border-radius: 50px;
@@ -559,14 +559,8 @@ ul {
     white-space: nowrap;
 }
 
-@media only screen and (min-width: 700px) {
-    div.example {
-      font-size: 80px;
+@media (max-width: 400px) {
+    .title--7 {
+        font-size: 0.5em;
     }
-  }
-
-  @media only screen and (max-width: 400px) {
-    div.example {
-      font-size: 30px;
-    }
-  }
+}
