@@ -474,11 +474,37 @@ ul {
     margin-left: 10px;
     margin-right: 36px;
 }
+
+.title_text {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.banner__donat--inner {
+    width: min-content;
+}
+
+.financial_contributions {
+    border: 1px solid grey;
+    border-radius: 10px; 
+}
+
+.account_details {
+    border: 1px solid grey;
+    border-radius: 10px; 
+}
+
 .text_top{
     display: flex;
     white-space: nowrap;
 }
 
+.one_time {
+        color: #242424;
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 50px;
+}
 
 .subscription{
     margin-left: 30px;
