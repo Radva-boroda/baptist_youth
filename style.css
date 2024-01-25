@@ -29,6 +29,9 @@ a {
     margin: 0;
     padding: 0;
 }
+li{
+    list-style: none
+}
 
 ul {
     list-style:none;
@@ -66,6 +69,11 @@ ul {
     margin-right: 10px;
 }
 
+.support-text {
+    margin-right: 5px;
+}
+
+
 .menu__list {
     color: #2A2A2A;
     font-family: "Euclid Circular A";
@@ -74,6 +82,13 @@ ul {
     justify-content: space-between;
     font-weight: 400;
     font-size: 18px;
+}
+
+.banner__top-buttons {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
 }
 
 .banner__all_btn {
@@ -139,12 +154,21 @@ ul {
     border-radius: 50px;
 }
 
+
 .btn {
+    border: 1px solid grey;
     background-color: #FFF;
+    color: #242424; 
+    text-align: center;
+    font-family: "Euclid Circular A";
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 18px 40px;
+    font-weight: 500;
+    border-radius: 50px;
 }
 
 .banner__all_btn {
-    border: 1px solid grey;
     color: #FFF;
     text-align: center;
     font-family: "Euclid Circular A";
@@ -156,7 +180,6 @@ ul {
 }
 
 .expanded_btn {
-    border: 1px solid grey;
     color: #FFF;
     text-align: center;
     font-family: "Euclid Circular A";
@@ -170,7 +193,9 @@ ul {
 .btn--violet {
     color: #FFF;
     background-color: #6A00fa; 
+    font-weight: 400;
 }
+
 .our-vision-inner {
     display: flex;
     align-items: center;
@@ -235,6 +260,7 @@ ul {
     font-size: 14px;
     text-decoration: none;
     padding: 14px 18px;
+    font-weight: 300;
   }
   
   .title--7 {
