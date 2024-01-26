@@ -128,8 +128,8 @@ ul {
 .networks {
     position: absolute;
     bottom: 60px;
-    left: 75px; /* Відступ від лівого краю */
-    right: 75px; /* Відступ від правого краю */
+    left: 75px; 
+    right: 75px; 
     display: flex;
     justify-content: space-between;
 }
@@ -137,7 +137,7 @@ ul {
 .btn-сonference {
     position: relative;
     margin-left: auto;
-    margin-right: 75px; /* Відступ від правого краю для кнопки "conference" */
+    margin-right: 75px; 
 }
 
 .social-networks {
@@ -157,7 +157,6 @@ ul {
     text-align: center;
     font-family: "Euclid Circular A";
     text-decoration: none;
-    margin-left: 10px;
     padding: 18px 60px;
     font-weight: 500;
     border-radius: 50px;
@@ -183,7 +182,7 @@ ul {
     text-align: center;
     font-family: "Euclid Circular A";
     text-decoration: none;
-    margin-right: 10px;
+
     padding: 18px 40px;
     font-weight: 500;
     border-radius: 50px;
@@ -234,7 +233,7 @@ ul {
     color: #FFF;
     text-align: center;
     font-family: "e-Ukraine Head";
-    font-size: 75px;
+    font-size: 72px;
     font-weight: 700;
     text-transform: capitalize;
     white-space: nowrap;
