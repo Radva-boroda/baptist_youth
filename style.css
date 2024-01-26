@@ -73,7 +73,6 @@ ul {
     margin-right: 5px;
 }
 
-
 .menu__list {
     color: #2A2A2A;
     font-family: "Euclid Circular A";
@@ -106,6 +105,18 @@ ul {
     margin-right: 10px;
 }
 
+.banner__donat {
+    color: #FFF;
+    text-align: center;
+    font-family: "Euclid Circular A";
+    text-decoration: none;
+    padding: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-bottom: 20px;
+}
 
 .banner__top-inner {
     width: 100%;
@@ -174,6 +185,19 @@ ul {
     border-radius: 50px;
 }
 
+.banner__inancial_btn {
+    border: 1px solid grey;
+    color: #242424;
+    text-align: center;
+    font-family: "Euclid Circular A";
+    text-decoration: none;
+    flex-grow: 1;
+    margin: 0 5px;
+    padding: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
 
 .btn {
     border: 1px solid grey;
@@ -182,7 +206,6 @@ ul {
     text-align: center;
     font-family: "Euclid Circular A";
     text-decoration: none;
-
     padding: 18px 40px;
     font-weight: 500;
     border-radius: 50px;
@@ -500,18 +523,27 @@ ul {
 .account_details {
     border: 1px solid grey;
     border-radius: 10px; 
+    margin-top: 30px;
+}
+.one_time {
+    border-bottom: 2px solid  #6F6F6F;
+}
+.subscription{
+    border-bottom: 2px solid  #6F6F6F;   
 }
 
-.text_top{
-    display: flex;
-    white-space: nowrap;
+.text_top { 
+margin-top: 20px;
+margin-left: 26px;
+display: flex;
+white-space: nowrap;
 }
 
 .one_time {
-        color: #242424;
-        font-size: 18px;
-        font-weight: 600;
-        margin-bottom: 50px;
+  color: #242424;
+  font-size: 18px; 
+  font-weight: 600;
+  margin-bottom: 50px;
 }
 
 .subscription{
@@ -519,24 +551,30 @@ ul {
 }
 
 .money_amount {
+    border-bottom: 2px solid  #6F6F6F;
     display: flex;
     justify-content: space-between;
+    margin-left: 36px;
+    margin-right: 36px;
     margin-top: 44px;
     margin-bottom: 20px;
+}
+.currency {
+    margin-bottom: 5px;
 }
 
 .sum {
     margin-right: auto;
+    margin-bottom: 15px;
 }
 
 .money {
+    justify-content: space-between;
     display: flex;
-    margin-bottom: 50px;
-}
-
-.support {
-    justify-content: center;
-
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-bottom: 36px;
+    white-space: nowrap;
 }
 
 .payment_method {
