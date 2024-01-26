@@ -482,7 +482,7 @@ ul {
 }
 
 .account_details{
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .content {
@@ -577,30 +577,53 @@ white-space: nowrap;
     white-space: nowrap;
 }
 
+.account_text {
+ padding-top: 30px;
+ padding-left: 26px;
+ padding-bottom: 20px;
+}
+
+
+
 .payment_method {
     margin-top: 25px;
     margin-bottom: 50px;
 }
 
-.organization{
-    margin-top: 50px;
-    margin-bottom: 10px;
+.text {
+    padding-left: 26px;
+    padding-right: 26px;
+    text-align: start;
+}
+
+.organization {
+    padding-left: 26px;
+    text-align: start;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .edr{
     display: flex;
-    justify-content: space-around;
+    justify-content: start;
+    padding-left: 26px;
 }
-.edrpou {
-    margin-right: 50xp;
+
+.score_edrpou {
+    padding-left: 14px;
 }
-.donation_btn{
+
+
+.donation_btn {
     display: flex;
-}
-.column_one{
-    margin-right: auto;
-}
-.column_two{
-    margin-left:500px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+
+.support-text {
+    padding: 20px;
 }
 .footer__left{
     display: flex;
