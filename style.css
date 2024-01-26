@@ -127,15 +127,21 @@ ul {
 
 .networks {
     position: absolute;
-    bottom:60px;
-    width: 86%;
+    bottom: 60px;
+    left: 75px; /* Відступ від лівого краю */
+    right: 75px; /* Відступ від правого краю */
     display: flex;
     justify-content: space-between;
-    bottom: 30px;
 }
 
+.btn-сonference {
+    position: relative;
+    margin-left: auto;
+    margin-right: 75px; /* Відступ від правого краю для кнопки "conference" */
+}
 
 .social-networks {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
