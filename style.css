@@ -308,7 +308,7 @@ ul {
   .user_name {
     font-weight: 700;
     color: #242424;
-    font-family: e-UkraineHead;
+    font-family: "e-UkraineHead";
     font-size: 24px;
   }
   
@@ -323,7 +323,7 @@ ul {
 
 
 .banner__top-subtitle {
-    font-family: e-Ukraine;
+    font-family: "e-Ukraine";
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 30px;
@@ -483,6 +483,8 @@ ul {
 
 .account_details{
     margin-left: 30px;
+    border: 1px solid grey;
+    border-radius: 10px; 
 }
 
 .content {
@@ -523,16 +525,10 @@ ul {
 }
 
 .financial_contributions {
-    height: min-content;
     border: 1px solid grey;
     border-radius: 10px; 
 }
 
-.account_details {
-    border: 1px solid grey;
-    border-radius: 10px; 
-    
-}
 .one_time {
     border-bottom: 2px solid  #6F6F6F;
 }
@@ -554,9 +550,7 @@ white-space: nowrap;
   margin-bottom: 50px;
 }
 
-.subscription{
-    margin-left: 30px;
-}
+
 
 .money_amount {
     border-bottom: 2px solid  #6F6F6F;
@@ -671,7 +665,6 @@ white-space: nowrap;
 
 .footer {
     font-weight: 466px;
-    margin-top: 100px;
     background-color: black;
     color: floralwhite;
 }
@@ -706,21 +699,39 @@ white-space: nowrap;
     margin-bottom: 20px;
 }
 .footer__networks {
+    list-style: none;
+    padding: 0;
     display: flex;
-    margin-right: 50px;
+}
+.footer {
+    margin-top: 100px;
+}
+.footer__networks li {
+    margin-right: 100px; /* Встановіть бажаний відступ між елементами */
+}
+
+.footer__networks li:last-child {
+    margin-right: 0; /* Забезпечте, щоб останній елемент не мав відступу вправо */
 }
 .left__top{
     display: flex;
     align-items: center;
     white-space: nowrap;
-    margin-top: 118px;
+}
+
+.footer__logo_social_networks {
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+.footer__left__top {
+padding-top: 30px;
 }
 
 .footer__about,
 .footer__news,
 .footer__team,
 .footer__education {
-    margin-top: 118px;
     margin-right: 30px;
     margin-left: 30px;
 }
@@ -730,9 +741,59 @@ white-space: nowrap;
     justify-content: space-between;
 }
 
-.footer__copy {
-    margin-top: 100px;
-    white-space: nowrap;
+.container__footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logo_social_networks {
+    flex-grow: 1;
+}
+
+.footer__left__top {
+    display: flex;
+    align-items: center;
+}
+
+.footer__left__top .top__link {
+    margin-right: 10px;
+}
+
+.footer__left__center {
+    color: #7B7B7B;
+    font-size: 16px;
+    width: max-content;
+    
+}
+
+.footer__text_left__center {
+    color: #7B7B7B;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+
+
+.footer__privacy_policy {
+    font-size: 14px;
+    color: #7B7B7B;
+    margin-bottom: 10px;
+}
+
+.footer__networks {
+    margin-bottom: 35px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer__networks li {
+    margin-right: 10px;
+}
+
+.footer__privacy_policy {
+    margin-top: 20px;
 }
 
 @media (max-width: 800px) {
