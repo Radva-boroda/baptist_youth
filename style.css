@@ -512,10 +512,18 @@ ul {
 }
 
 .banner__donat--inner {
-    width: min-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.donation_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .financial_contributions {
+    height: min-content;
     border: 1px solid grey;
     border-radius: 10px; 
 }
@@ -523,7 +531,7 @@ ul {
 .account_details {
     border: 1px solid grey;
     border-radius: 10px; 
-    margin-top: 30px;
+    
 }
 .one_time {
     border-bottom: 2px solid  #6F6F6F;
@@ -617,14 +625,43 @@ white-space: nowrap;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
     padding: 10px;
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
-  }
+    margin-left: 26px;
+    margin-right: 26px;
+    border: 2px solid  #6F6F6F;
+    border-radius: 50px;
+}
 
+.uan {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.number {
+    margin-left: 20px;
+}
+
+.column_two {
+    display: flex;
+}
+
+.column_two img {
+    margin-right: 10px;
+}
 .support-text {
     padding: 20px;
 }
+
+.organization,
+.score_edrpou,
+.uan,
+.support-text {
+    color: #242424;
+    font-size: 18px;
+    font-weight: 600;
+}
+
 .footer__left{
     display: flex;
 }
