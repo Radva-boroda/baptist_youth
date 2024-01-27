@@ -115,7 +115,7 @@ ul {
     border-radius: 50px;
     margin-left: 26px;
     margin-right: 26px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .banner__top-inner {
@@ -626,7 +626,7 @@ white-space: nowrap;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 10px;
     margin-left: 26px;
     margin-right: 26px;
@@ -652,11 +652,14 @@ white-space: nowrap;
 .support-text {
     padding: 20px;
 }
+.support {
+    padding: 20px;
+}
 
 .organization,
 .score_edrpou,
 .uan,
-.support-text {
+.support {
     color: #242424;
     font-size: 18px;
     font-weight: 600;
