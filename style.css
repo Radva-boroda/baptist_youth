@@ -530,10 +530,10 @@ ul {
 }
 
 .one_time {
+    margin-right: 30px;
     border-bottom: 2px solid  #6F6F6F;
 }
 .subscription{
-    padding-left: 30px;
     border-bottom: 2px solid  #6F6F6F;   
 }
 
@@ -679,7 +679,12 @@ white-space: nowrap;
     justify-content: space-between;
     width: 100%; 
 }
-.footer__info{
+.fotter__right{
+    height: max-content;
+}
+
+.footer__info {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -738,6 +743,7 @@ padding-top: 30px;
     margin-left: 30px;
 }
 .footter__bottom {
+    margin-top: 50px;
     display: flex;
     align-items: center;
     text-align: center;
