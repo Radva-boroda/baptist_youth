@@ -681,17 +681,18 @@ white-space: nowrap;
 .footer__info{
     display: flex;
     justify-content: space-between;
-    align-items: to;
+    align-items: center;
 }
 .footer__text_main{
     margin-left: 20px;
     white-space: nowrap;
 }
-
+.footer__news {
+    margin-top: 26px;
+}
 .footer__left__center {
     text-align: left;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    margin-top: 38px;
 }
 
 .privacy_policy{
@@ -707,11 +708,11 @@ white-space: nowrap;
     margin-top: 100px;
 }
 .footer__networks li {
-    margin-right: 100px; /* Встановіть бажаний відступ між елементами */
+    margin-right: 100px; 
 }
 
 .footer__networks li:last-child {
-    margin-right: 0; /* Забезпечте, щоб останній елемент не мав відступу вправо */
+    margin-right: 0;
 }
 .left__top{
     display: flex;
@@ -737,8 +738,14 @@ padding-top: 30px;
 }
 .footter__bottom {
     display: flex;
-    margin-top: auto;
+    align-items: center;
+    text-align: center;
     justify-content: space-between;
+    margin-left: -40px;
+}
+
+.btn_сonference_in {
+    margin-bottom: 40px;
 }
 
 .container__footer {
@@ -766,6 +773,13 @@ padding-top: 30px;
     
 }
 
+.footer__left__bottom {
+    color: #7B7B7B;
+    font-size: 16px;
+    width: max-content;
+    padding-top: 10px;
+}
+
 .footer__text_left__center {
     color: #7B7B7B;
     margin-top: 16px;
@@ -773,7 +787,11 @@ padding-top: 30px;
     font-size: 16px;
 }
 
-
+.footer__copy{
+    font-size: 14px;
+    color: #7B7B7B;
+    margin-bottom: 10px;
+}
 
 .footer__privacy_policy {
     font-size: 14px;
