@@ -60,17 +60,14 @@ ul {
     right: 0;
     z-index: 2;
 }
-.header__menu {
-     flex-grow:1
-}
 
 .header__logo {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-.support-text {
-    margin-right: 5px;
+.header__menu {
+     flex-grow:1
 }
 
 .menu__list {
@@ -83,6 +80,10 @@ ul {
     font-size: 18px;
 }
 
+.support-text {
+    margin-right: 5px;
+}
+
 .banner__top {
     position: relative;
     width: 100%;
@@ -92,30 +93,6 @@ ul {
     background-size: cover; 
     background-position: center; 
     z-index: 1;
-}
-
-.banner__top-buttons {
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    display: flex;
-}
-
-.banner__all_btn {
-    margin-right: 10px;
-}
-
-.banner__donat {
-    color: #FFF;
-    text-align: center;
-    font-family: "Euclid Circular A";
-    text-decoration: none;
-    padding: 18px;
-    font-weight: 500;
-    border-radius: 50px;
-    margin-left: 26px;
-    margin-right: 26px;
-    margin-bottom: 30px;
 }
 
 .banner__top-inner {
@@ -136,6 +113,13 @@ ul {
     transform: translate(-50%, -50%);
 }
 
+.banner__top-buttons {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
 .networks {
     position: absolute;
     bottom: 30px;
@@ -143,12 +127,6 @@ ul {
     right: 75px; 
     display: flex;
     justify-content: space-between;
-}
-
-.btn-сonference {
-    position: relative;
-    margin-left: auto;
-    margin-right: 75px; 
 }
 
 .social-networks {
@@ -160,6 +138,420 @@ ul {
 
 .social-networks > * {
     margin-left: 40px;
+}
+
+.btn-сonference {
+    position: relative;
+    margin-left: auto;
+    margin-right: 75px; 
+}
+
+.banner__all_btn {
+    margin-right: 10px;
+}
+
+.banner__donat {
+    color: #FFF;
+    text-align: center;
+    font-family: "Euclid Circular A";
+    text-decoration: none;
+    padding: 18px;
+    font-weight: 500;
+    border-radius: 50px;
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-bottom: 30px;
+}
+
+.our-vision-inner {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: 2px solid  #6F6F6F;
+    margin-bottom: 30px
+}
+
+.our-vision-inner {
+    margin-top: 80px;
+}
+
+.missionary {
+    display: flex; 
+    justify-content: center;
+    border-bottom: 2px solid  #6F6F6F;
+    margin-top: 50px;
+    margin-bottom: 38px;
+}
+
+.vision {
+    justify-content: start;
+    align-items: start;
+    text-align: start
+}
+
+.text {
+    padding-left: 26px;
+    padding-right: 26px;
+    text-align: start;
+}
+
+.banner__expanded_btn {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.team__text--inner {
+    display: flex;
+    border-bottom: 2px solid #6F6F6F;
+    margin-bottom: 50px;
+    align-items: center;
+  }
+
+.btn_back,
+.btn_go {
+    margin-bottom: 30px;
+    margin-left: auto; 
+    margin-left: 10px;
+}
+
+.banner__team-info .swiper-slide {
+    box-sizing: border-box;
+    width: 100%; 
+} 
+
+.swiperr_mySwiper {
+    overflow: hidden; 
+}
+
+  .swiper_mySwiper {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .swiper-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+
+.team-info__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 10px; 
+    box-sizing: border-box;
+}
+
+.position_user {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+
+.user_name {
+    font-weight: 700;
+    color: #242424;
+    font-family: "e-UkraineHead";
+    font-size: 24px;
+}
+
+.banner__text--inner {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #6F6F6F;
+    margin-bottom: 30px ;
+}
+
+.banner__team_expanded_btn {
+    margin-left: auto;
+    width: min-content;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.project-info__content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid grey;
+    border-radius: 10px; 
+    box-sizing: border-box;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.con {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.banner__donat--inner{
+    display: flex;
+}
+
+.financial_contributions {
+    border: 1px solid grey;
+    border-radius: 10px; 
+}
+
+.text_top { 
+    margin-top: 20px;
+    margin-left: 26px;
+    display: flex;
+    white-space: nowrap;
+}
+
+.one_time {
+    margin-right: 30px;
+    border-bottom: 2px solid  #6F6F6F;
+}
+
+.subscription{
+    border-bottom: 2px solid  #6F6F6F;   
+}
+
+.money_amount {
+    border-bottom: 2px solid  #6F6F6F;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 36px;
+    margin-right: 36px;
+    margin-top: 44px;
+    margin-bottom: 20px;
+}
+
+.sum {
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.currency {
+    margin-bottom: 5px;
+}
+
+.money {
+    justify-content: space-between;
+    display: flex;
+    margin-left: 26px;
+    margin-right: 26px;
+    margin-bottom: 36px;
+    white-space: nowrap;
+}
+
+.account_details{
+    margin-left: 30px;
+    border: 1px solid grey;
+    border-radius: 10px; 
+}
+
+.organization {
+    padding-left: 26px;
+    text-align: start;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.edr{
+    display: flex;
+    justify-content: start;
+    padding-left: 26px;
+}
+
+.score_edrpou {
+    padding-left: 14px;
+}
+
+.donation_btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    margin-left: 26px;
+    margin-right: 26px;
+    border: 2px solid  #6F6F6F;
+    border-radius: 50px;
+}
+
+.uan {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.number {
+    margin-left: 20px;
+}
+
+.column_two {
+    display: flex;
+}
+
+.column_two img {
+    margin-right: 10px;
+}
+
+.support {
+    padding: 20px;
+}
+
+.support-text {
+    padding: 20px;
+}
+
+.organization,
+.score_edrpou,
+.uan,
+.support {
+    color: #242424;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer {
+    margin-top: 100px;
+    font-weight: 466px;
+    background-color: black;
+    color: floralwhite;
+}
+
+.container__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__logo_social_networks {
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+
+.footer__left__top {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__left__top .top__link {
+    margin-right: 10px;
+}
+
+.left__top{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.footer__text_left__center {
+    color: #7B7B7B;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.footer__networks {
+    margin-bottom: 35px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.footer__networks li {
+    margin-right: 20px;
+}
+
+.footer__privacy_policy {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #7B7B7B;
+    margin-bottom: 10px;
+}
+
+.fotter__right{
+    height: max-content;
+}
+
+.footer__info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__about,
+.footer__news,
+.footer__team,
+.footer__education {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.footer__left__center {
+    color: #7B7B7B;
+    font-size: 16px;
+    width: max-content;
+    text-align: left;
+    margin-top: 38px;
+}
+
+.footer__left__bottom {
+    color: #7B7B7B;
+    font-size: 16px;
+    width: max-content;
+    padding-top: 10px;
+}
+
+.footter__bottom {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: -40px;
+}
+
+.footer__copy{
+    font-size: 14px;
+    color: #7B7B7B;
+    margin-bottom: 10px;
+}
+
+.btn_сonference_in {
+   margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.banner__vision .title--4 {
+    margin-bottom: 25px;
 }
 
 .banner__btn {
@@ -239,13 +631,6 @@ ul {
     font-weight: 400;
 }
 
-.our-vision-inner {
-    display: flex;
-    align-items: center;
-    padding: 10px 10px;
-    border-bottom: 2px solid  #6F6F6F;
-    margin-bottom: 30px
-}
 
 .title {
     font-family: "Euclid Circular A";
@@ -305,12 +690,6 @@ ul {
     font-weight: 300;
   }
   
-  .user_name {
-    font-weight: 700;
-    color: #242424;
-    font-family: "e-UkraineHead";
-    font-size: 24px;
-  }
   
   .title--8 {
     color: #6F6F6F;
@@ -321,58 +700,10 @@ ul {
     margin-bottom: 30px;
   }
 
-
-.banner__top-subtitle {
-    font-family: "e-Ukraine";
-    font-size: 18px;
-    font-weight: 300;
-    margin-bottom: 30px;
-    margin-left: 70px;
-}
-
-.our-vision-inner {
-    margin-top: 80px;
-}
 .our {
     margin-bottom: 50px;
 }
 
-.objectives_title_secondary {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-
-.missionary {
-    display: flex; 
-    justify-content: center;
-    border-bottom: 2px solid  #6F6F6F;
-    margin-top: 50px;
-    margin-bottom: 38px;
-}
-.vision {
-    justify-content: start;
-    align-items: start;
-    text-align: start
-}
-
-.banner__vision .title--4 {
-    margin-bottom: 25px;
-}
-
-.banner__text--inner {
-    display: flex;
-    align-items: center;
-    border-bottom: 2px solid #6F6F6F;
-    margin-bottom: 30px ;
-}
-
-.team__text--inner {
-    display: flex;
-    border-bottom: 2px solid #6F6F6F;
-    margin-bottom: 50px;
-    align-items: center;
-  }
-  
 .team {
     margin-right: auto;
     margin-bottom: 30px;
@@ -383,82 +714,9 @@ ul {
     margin-right: 10px; 
 }
 
-.btn_back,
-.btn_go {
-    margin-bottom: 30px;
-    margin-left: auto; 
-    margin-left: 10px;
-}
-
-.position_user {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    align-items: center;
-    text-align: center;
-    justify-content:center;
-    flex-wrap: wrap;
-}
-
-.banner__team_expanded_btn {
-    margin-left: auto;
-    width: min-content;
-    align-items: center;
-    display: flex;
-    margin-top: 40px;
-    margin-bottom: 30px;
-}
-
-.banner__expanded_btn {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 40px;
-    margin-bottom: 100px;
-}
-
 .expanded--btn {
     margin-left: auto;
 }
-
-  .swiper_mySwiper {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .swiper-container {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  
-.team-info__content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    border: 1px solid grey;
-    border-radius: 10px; 
-    box-sizing: border-box;
-}
-
-.project-info__content {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    background-color: #fff;
-    border: 1px solid grey;
-    border-radius: 10px; 
-    box-sizing: border-box;
-}
-  
-.swiperr_mySwiper {
-    overflow: hidden; 
-}
-
-.banner__team-info .swiper-slide {
-    box-sizing: border-box;
-    width: 100%; 
-} 
 
 .project-info__content img{
     max-width: 100%;
@@ -468,34 +726,6 @@ ul {
 .team-info__content img {
     max-width: 100%;
     height: auto;
-  }
-
-.banner__our--text{
-    display: flex;
-    border-bottom: 2px solid #6F6F6F;
-    margin-bottom: 50px;
-    align-items: center;
-}
-
-.banner__donat--inner{
-    display: flex;
-}
-
-.account_details{
-    margin-left: 30px;
-    border: 1px solid grey;
-    border-radius: 10px; 
-}
-
-.content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-.con {
-   display: flex; 
-   flex-wrap: wrap;
 }
 
 .icon_calendar {
@@ -518,32 +748,6 @@ ul {
     justify-content: space-between;
 }
 
-.donation_btn {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.financial_contributions {
-    border: 1px solid grey;
-    border-radius: 10px; 
-}
-
-.one_time {
-    margin-right: 30px;
-    border-bottom: 2px solid  #6F6F6F;
-}
-.subscription{
-    border-bottom: 2px solid  #6F6F6F;   
-}
-
-.text_top { 
-margin-top: 20px;
-margin-left: 26px;
-display: flex;
-white-space: nowrap;
-}
-
 .one_time {
   color: #242424;
   font-size: 18px; 
@@ -552,274 +756,25 @@ white-space: nowrap;
 }
 
 
-
-.money_amount {
-    border-bottom: 2px solid  #6F6F6F;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 36px;
-    margin-right: 36px;
-    margin-top: 44px;
-    margin-bottom: 20px;
-}
-.currency {
-    margin-bottom: 5px;
-}
-
-.sum {
-    margin-right: auto;
-    margin-bottom: 15px;
-}
-
-.money {
-    justify-content: space-between;
-    display: flex;
-    margin-left: 26px;
-    margin-right: 26px;
-    margin-bottom: 36px;
-    white-space: nowrap;
-}
-
 .account_text {
  padding-top: 30px;
  padding-left: 26px;
  padding-bottom: 20px;
 }
 
-
-
-.payment_method {
-    margin-top: 25px;
-    margin-bottom: 50px;
-}
-
-.text {
-    padding-left: 26px;
-    padding-right: 26px;
-    text-align: start;
-}
-
-.organization {
-    padding-left: 26px;
-    text-align: start;
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-.edr{
-    display: flex;
-    justify-content: start;
-    padding-left: 26px;
-}
-
-.score_edrpou {
-    padding-left: 14px;
-}
-
-
-.donation_btn {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    padding: 10px;
-    margin-left: 26px;
-    margin-right: 26px;
-    border: 2px solid  #6F6F6F;
-    border-radius: 50px;
-}
-
-.uan {
-    margin-bottom: 10px;
-    margin-left: 20px;
-}
-.number {
-    margin-left: 20px;
-}
-
-.column_two {
-    display: flex;
-}
-
-.column_two img {
-    margin-right: 10px;
-}
-.support-text {
-    padding: 20px;
-}
-.support {
-    padding: 20px;
-}
-
-.organization,
-.score_edrpou,
-.uan,
-.support {
-    color: #242424;
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.footer__left{
-    display: flex;
-}
-
-.footer {
-    font-weight: 466px;
-    background-color: black;
-    color: floralwhite;
-}
-.container__footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.social_networks {
-    display: flex;
-    justify-content: space-between;
-    width: 100%; 
-}
-.fotter__right{
-    height: max-content;
-}
-
-.footer__info {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.footer__text_main{
-    margin-left: 20px;
-    white-space: nowrap;
-}
 .footer__news {
     margin-top: 26px;
-}
-.footer__left__center {
-    text-align: left;
-    margin-top: 38px;
 }
 
 .privacy_policy{
     margin-top: 56px;
     margin-bottom: 20px;
 }
-.footer__networks {
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-.footer {
-    margin-top: 100px;
-}
-.footer__networks li {
-    margin-right: 100px; 
-}
-
-.footer__networks li:last-child {
-    margin-right: 0;
-}
-.left__top{
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-}
-
-.footer__logo_social_networks {
-    justify-content: space-between;
-    margin-right: 10px;
-}
-
-.footer__left__top {
-padding-top: 30px;
-}
-
-.footer__about,
-.footer__news,
-.footer__team,
-.footer__education {
-    margin-right: 30px;
-    margin-left: 30px;
-}
-.footter__bottom {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    margin-left: -40px;
-}
-
-.btn_сonference_in {
-    margin-bottom: 40px;
-}
-
-.container__footer {
-    display: flex;
-    justify-content: space-between;
-}
 
 .footer__logo_social_networks {
     flex-grow: 1;
 }
 
-.footer__left__top {
-    display: flex;
-    align-items: center;
-}
-
-.footer__left__top .top__link {
-    margin-right: 10px;
-}
-
-.footer__left__center {
-    color: #7B7B7B;
-    font-size: 16px;
-    width: max-content;
-    
-}
-
-.footer__left__bottom {
-    color: #7B7B7B;
-    font-size: 16px;
-    width: max-content;
-    padding-top: 10px;
-}
-
-.footer__text_left__center {
-    color: #7B7B7B;
-    margin-top: 16px;
-    margin-bottom: 30px;
-    font-size: 16px;
-}
-
-.footer__copy{
-    font-size: 14px;
-    color: #7B7B7B;
-    margin-bottom: 10px;
-}
-
-.footer__privacy_policy {
-    font-size: 14px;
-    color: #7B7B7B;
-    margin-bottom: 10px;
-}
-
-.footer__networks {
-    margin-bottom: 35px;
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
-.footer__networks li {
-    margin-right: 10px;
-}
-
-.footer__privacy_policy {
-    margin-top: 20px;
-}
 
 @media (max-width: 800px) {
     .user_name {
