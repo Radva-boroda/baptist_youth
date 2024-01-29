@@ -41,8 +41,7 @@ ul {
     max-width: 1500px;
     width: 100%;
     margin: 0 auto;
-    padding-left: 75px;
-    padding-right: 75px;
+    padding: 0 75px;
 }
 
 .header__top-inner {
@@ -51,19 +50,16 @@ ul {
     align-items: center;
     background-color: #fff;
     border-radius: 50px;
-    margin-top: 40px;
+    margin: 40px 75px 0;
     min-height: 70px;
     position: fixed;
-    margin-left: 75px;
-    margin-right: 75px;
     left: 0; 
     right: 0;
     z-index: 2;
 }
 
 .header__logo {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px;
 }
 
 .header__menu {
@@ -158,17 +154,15 @@ ul {
     padding: 18px;
     font-weight: 500;
     border-radius: 50px;
-    margin-left: 26px;
-    margin-right: 26px;
-    margin-bottom: 30px;
+    margin: 0 26px 30px;
 }
 
 .our-vision__inner {
     display: flex;
     align-items: center;
-    padding: 10px 10px;
-    border-bottom: 2px solid  #6F6F6F;
-    margin-bottom: 30px
+    padding: 10px;
+    border-bottom: 2px solid #6F6F6F;
+    margin-bottom: 30px;
 }
 
 .our-vision-inner {
@@ -176,11 +170,10 @@ ul {
 }
 
 .missionary {
-    display: flex; 
+    display: flex;
     justify-content: center;
-    border-bottom: 2px solid  #6F6F6F;
-    margin-top: 50px;
-    margin-bottom: 38px;
+    border-bottom: 2px solid #6F6F6F;
+    margin: 50px 0 38px;
 }
 
 .vision {
@@ -190,16 +183,14 @@ ul {
 }
 
 .text {
-    padding-left: 26px;
-    padding-right: 26px;
+    padding: 0 26px;
     text-align: start;
 }
 
 .banner__expanded_btn {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
-    margin-bottom: 100px;
+    margin: 40px 0 100px;
 }
 
 .team__text--inner {
@@ -249,8 +240,7 @@ ul {
 
 .position_user {
     display: flex;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px 0;
     align-items: center;
     text-align: center;
     justify-content:center;
@@ -312,9 +302,8 @@ ul {
     border-radius: 10px; 
 }
 
-.text_top { 
-    margin-top: 20px;
-    margin-left: 26px;
+.text_top {
+    margin: 20px 0 0 26px;
     display: flex;
     white-space: nowrap;
 }
@@ -329,13 +318,10 @@ ul {
 }
 
 .money_amount {
-    border-bottom: 2px solid  #6F6F6F;
+    border-bottom: 2px solid #6F6F6F;
     display: flex;
     justify-content: space-between;
-    margin-left: 36px;
-    margin-right: 36px;
-    margin-top: 44px;
-    margin-bottom: 20px;
+    margin: 44px 36px 20px;
 }
 
 .sum {
@@ -350,9 +336,7 @@ ul {
 .money {
     justify-content: space-between;
     display: flex;
-    margin-left: 26px;
-    margin-right: 26px;
-    margin-bottom: 36px;
+    margin: 0 26px 36px;
     white-space: nowrap;
 }
 
@@ -365,8 +349,7 @@ ul {
 .organization {
     padding-left: 26px;
     text-align: start;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin: 30px 0 20px;
 }
 
 .edr{
@@ -383,18 +366,14 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin: 20px 26px 30px;
     padding: 10px;
-    margin-left: 26px;
-    margin-right: 26px;
-    border: 2px solid  #6F6F6F;
+    border: 2px solid #6F6F6F;
     border-radius: 50px;
 }
 
 .uan {
-    margin-bottom: 10px;
-    margin-left: 20px;
+    margin: 0 0 10px 20px;
 }
 
 .number {
@@ -463,8 +442,7 @@ ul {
 
 .footer__text_left__center {
     color: #7B7B7B;
-    margin-top: 16px;
-    margin-bottom: 30px;
+    margin: 16px 0 30px;
     font-size: 16px;
 }
 
@@ -480,10 +458,9 @@ ul {
 }
 
 .footer__privacy-policy {
-    margin-top: 20px;
+    margin: 20px 0 10px;
     font-size: 14px;
     color: #7B7B7B;
-    margin-bottom: 10px;
 }
 
 .fotter__right{
@@ -501,8 +478,7 @@ ul {
 .footer__news,
 .footer__team,
 .footer__education {
-    margin-right: 30px;
-    margin-left: 30px;
+    margin: 0 30px;
 }
 
 .footer__left--center {
@@ -542,14 +518,6 @@ ul {
 
 
 
-
-
-
-
-
-
-
-
 .banner__vision .title--4 {
     margin-bottom: 25px;
 }
@@ -564,32 +532,6 @@ ul {
     font-weight: 500;
     border-radius: 50px;
 }
-
-.banner__team_btn {
-    border: 1px solid grey;
-    color: #242424;
-    text-align: center;
-    font-family: "Euclid Circular A";
-    text-decoration: none;
-    margin-left: 10px;
-    padding: 18px 60px;
-    font-weight: 500;
-    border-radius: 50px;
-}
-
-.banner__inancial_btn {
-    border: 1px solid grey;
-    color: #242424;
-    text-align: center;
-    font-family: "Euclid Circular A";
-    text-decoration: none;
-    flex-grow: 1;
-    margin: 0 5px;
-    padding: 18px;
-    font-weight: 500;
-    border-radius: 50px;
-}
-
 
 .btn {
     border: 1px solid grey;
@@ -610,6 +552,19 @@ ul {
     text-decoration: none;
     margin-right: 10px;
     padding: 18px 40px;
+    font-weight: 500;
+    border-radius: 50px;
+}
+
+.banner__financial_btn {
+    border: 1px solid grey;
+    color: #242424;
+    text-align: center;
+    font-family: "Euclid Circular A";
+    text-decoration: none;
+    flex-grow: 1;
+    margin: 0 5px;
+    padding: 18px;
     font-weight: 500;
     border-radius: 50px;
 }
@@ -680,25 +635,22 @@ ul {
     padding: 2px 30px;
     border-radius: 50px;
   }
-  
-  .title--6 {
+.title--6 {
     color: #242424;
     text-align: center;
     font-size: 14px;
     text-decoration: none;
     padding: 14px 18px;
     font-weight: 300;
-  }
-  
+}
   
   .title--8 {
     color: #6F6F6F;
     text-align: center;
     font-size: 14px;
     font-weight: 300;
-    margin-top: 10px;
-    margin-bottom: 30px;
-  }
+    margin: 10px 0 30px;
+}
 
 .our {
     margin-bottom: 50px;
@@ -733,14 +685,11 @@ ul {
 }
 
 .date {
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 36px;
+    margin: 0 36px 10px 10px;
 }
 
 .title_text {
-    margin-top: 100px;
-    margin-bottom: 30px;
+    margin: 100px 0 30px;
 }
 
 .banner__donat--inner {
@@ -755,20 +704,16 @@ ul {
   margin-bottom: 50px;
 }
 
-
 .account_text {
- padding-top: 30px;
- padding-left: 26px;
- padding-bottom: 20px;
+    padding: 30px 0 20px 26px;
 }
 
 .footer__news {
     margin-top: 26px;
 }
 
-.privacy_policy{
-    margin-top: 56px;
-    margin-bottom: 20px;
+.privacy_policy {
+    margin: 56px 0 20px;
 }
 
 .footer__logo_social_networks {
