@@ -208,6 +208,7 @@ ul {
 }
 
 .banner__team-info .swiper-slide {
+    padding-bottom: 50px;
     box-sizing: border-box;
     width: 100%; 
 } 
