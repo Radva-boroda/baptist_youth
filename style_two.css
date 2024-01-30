@@ -136,6 +136,10 @@ ul {
     font-size: 60px;
   }
 
+  .banner__team-text {
+    margin-top: 80px;
+  }
+
   .banner__item_center {
     color: #FFF;
     font-family: e-Ukraine;
@@ -202,6 +206,20 @@ ul {
     justify-content: space-between;
 }
 
+.grid-containe {
+    justify-content: space-between;
+}
+
+.content_top {
+    display: flex;
+}
+
+.row_bottom,
+.row_center,
+.row_top 
+{
+    display: flex;
+}
 
 .banner_laptop_ready {
     margin-right: auto;
