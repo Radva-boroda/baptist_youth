@@ -223,10 +223,22 @@ ul {
   }
   
   .swiper-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
     width: 100%;
     margin-bottom: 20px;
   }
 
+  .swiper-container_partners {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
 
 .team-info__content {
     display: flex;
@@ -277,8 +289,6 @@ ul {
     align-items: center;
     justify-content: center;
     background-color: #fff;
-    border: 1px solid grey;
-    border-radius: 10px; 
     box-sizing: border-box;
 }
 
@@ -669,6 +679,16 @@ ul {
 
 .our {
     margin-bottom: 50px;
+}
+
+.donat {
+    margin-bottom: 50px;
+}
+
+.donat__inner {
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 80px;
 }
 
 .team {

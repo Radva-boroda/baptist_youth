@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener("DOMContentLoaded", function () {
     var mySwiper = new Swiper('.swiperr_mySwiper', {
-        slidesPerView: 1.8,
+        slidesPerView: 5,
         spaceBetween: 20,
     });
 });
