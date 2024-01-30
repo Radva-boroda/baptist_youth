@@ -98,12 +98,14 @@ ul {
 }
 
 .banner__content {
+    margin-right: 30px;
     flex: 1;
-    max-width: calc(40% - 30px); /* 40% ширина мінус відступи по 10% від кожного краю */
-    text-align: center;
+    max-width: calc(40% - 40px);
+    text-align: left;
 }
 
 .banner_laptop {
+    margin-right: auto;
     flex: 0 0 70%;
     text-align: center;
 }
@@ -116,8 +118,10 @@ ul {
 
 .banner__buttons {
     display: flex;
-
+    margin-top: 20px;
+    
 }
+
 .banner__all_btn {
     margin-right: 10px;
 }
@@ -369,6 +373,7 @@ ul {
 }
 
 .btn__text {
+    white-space: nowrap;
     padding: 20px;
 }
 
@@ -530,6 +535,7 @@ ul {
     padding: 18px 40px;
     font-weight: 500;
     border-radius: 50px;
+    white-space: nowrap;
 }
 
 .banner__financial_btn {
@@ -570,11 +576,12 @@ ul {
   
   .title--1 {
     color: #FFF;
-    text-align: center;
+    text-align: left;
     font-family: "e-Ukraine Head";
     font-size: 72px;
     font-weight: 700;
     text-transform: capitalize;
+    white-space: nowrap;
   }
   
   .title--2 {
@@ -586,7 +593,7 @@ ul {
   
   .inner_title--2 {
     color: #FFF;
-    line-height: 2;
+    line-height: 1.5;
   }
   
   .title--3 {
