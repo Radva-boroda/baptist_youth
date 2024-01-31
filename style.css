@@ -484,6 +484,7 @@ ul {
 }
 
 .content_right {
+    justify-content: space-between;
     flex-grow: 1;
     display: flex;
     margin-top: 100px;
