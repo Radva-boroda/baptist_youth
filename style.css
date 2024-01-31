@@ -68,6 +68,8 @@ ul {
 
 .menu__list {
     color: #2A2A2A;
+
+    /* шриф прописати  */
     font-family: "Euclid Circular A";
     display: flex;
     align-items: center;
@@ -84,6 +86,7 @@ ul {
     position: relative;
     width: 100%;
     height: 100vh; 
+    /* кавички на url */
     background-image: url(../baptist_youth/img/bg.svg);
     background-repeat: no-repeat;
     background-size: cover; 
@@ -412,11 +415,23 @@ ul {
     color: floralwhite;
 }
 
-.container__footer {
+.content__top ,
+.content__bottom{
     display: flex;
+    justify-content: space-between;
+    text-align: start;
     align-items: center;
+}
+
+.content_left {
+margin-right: auto;
+}
+
+.container__footer {
     justify-content: space-between;
 }
+
+
 
 .footer__logo-social-networks {
     justify-content: space-between;
@@ -474,35 +489,24 @@ ul {
     align-items: center;
 }
 
-.footer__about,
-.footer__news,
-.footer__team,
-.footer__education {
-    margin: 0 30px;
+.content_right {
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
 }
+
+
 
 .footer__left--center {
     color: #7B7B7B;
     font-size: 16px;
-    width: max-content;
     text-align: left;
-    margin-top: 38px;
 }
 
 .footer__left--bottom {
     color: #7B7B7B;
     font-size: 16px;
-    width: max-content;
     padding-top: 10px;
-}
-
-.footter__bottom {
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    margin-left: -40px;
 }
 
 .footer__copy{
@@ -708,9 +712,6 @@ ul {
     padding: 30px 0 20px 26px;
 }
 
-.footer__news {
-    margin-top: 26px;
-}
 
 .privacy_policy {
     margin: 56px 0 20px;
@@ -721,17 +722,20 @@ ul {
 }
 
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .user_name {
         font-size: 20px;
         font-weight: 700;
+    }
+    body {
+        background-color: red;
     }
     .banner__team_btn{
         padding: 16px 56px;
     }
 }
 
-@media (max-width: 570px) {
+@media screen and (max-width: 570px) {
     .user_name {
         font-size: 16px;
         font-weight: 700;
@@ -741,7 +745,7 @@ ul {
     }
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
     .user_name {
         font-size: 14px;
         font-weight: 700;
