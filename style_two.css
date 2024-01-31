@@ -63,6 +63,7 @@ ul {
 }
 
 .header__menu {
+    padding-left: 50px;
      flex-grow:1
 }
 
@@ -233,7 +234,6 @@ ul {
 }
 
 .banner__content {
-    margin-right: 24px;
     flex: 1;
     max-width: calc(40% - 26px);
     text-align: left;
