@@ -301,6 +301,7 @@ ul {
 }
 
 .financial_contributions {
+    height: min-content;
     border: 1px solid grey;
     border-radius: 10px; 
 }
@@ -415,7 +416,7 @@ ul {
     color: floralwhite;
 }
 
-.content__top ,
+
 .content__bottom{
     display: flex;
     justify-content: space-between;
@@ -427,14 +428,6 @@ ul {
     padding-bottom: 54px;
 }
 
-
-.content_left {
-margin-right: auto;
-}
-
-.container__footer {
-    justify-content: space-between;
-}
 
 
 
@@ -483,24 +476,20 @@ margin-right: auto;
     color: #7B7B7B;
 }
 
-.fotter__right{
-    height: max-content;
-}
 
-.footer__info {
-    margin-top: 20px;
+.content__top  {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    text-align: start;
 }
 
 .content_right {
+    flex-grow: 1;
     display: flex;
-    justify-content: space-between;
-    margin-right: auto;
-    margin-bottom: auto;
     margin-top: 100px;
 }
+
+
 .left--top {
     margin-top: 80px;
 }
@@ -709,6 +698,7 @@ margin-top: -70px ;
 }
 
 .banner__donat--inner {
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
 }
