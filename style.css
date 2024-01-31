@@ -63,6 +63,7 @@ ul {
 }
 
 .header__menu {
+    padding-left: 50px;
      flex-grow:1
 }
 
@@ -165,7 +166,8 @@ ul {
     align-items: center;
     padding: 10px;
     border-bottom: 2px solid #6F6F6F;
-    margin-bottom: 30px;
+    margin-top: 80px;
+    margin-bottom: 50px;
 }
 
 .our-vision-inner {
@@ -186,7 +188,8 @@ ul {
 }
 
 .text {
-    padding: 0 26px;
+    padding-left: 30px ;
+    padding-right: 50px;
     text-align: start;
 }
 
@@ -257,11 +260,20 @@ ul {
     font-size: 24px;
 }
 
+
 .banner__text--inner {
     display: flex;
     align-items: center;
     border-bottom: 2px solid #6F6F6F;
-    margin-bottom: 30px ;
+    margin-bottom: 50px ;
+}
+
+.banner__team_expanded_btn a {
+    margin-right: 20px;
+}
+
+.banner__team_expanded_btn a:last-child {
+    margin-right: 0;
 }
 
 .banner__team_expanded_btn {
@@ -306,14 +318,28 @@ ul {
     border-radius: 10px; 
 }
 
+.text {
+    margin: 50px 0 0 20px;
+}
+
 .text_top {
-    margin: 20px 0 0 26px;
+    margin: 0 0 30px 50px;
     display: flex;
     white-space: nowrap;
 }
 
+.financial_text_top {
+    margin: 24px 0 0 40px;
+    display: flex;
+    white-space: nowrap;
+}
+
+.financial_text_one_time {
+    margin-right: 50px;
+}
+
 .one_time {
-    margin-right: 30px;
+    margin-right: 58px;
     border-bottom: 2px solid  #6F6F6F;
 }
 
@@ -325,7 +351,7 @@ ul {
     border-bottom: 2px solid #6F6F6F;
     display: flex;
     justify-content: space-between;
-    margin: 44px 36px 20px;
+    margin: 44px 40px
 }
 
 .sum {
@@ -337,43 +363,51 @@ ul {
     margin-bottom: 5px;
 }
 
+
 .money {
     justify-content: space-between;
     display: flex;
-    margin: 0 26px 36px;
+    margin: 20px 40px 40px;
     white-space: nowrap;
 }
 
-.account_details{
+.account_details {
     margin-left: 30px;
     border: 1px solid grey;
     border-radius: 10px; 
 }
 
 .organization {
-    padding-left: 26px;
+    padding-left: 50px;
     text-align: start;
-    margin: 30px 0 20px;
+    margin-top: 30px;
+    margin-bottom: 30px; 
 }
 
 .edr{
     display: flex;
     justify-content: start;
-    padding-left: 26px;
+    padding-left: 50px;
 }
 
 .score_edrpou {
-    padding-left: 14px;
+    padding-left: 10px;
 }
 
 .donation_btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 26px 30px;
+    margin: 20px 50px 30px;
     padding: 10px;
     border: 2px solid #6F6F6F;
     border-radius: 50px;
+}
+
+.column_one {
+    margin-top: 16px;
+    margin-left: 30px;
+    margin-bottom: 16px;
 }
 
 .uan {
@@ -389,7 +423,7 @@ ul {
 }
 
 .column_two img {
-    margin-right: 10px;
+    margin-right: 16px;
 }
 
 .support {
@@ -444,7 +478,13 @@ ul {
 }
 
 .left--top {
+    align-items: center;
+    display: flex;
     margin-top: 80px;
+}
+
+.top--link {
+    padding-right: 30px;
 }
 
 .footer__text_left__center {
@@ -698,7 +738,7 @@ margin-top: -70px ;
 }
 
 .banner__donat--inner {
-    margin-bottom: 100px;
+    margin-bottom: 68px;
     display: flex;
     justify-content: space-between;
 }
@@ -711,7 +751,7 @@ margin-top: -70px ;
 }
 
 .account_text {
-    padding: 30px 0 20px 26px;
+    padding: 50px 0 24px 50px;
 }
 
 
