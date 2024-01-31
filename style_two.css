@@ -167,7 +167,6 @@ ul {
 
   .banner__inner {
     display: flex;
-    width: 100%;
   }
   
   .banner__inner_center {
@@ -228,33 +227,31 @@ ul {
 }
 
 .banner_laptop_ready img {
-    max-width: 100%; 
-    height: auto; 
+    max-width: 100%;
+    height: auto;
     display: block;
 }
 
 .banner__content {
+    position: absolute;
     flex: 1;
-    max-width: calc(40% - 26px);
     text-align: left;
 }
 
 .banner_laptop {
-    margin-right: auto;
-    flex: 0 0 60%;
+    margin-left: auto;
     text-align: center;
 }
 
 .banner_laptop img {
-    max-width: 100%; 
-    height: auto; 
+    max-width: 100%;
+    height: auto;
     display: block;
 }
 
 .banner__buttons {
     display: flex;
     margin-top: 30px;
-    
 }
 
 .banner__all_btn {
