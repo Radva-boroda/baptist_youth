@@ -249,6 +249,7 @@ ul {
   }
 .container_project {
     padding-left: 175px;
+    padding-bottom: 2px;
     display: flex;
     max-width: 100%;
 }
