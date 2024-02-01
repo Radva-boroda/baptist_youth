@@ -243,6 +243,15 @@ ul {
     margin-bottom: 20px;
   }
 
+.banner__team_project {
+    display: flex;
+
+  }
+.container_project {
+    margin-left: 100px;
+    display: flex;
+  max-width: 100%;
+}
 
 .team-info__content {
     display: flex;
