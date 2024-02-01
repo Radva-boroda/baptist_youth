@@ -221,32 +221,21 @@ ul {
     display: flex;
 }
 
-.banner_laptop_ready {
-    margin-right: auto;
-    text-align: center;
+.banner_laptop {
+    position: relative;
 }
 
-.banner_laptop_ready img {
+.banner_laptop img {
+    margin-right: 50px;
+    padding-top: 70px;
     max-width: 100%;
     height: auto;
     display: block;
 }
 
 .banner__content {
-    position: absolute;
     flex: 1;
     text-align: left;
-}
-
-.banner_laptop {
-    margin-left: auto;
-    text-align: center;
-}
-
-.banner_laptop img {
-    max-width: 100%;
-    height: auto;
-    display: block;
 }
 
 .banner__buttons {
