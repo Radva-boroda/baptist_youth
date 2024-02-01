@@ -248,9 +248,9 @@ ul {
 
   }
 .container_project {
-    margin-left: 100px;
+    padding-left: 175px;
     display: flex;
-  max-width: 100%;
+    max-width: 100%;
 }
 
 .team-info__content {
@@ -763,7 +763,7 @@ margin-top: -70px ;
 }
 
 .project-info__content img{
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
