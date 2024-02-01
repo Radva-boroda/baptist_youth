@@ -315,6 +315,7 @@ ul {
 }
 
 .icon {
+    align-items: center;
     display: flex; 
     flex-wrap: wrap;
 }
@@ -646,6 +647,11 @@ margin-top: -70px ;
     border-radius: 50px;
 }
 
+.banner__missionary--movemen {
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
 .expanded_btn {
     color: #FFF;
     text-align: center;
@@ -685,11 +691,11 @@ margin-top: -70px ;
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 50px;
+    line-height: 2;
   }
   
   .inner_title--2 {
     color: #FFF;
-    line-height: 2;
   }
   
   .title--3 {
@@ -699,8 +705,9 @@ margin-top: -70px ;
   
   .title--4 {
     color: #242424;
-    font-family: "e-Ukraine";
+    font-family: "a-EuclidBold";
     font-size: 30px;
+    padding-bottom: 30px;
   }
   
   .title--5 {
@@ -762,7 +769,10 @@ margin-top: -70px ;
 }
 
 .date {
-    margin: 0 36px 10px 10px;
+    color: #7B7B7B;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 300;
 }
 
 .title_text {
@@ -784,6 +794,8 @@ margin-top: -70px ;
 }
 
 .account_text {
+    font-family: "a-Euclid";
+    font-size: 30px;
     padding: 50px 0 24px 50px;
 }
 
