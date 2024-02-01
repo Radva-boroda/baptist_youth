@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
         prevEl: '.btn_back',
       },
     });
-  
+  //клік // свай дороб 
     document.querySelector('.btn_back').addEventListener('click', function () {
       mySwiper.slidePrev(1);
     });
