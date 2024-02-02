@@ -9,11 +9,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   //клік // свай дороб 
     document.querySelector('.btn_back').addEventListener('click', function () {
-      mySwiper.slidePrev(1);
+      mySwiper.slidePrev();
     });
   
     document.querySelector('.btn_go').addEventListener('click', function () {
-      mySwiper.slideNext(1); 
+      mySwiper.slideNext(); 
     });
 });
 
