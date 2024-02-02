@@ -351,8 +351,9 @@ ul {
     margin-bottom: 20px;
   }
 
-  .banner__team_info,
-.our-vision {
+.banner__team_info,
+.our-vision
+{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -599,6 +600,27 @@ ul {
     padding-right: 10px;
 }
 
+.course_content_top {
+    align-items: center;
+    display: flex;
+}
+
+.course_content_bottom {
+    color: #6F6F6F;
+    font-family: "a-Euclid";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 35px;
+}
+
+.grid-container {
+    padding: 30px 44px;
+    border: 2px solid #6F6F6F;
+    border-radius: 20px;
+}
 .top--link {
     padding-right: 30px;
 }
@@ -772,7 +794,7 @@ margin-top: -70px ;
   
   .title--4 {
     color: #242424;
-    font-family: e-Ukraine;
+    font-family: "a-EuclidBold";
     font-size: 30px;
   }
   
@@ -810,14 +832,23 @@ margin-top: -70px ;
     padding-bottom: 50px;
 }
 
-.donat {
+.donat,
+.courses {
     margin-bottom: 50px;
 }
 
+.сourse {
+    padding-bottom: 80px;
+}
 .donat__inner {
     margin-top: 90px;
     text-align: center;
     margin-bottom: 80px;
+}
+
+.courses__inner {
+    padding-top: 80px;
+    text-align: left;
 }
 
 .team {
