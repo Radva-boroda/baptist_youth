@@ -24,6 +24,13 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+  var mySwiper = new Swiper('.swiperrr_mySwiper', {
+    slidesPerView: 'auto',
+      spaceBetween: 20,
+  });
+});
+
 let prevScrollpos = window.pageYOffset;
 
 let headerDiv = document.querySelector("header");
