@@ -484,9 +484,6 @@ ul {
     justify-content: space-between;
     text-align: start;
     align-items: center;
-}
-
-.content__bottom {
     padding-bottom: 54px;
 }
 
@@ -557,6 +554,9 @@ ul {
     margin-top: 100px;
 }
 
+.logo__link {
+    padding-right: 10px;
+}
 
 .left--top {
     margin-top: 80px;
