@@ -57,11 +57,12 @@ ul {
     padding: 0 75px;
 }
 
-@media (max-width:1200px) {
+/* @media (max-width:1200px) {
     .container {
         max-width: 970px;
         padding: 0 50px;
     }
+
 }
 
 @media (max-width:992px) {
@@ -69,15 +70,8 @@ ul {
         max-width: 750px;
         padding: 0 30px;
     }
-}
 
-@media (max-width:767px) {
-    .container {
-        max-width:none;
-        padding: 0 15px;
-    }
-}
-
+} */
 
 
 .header__top-inner {
@@ -840,7 +834,7 @@ margin-top: -70px ;
     flex-grow: 1;
 }
 
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .header__top-inner {
         min-height: 40px;
         width: 50%;
@@ -870,62 +864,41 @@ margin-top: -70px ;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+    .container {
+        max-width: 550px;
+        padding: 0 15px;
+    }
 
     .header__menu {
-        padding-left: 20px;
-    }
-
-    .header__top-inner {
-        min-height: 40px;
-        width: 30%;
-    }
-    .logo__link {
-        width: 40%;
-    }
-    .header__logo {
-        margin: 0 5px;
-    }
-    .logo__link svg {
-        width: 22px; 
-        height: 22px; 
-    }
-    .menu__item.banner__all_btn.btn--violet svg {
-        width: 8px; 
-        height: 8px; 
-    }
-
-    .menu__item {
-        font-size: 50%;
-    }
-    .banner__all_btn {
-        margin-right: 5px;
-        padding: 9px 16px;
-    }
-
-     .header__menu {
         padding-left: 10px;
     }
 
+    .menu__item.banner__all_btn.btn--violet svg {
+        width: 4px; 
+        height: 4px; 
+    }
+
+
     .header__top-inner {
-        min-height: 30px;
+        min-height: 20px;
         width: 20%;
     }
+
     .logo__link {
-        width: 30%;
+        width: 28%;
     }
 
     .header__logo {
-        margin: 0 5px;
+        margin: 3px 3px;
     }
+
     .logo__link svg {
-        width: 22px; 
-        height: 22px; 
+        margin-top: 2px;
+        width: 14px; 
+        height: 14px; 
     }
-    .menu__item.banner__all_btn.btn--violet svg {
-        width: 8px; 
-        height: 8px; 
-    }
+
     .btn__text {
         padding: 10px;
     }
@@ -933,8 +906,9 @@ margin-top: -70px ;
     .menu__item {
         font-size: 25%;
     }
+
     .banner__all_btn {
         margin-right: 4px;
-        padding: 9px 8px;
+        padding: 6px 4px;
     }
-} */
+}
