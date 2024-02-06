@@ -818,7 +818,7 @@ margin-top: -70px ;
 }
 
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .header__top-inner {
         min-height: 40px;
         width: 50%;
@@ -848,7 +848,7 @@ margin-top: -70px ;
     }
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 600px) {
 
     .header__menu {
         padding-left: 20px;
@@ -882,7 +882,7 @@ margin-top: -70px ;
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 500px) {
 
     .header__menu {
         padding-left: 10px;
@@ -918,4 +918,4 @@ margin-top: -70px ;
         margin-right: 4px;
         padding: 9px 8px;
     }
-}
+} */
