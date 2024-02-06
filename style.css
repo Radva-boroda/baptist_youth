@@ -818,7 +818,7 @@ margin-top: -70px ;
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) {
     .header__top-inner {
         min-height: 40px;
         width: 50%;
@@ -849,7 +849,7 @@ margin-top: -70px ;
     }
 
 
-@media screen and (max-width: 570px) {
+@media screen and (min-width: 570px) {
 
     .header__menu {
         padding-left: 20px;
@@ -884,7 +884,7 @@ margin-top: -70px ;
         padding: 9px 16px;
     }
 
-@media screen and (max-width: 420px) {
+@media screen and (min-width: 420px) {
 
     .header__menu {
         padding-left: 10px;
