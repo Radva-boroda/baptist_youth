@@ -923,5 +923,10 @@ margin-top: -70px ;
     .content_left {
         margin-right: 10px;
     }
-    
+    .title {
+        font-size: 50%;
+    }
+    .inner_title--2 {
+        flex-wrap: wrap;
+    }
 }
