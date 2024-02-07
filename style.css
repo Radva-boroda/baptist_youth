@@ -340,10 +340,8 @@ ul {
 }
 
 .text_top {
-    flex-wrap: wrap;
     margin: 0 0 30px 50px;
     display: flex;
-    white-space: nowrap;
 }
 
 .financial_text_top {
@@ -988,6 +986,16 @@ margin-top: -70px ;
     .banner__financial_btn {
         padding: 8px;
     }
+    .account_text {
+        font-size: 18px;
+    }
+
+    .one_time, .subscription{
+        font-size: 14px;
+    }
+    .organization {
+        flex-wrap: wrap;
+        font-size: 14px;
 
     body {
         background-color: gold;
@@ -1005,6 +1013,4 @@ margin-top: -70px ;
 @media screen and (max-width: 480px) {
 
 }
-
-
-
+}
