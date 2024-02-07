@@ -345,6 +345,7 @@ ul {
 }
 
 .text_top {
+    flex-wrap: wrap;
     margin: 0 0 30px 50px;
     display: flex;
     white-space: nowrap;
@@ -366,9 +367,14 @@ ul {
     font-family: "a-EuclidBold"; 
     margin-right: 58px;
     border-bottom: 2px solid  #6F6F6F;
+    color: #242424;
+    font-size: 22px; 
+    font-weight: 600;
+    margin-bottom: 50px;
 }
 
 .subscription{
+    margin-bottom: 50px;
     border-bottom: 2px solid  #6F6F6F;   
 }
 
@@ -424,6 +430,7 @@ ul {
 }
 
 .donation_btn {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -449,6 +456,7 @@ ul {
 }
 
 .column_two {
+    margin-left: 50px;
     display: flex;
 }
 
@@ -594,6 +602,7 @@ margin-top: -70px ;
 }
 
 .top--text {
+    margin-right: 5px;
     font-size: 18px;
     font-family: "e-UkraineHead";
 }
@@ -795,13 +804,6 @@ margin-top: -70px ;
     justify-content: space-between;
 }
 
-.one_time {
-  color: #242424;
-  font-size: 22px; 
-  font-weight: 600;
-  margin-bottom: 50px;
-}
-
 .account_text {
     font-family: "a-Euclid";
     font-size: 30px;
@@ -818,35 +820,58 @@ margin-top: -70px ;
 }
 
 
-/* @media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
+
+    .title--1 {
+        font-size: 50px;
+    }
     .user_name {
         font-size: 20px;
-        font-weight: 700;
     }
+    .container_project {
+        padding-left: 75px;
+    }
+    .content_left {
+        margin-right: 100px;
+    }
+    .one_time { 
+        margin-right: 30px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .column_two {
+        margin-left: 20px;
+    }
+    .column_one {
+        margin-left: 0px;
+    }
+    .text_top {
+        margin: 0 0 10px 50px;
+        display: flex;
+        white-space: nowrap;
+    }
+    .subscription{
+        margin-bottom: 10px;
+    }
+    .text {
+        margin: 20px 0 0 20px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
     body {
         background-color: red;
     }
-    .banner__team_btn{
-        padding: 16px 56px;
-    }
 }
 
-@media screen and (max-width: 570px) {
-    .user_name {
-        font-size: 16px;
-        font-weight: 700;
-    }
-    .banner__team_btn{
-        padding: 14px 52px;
-    }
+@media screen and (max-width: 768px) {
+
 }
 
-@media screen and (max-width: 320px) {
-    .user_name {
-        font-size: 14px;
-        font-weight: 700;
-    }
-    .banner__team_btn{
-        padding: 14px 48px;
-    }
-} */
+@media screen and (max-width: 480px) {
+
+}
+
+
+
