@@ -855,6 +855,16 @@ margin-top: -70px ;
         font-size: 22px;
         margin-right: 10px;
     }
+    .expanded_btn {
+        padding: 18px 24px;
+    }
+    .banner__btn {
+        padding: 18px 24px;
+    }
+    .banner__team_expanded_btn a {
+        font-size: 16px;
+        margin-right: 16px;
+    }
 
 }
 
@@ -945,7 +955,21 @@ margin-top: -70px ;
     }
     .title--4 {
         font-size: 22px;
-      }
+    }
+    .expanded_btn {
+        padding: 14px 20px;
+    }
+    .banner__btn {
+        padding: 14px 20px;
+    }
+    .banner__team_expanded_btn a {
+        font-size: 10px;
+        margin-right: 8px;
+    }
+    
+
+
+
     body {
         background-color: gray;
     }
