@@ -916,8 +916,25 @@ margin-top: -70px ;
     .title--3 {
         color: #2A2A2A;
         font-size: 40px;
-        margin-right: 40px;
-      }
+        padding-right: 40px;
+    }
+    .title--5 {
+        font-size: 10px;
+        background-color: #6A00fa;
+        text-decoration: none;
+        padding: 2px 12px;
+        border-radius: 50px;
+    }
+    .title--6 {
+        font-size: 10px;
+        text-decoration: none;
+        padding: 4px 10px;
+        font-weight: 300;
+    }
+
+    .user_name {
+        font-size: 16px;
+    }
     .networks {
         left: 34px; 
         right: 34px; 
