@@ -929,4 +929,7 @@ margin-top: -70px ;
     .inner_title--2 {
         flex-wrap: wrap;
     }
+    .footer__content{
+        flex-wrap: wrap;
+    }
 }
