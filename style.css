@@ -57,23 +57,6 @@ ul {
     padding: 0 75px;
 }
 
-/* @media (max-width:1200px) {
-    .container {
-        max-width: 970px;
-        padding: 0 50px;
-    }
-
-}
-
-@media (max-width:992px) {
-    .container {
-        max-width: 750px;
-        padding: 0 30px;
-    }
-@magia
-} */
-
-
 .header__top-inner {
     display: flex;
     justify-content: space-between;
@@ -315,8 +298,8 @@ ul {
 }
 
 .banner__team_expanded_btn {
-    flex-wrap: wrap;
     margin-left: auto;
+    width: min-content;
     align-items: center;
     display: flex;
     margin-top: 40px;
@@ -347,7 +330,12 @@ ul {
     flex-wrap: wrap;
 }
 
+.banner__donat--inner{
+    display: flex;
+}
+
 .financial_contributions {
+    height: min-content;
     border: 1px solid grey;
     border-radius: 10px; 
 }
@@ -802,7 +790,6 @@ margin-top: -70px ;
 }
 
 .banner__donat--inner {
-    flex-wrap: wrap;
     margin-bottom: 68px;
     display: flex;
     justify-content: space-between;
@@ -830,106 +817,36 @@ margin-top: -70px ;
     flex-grow: 1;
 }
 
+
 @media screen and (max-width: 800px) {
-    .header__top-inner {
-        min-height: 40px;
-        width: 50%;
+    .user_name {
+        font-size: 20px;
+        font-weight: 700;
     }
-    .logo__link {
-        width: 50%;
+    body {
+        background-color: red;
     }
-
-    .header__logo {
-        margin: 0 5px;
-    }
-    .logo__link svg {
-        width: 30px; 
-        height: 30px; 
-    }
-    .menu__item.banner__all_btn.btn--violet svg {
-        width: 10px; 
-        height: 10px; 
-    }
-
-    .menu__item {
-        font-size: 60%;
-    }
-    .banner__all_btn {
-        margin-right: 5px;
-        padding: 9px 20px;
+    .banner__team_btn{
+        padding: 16px 56px;
     }
 }
 
-@media screen and (max-width: 500px) {
-    .container {
-        max-width: 550px;
-        padding: 0 15px;
+@media screen and (max-width: 570px) {
+    .user_name {
+        font-size: 16px;
+        font-weight: 700;
     }
+    .banner__team_btn{
+        padding: 14px 52px;
+    }
+}
 
-    .header__menu {
-        padding-left: 10px;
+@media screen and (max-width: 320px) {
+    .user_name {
+        font-size: 14px;
+        font-weight: 700;
     }
-
-    .menu__item.banner__all_btn.btn--violet svg {
-        width: 4px; 
-        height: 4px; 
-    }
-
-
-    .header__top-inner {
-        min-height: 20px;
-        width: 20%;
-    }
-
-    .logo__link {
-        width: 28%;
-    }
-
-    .header__logo {
-        margin: 3px 3px;
-    }
-
-    .logo__link svg {
-        margin-top: 2px;
-        width: 14px; 
-        height: 14px; 
-    }
-
-    .btn__text {
-        padding: 10px;
-    }
-
-    .menu__item {
-        font-size: 25%;
-    }
-
-    .banner__all_btn {
-        margin-right: 4px;
-        padding: 6px 4px;
-    }
-    .networks {
-        flex-wrap: wrap;
-        left: 15px; 
-        right: 15px; 
-    }
-    
-    .social-networks > * {
-        margin-left: 10px;
-    }
-    
-    .btn-сonference {
-        margin-right: 15px; 
-    }
-    .content_left {
-        margin-right: 10px;
-    }
-    .title {
-        font-size: 50%;
-    }
-    .inner_title--2 {
-        flex-wrap: wrap;
-    }
-    .footer__content{
-        flex-wrap: wrap;
+    .banner__team_btn{
+        padding: 14px 48px;
     }
 }
