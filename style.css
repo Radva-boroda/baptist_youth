@@ -909,10 +909,26 @@ margin-top: -70px ;
         margin-bottom: 30px;
         font-size: 14px;
     }
+    .title--2 {
+        margin-right: auto;
+        font-size: 14px;
+    }
+    .title--3 {
+        color: #2A2A2A;
+        font-size: 40px;
+        margin-right: 40px;
+      }
     .networks {
         left: 34px; 
         right: 34px; 
     }
+    .banner__missionary--movemen {
+        padding-right: 40px;
+        padding-left: 0px;
+    }
+    .title--4 {
+        font-size: 22px;
+      }
     body {
         background-color: gray;
     }
