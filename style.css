@@ -107,7 +107,7 @@ ul {
 }
 
 .banner__inner {
-    width: 100%;
+    width: 1650px;
     height: 100vh; 
     justify-content: center;
     align-items: center;
@@ -818,7 +818,7 @@ margin-top: -70px ;
 }
 
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
     .user_name {
         font-size: 20px;
         font-weight: 700;
@@ -849,4 +849,4 @@ margin-top: -70px ;
     .banner__team_btn{
         padding: 14px 48px;
     }
-}
+} */
