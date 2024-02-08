@@ -1264,9 +1264,10 @@ margin-top: -70px ;
         font-size: 6px;
     }
     .financial_text_one_time {
-        font-size: 8px;
+        font-size: 6px;
     }
     .banner__financial_btn {
+        margin: 0 1px;
         padding: 4px;
     }
     .account_text {
@@ -1567,16 +1568,17 @@ margin-top: -70px ;
         font-size: 4px;
     }
     .money {
-        margin: 8px 8px 8px;
+        margin: 4px 4px 4px;
     }
     .financial_contributions {
         width: 40%;
     }
     .financial-text_subscription {
-        font-size: 6px;
+        font-size: 5px;
     }
     .financial_text_one_time {
-        font-size: 8px;
+        margin-right: 0px;
+        font-size: 7px;
     }
     .banner__financial_btn {
         padding: 4px;
