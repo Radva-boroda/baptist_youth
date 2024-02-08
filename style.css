@@ -1464,13 +1464,17 @@ margin-top: -70px ;
         margin-left: 4px;
     }
     .social-networks > * {
-        margin-left: 20px;
+        margin-left: 10px;
     }
     .networks img, .networks svg {
         width: 90%;
     }
+    .banner__missionary--movemen svg {
+        width: 50%;
+        height: 50%;
+    }
     .btn-сonference {
-        margin-right: 34px; 
+        margin-right: 0px; 
     }
 
     .financial-text_subscription {
