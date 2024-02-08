@@ -998,6 +998,250 @@ margin-top: -70px ;
         padding: 30px 0 20px 30px;
         font-size: 18px;
     }
+    
+    .text {
+        margin: 20px 0 0 0;
+    }
+
+    .edr{
+        padding-left: 30px;
+    }
+    .one_time, .subscription{
+        font-size: 12px;
+    }
+    .organization {
+        padding-left: 30px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        font-size: 14px;
+        margin-bottom: 10px; 
+    }
+    .score_edrpou {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .uan {
+        font-size: 14px;
+    }
+    .number {
+        font-size: 14px;
+    }
+    .support {
+        font-size: 16px;
+    }
+    .donation_btn {
+        margin: 20px 18px 30px;
+    }
+    .logo__link svg {
+        width: 32px;
+        height: 32px; 
+    }
+    .top--text {
+        white-space: nowrap;
+        font-size: 10px;
+    }
+    .footer__text_left__center {
+        margin-top: 16px;
+        padding-bottom: 30px;
+        font-size: 8px;
+    }
+    .footer__left--center {
+        white-space: nowrap;
+        font-size: 8px;
+        padding-top: 30px;
+    }
+    
+    .footer__left--bottom {
+        white-space: nowrap;
+        font-size: 8px;
+        padding-top: 16px;
+    }
+    .content_left {
+        margin-right: 32px;
+    }
+    .content_right {
+        margin-top: 60px;
+    }
+    .left--top {
+        margin-top: 50px;
+    }
+    .footer__text_left__center br {
+        display: none;
+      }
+      .footer__networks {
+        margin-bottom: 30px;
+    }
+      .footer__networks li {
+        margin-right: 30px;
+    }
+    .content_right > div {
+        margin-right: 14px;
+      }
+      .footer__privacy-policy,.footer__copy {
+         font-size: 8px;
+    }
+    .footer__networks img {
+        width: 50%;
+    }
+    .text_icon {
+        margin-top: -30px ;
+        }
+    .content__bottom img {
+        width: 50%;
+    }
+    .title--8 {
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 720px) {
+
+    .banner__all_btn_while {
+        margin-bottom: 2px;
+        margin-top: 2px;
+        padding: 10px 12px;
+    }
+    .banner__all_btn_while svg {
+        width: 16px; 
+        height: 10px; 
+      }
+
+    .banner__all_btn {
+        margin-bottom: 3px;
+        margin-top: 3px;
+        margin-right: 10px;
+        padding: 10px 12px;
+    }
+    .banner__all_btn svg {
+        width: 10px; 
+        height: 10px; 
+      }
+    .menu__list {
+        font-size: 8px;
+    }
+    .btn__text {
+        font-size: 10px;
+    }
+    .header__menu {
+        padding-left: 6px;
+    }
+    
+    .header__top-inner {
+        margin: 20px 34px 0;
+        min-height: 34px;
+    }
+    .header__logo svg {
+        width: 32px;
+        height: 32px; 
+    }
+    .header__logo {
+        margin-top: 4px;
+        margin-left: 10px;
+    }
+    .social-networks > * {
+        margin-left: 20px;
+    }
+    .networks img, .networks svg {
+        width: 90%;
+    }
+    .btn-сonference {
+        margin-right: 34px; 
+    }
+
+
+    .title--1 {
+        font-size: 28px;
+    }
+    .inner_title--2 {
+        margin-bottom: 30px;
+        font-size: 14px;
+    }
+    .title--2 {
+        font-size: 8px;
+    }
+    .title--3 {
+        color: #2A2A2A;
+        font-size: 24px;
+        padding-right: 40px;
+    }
+    .title--5 {
+        font-size: 4px;
+        padding: 2px 8px;
+    }
+    .title--6 {
+        font-size: 4px;
+        padding: 2px 8px;
+    }
+
+    .user_name {
+        font-size: 8px;
+    }
+    .networks {
+        left: 34px; 
+        right: 34px; 
+    }
+    .banner__missionary--movemen {
+        padding-right: 20px;
+    }
+    .banner__missionary--movemen img {
+        width: 100px;
+        height: 110px;
+    }
+    .title--4 {
+        font-size: 14px;
+    }
+    .title--8 {
+        font-size: 6px;
+        margin: 4px 0 10px;
+    }
+    .text_top {
+        margin: 0 0 10px 30px;
+    }
+
+    .banner__donat {
+    padding: 8px;
+    margin: 20px 18px 20px;
+}
+    .expanded_btn {
+        padding: 4px 8px;
+    }
+    .banner__btn {
+        padding: 4px 8px;
+    }
+    .banner__team_expanded_btn a {
+        font-size: 6px;
+    }
+    .banner__donat svg {
+        width: 10px;
+        height: 10px;
+      }
+    .money a {
+        font-size: 8px;
+    }
+    .money {
+        margin: 8px 10px 10px;
+    }
+    .financial_contributions {
+        width: 40%;
+    }
+    .financial-text_subscription {
+        font-size: 10px;
+    }
+    .financial_text_one_time {
+        font-size: 14px;
+    }
+    .banner__financial_btn {
+        padding: 6px;
+    }
+    .account_text {
+        padding: 30px 0 20px 30px;
+        font-size: 18px;
+    }
     .text {
         margin: 20px 0 0 0;
     }
@@ -1091,14 +1335,10 @@ margin-top: -70px ;
 
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 480px) {
 
     body {
         background-color: red;
     }
-
-}
-
-@media screen and (max-width: 480px) {
 
 }
