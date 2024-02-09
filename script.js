@@ -1,21 +1,52 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var mySwiper = new Swiper('.swiper_mySwiper', {
-      slidesPerView: 4, 
+  var mySwiper;
+
+  function initSwiper() {
+    mySwiper = new Swiper('.swiper_mySwiper', {
+      slidesPerView: 4,
       spaceBetween: 20,
       navigation: {
         nextEl: '.btn_go',
         prevEl: '.btn_back',
       },
     });
-    document.querySelector('.btn_back').addEventListener('click', function () {
-      mySwiper.slidePrev();
-    });
-  
-    document.querySelector('.btn_go').addEventListener('click', function () {
-      mySwiper.slideNext(); 
-    });
-});
+  }
 
+  function destroySwiper() {
+    if (mySwiper) {
+      mySwiper.destroy();
+    }
+  }
+
+  function checkMediaQuery() {
+    if (window.matchMedia('(max-width: 768px)').matches) {
+      destroySwiper(); 
+      mySwiper = new Swiper('.swiper_mySwiper', {
+        slidesPerView: 2, 
+        spaceBetween: 20,
+        navigation: {
+          nextEl: '.btn_go',
+          prevEl: '.btn_back',
+        },
+      });
+    } else {
+      destroySwiper();
+      initSwiper(); 
+    }
+  }
+
+  checkMediaQuery();
+
+  window.addEventListener('resize', checkMediaQuery);
+
+  document.querySelector('.btn_back').addEventListener('click', function () {
+    mySwiper.slidePrev();
+  });
+
+  document.querySelector('.btn_go').addEventListener('click', function () {
+    mySwiper.slideNext();
+  });
+});
 document.addEventListener("DOMContentLoaded", function () {
     var mySwiper = new Swiper('.swiperr_mySwiper', {
         slidesPerView: 1.8,
