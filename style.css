@@ -193,7 +193,7 @@ ul {
     text-align: start
 }
 
-.text {
+.account__text {
     padding-left: 30px ;
     padding-right: 50px;
     text-align: start;
@@ -312,7 +312,7 @@ ul {
     box-sizing: border-box;
 }
 
-.content {
+.project__content{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -324,11 +324,6 @@ ul {
     display: flex; 
     flex-wrap: wrap;
 }
-
-.banner__donat--inner{
-    display: flex;
-}
-
 .financial_contributions {
     height: min-content;
     border: 1px solid grey;
@@ -381,7 +376,7 @@ ul {
 
 .sum {
     margin-right: auto;
-    margin-bottom: 15px;
+    margin-bottom: 14px;
 }
 
 .currency {
@@ -478,8 +473,6 @@ ul {
     background-color: black;
     color: floralwhite;
 }
-
-
 .content__bottom{
     display: flex;
     justify-content: space-between;
@@ -487,10 +480,6 @@ ul {
     align-items: center;
     padding-bottom: 54px;
 }
-
-
-
-
 .footer__logo-social-networks {
     justify-content: space-between;
     margin-right: 10px;
@@ -596,8 +585,6 @@ margin-top: -70px ;
     font-size: 18px;
     font-family: "e-UkraineHead";
 }
-
-
 .banner__vision {
     margin-bottom: 25px;
 }
@@ -606,8 +593,6 @@ margin-top: -70px ;
     font-family: "a-EuclidBold";
     font-size: 20px;
 }
-
-
 .banner__btn {
     border: 1px solid grey;
     color: #242424;
@@ -843,12 +828,8 @@ margin-top: -70px ;
     .subscription{
         margin-bottom: 10px;
     }
-    .text {
+    .account__text {
         margin: 20px 0 0 20px;
-    }
-    .financial_text_one_time {
-        font-size: 22px;
-        margin-right: 10px;
     }
     .expanded_btn {
         padding: 18px 24px;
@@ -889,7 +870,6 @@ margin-top: -70px ;
     .banner__all_btn {
         margin-bottom: 2px;
         margin-top: 2px;
-        margin-right: 10px;
         padding: 10px 30px;
     }
     .banner__all_btn svg {
@@ -929,22 +909,17 @@ margin-top: -70px ;
         font-size: 14px;
     }
     .title--3 {
-        color: #2A2A2A;
         font-size: 40px;
         padding-right: 40px;
     }
     .title--5 {
         font-size: 10px;
         background-color: #6A00fa;
-        text-decoration: none;
         padding: 2px 12px;
-        border-radius: 50px;
     }
     .title--6 {
         font-size: 10px;
-        text-decoration: none;
         padding: 4px 10px;
-        font-weight: 300;
     }
 
     .user_name {
@@ -1006,7 +981,7 @@ margin-top: -70px ;
         font-size: 18px;
     }
     
-    .text {
+    .account__text {
         margin: 20px 0 0 0;
     }
 
@@ -1024,7 +999,6 @@ margin-top: -70px ;
     }
     .score_edrpou {
         font-size: 14px;
-        padding-left: 10px;
     }
     .uan {
         font-size: 14px;
@@ -1108,13 +1082,7 @@ margin-top: -70px ;
         padding-left: 8px;
         font-size: 12px;
     }
-    
-
 }
-
-
-
-
 
 @media screen and (max-width: 720px) {
 
@@ -1127,25 +1095,8 @@ margin-top: -70px ;
     }
 
     .banner__all_btn_while {
-        margin-bottom: 2px;
-        margin-top: 2px;
         padding: 10px 12px;
     }
-    .banner__all_btn_while svg {
-        width: 16px; 
-        height: 10px; 
-      }
-
-    .banner__all_btn {
-        margin-bottom: 3px;
-        margin-top: 3px;
-        margin-right: 10px;
-        padding: 10px 12px;
-    }
-    .banner__all_btn svg {
-        width: 10px; 
-        height: 10px; 
-      }
     .menu__list {
         font-size: 8px;
     }
@@ -1154,19 +1105,6 @@ margin-top: -70px ;
     }
     .header__menu {
         padding-left: 6px;
-    }
-    
-    .header__top-inner {
-        margin: 20px 34px 0;
-        min-height: 34px;
-    }
-    .header__logo svg {
-        width: 32px;
-        height: 32px; 
-    }
-    .header__logo {
-        margin-top: 4px;
-        margin-left: 10px;
     }
     .social-networks > * {
         margin-left: 20px;
@@ -1188,17 +1126,11 @@ margin-top: -70px ;
     .title--1 {
         font-size: 28px;
     }
-    .inner_title--2 {
-        margin-bottom: 30px;
-        font-size: 14px;
-    }
     .title--2 {
         font-size: 8px;
     }
     .title--3 {
-        color: #2A2A2A;
         font-size: 24px;
-        padding-right: 40px;
     }
     .title--5 {
         font-size: 4px;
@@ -1211,10 +1143,6 @@ margin-top: -70px ;
 
     .user_name {
         font-size: 8px;
-    }
-    .networks {
-        left: 34px; 
-        right: 34px; 
     }
     .banner__missionary--movemen {
         padding-right: 20px;
@@ -1260,9 +1188,6 @@ margin-top: -70px ;
     .money {
         margin: 8px 8px 8px;
     }
-    .financial_contributions {
-        width: 40%;
-    }
     .financial-text_subscription {
         font-size: 6px;
     }
@@ -1277,7 +1202,7 @@ margin-top: -70px ;
         padding: 20px 0 10px 10px;
         font-size: 14px;
     }
-    .text {
+    .account__text {
         padding-left: 10px ;
         padding-right: 10px;
     }
@@ -1297,7 +1222,6 @@ margin-top: -70px ;
     }
     .score_edrpou {
         font-size: 8px;
-        padding-left: 10px;
     }
     .uan {
         font-size: 8px;
@@ -1317,27 +1241,18 @@ margin-top: -70px ;
         height: 24px; 
     }
     .top--text {
-        white-space: nowrap;
         font-size: 6px;
     }
     .footer__text_left__center {
-        margin-top: 16px;
         padding-bottom: 0px;
         font-size: 6px;
     }
     .footer__left--center {
-        white-space: nowrap;
         font-size: 6px;
-        padding-top: 30px;
     }
     
     .footer__left--bottom {
-        white-space: nowrap;
         font-size: 6px;
-        padding-top: 16px;
-    }
-    .content_left {
-        margin-right: 32px;
     }
     .content_right {
         margin-top: 30px;
@@ -1348,39 +1263,14 @@ margin-top: -70px ;
     .footer__text_left__center br {
         display: none;
       }
-      .footer__networks {
-        margin-bottom: 30px;
-    }
-      .footer__networks li {
-        margin-right: 30px;
-    }
-    .content_right > div {
-        margin-right: 14px;
-      }
       .footer__privacy-policy,.footer__copy {
          font-size: 4px;
     }
-    .footer__networks img {
-        width: 50%;
-    }
-    .text_icon {
-        margin-top: -30px ;
-        }
-    .content__bottom img {
-        width: 50%;
-    }
-    .icon_calendar {
-        margin-top: 12px;
-    margin-left: 6px;
-    }
-    .icon_calendar img {
-        width: 50%;
-     }
     .date {
         padding-left: 8px;
         font-size: 6px;
     }
-    .content {
+    .project__content {
         padding: 10px;
     }
     .financial_text_top {
@@ -1388,9 +1278,6 @@ margin-top: -70px ;
     }
     .money_amount {
         margin: 0 10px
-    }
-    .sum {
-        margin-bottom: 14px;
     }
     .currency {
         margin-bottom: 14px;
@@ -1415,15 +1302,6 @@ margin-top: -70px ;
         margin-right: 4px;
     }
 }
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 480px) {
 
     .container {
@@ -1432,22 +1310,10 @@ margin-top: -70px ;
     .container_project {
         padding-left: 20px;
     }
-    .banner__all_btn_while {
-        margin-bottom: 2px;
-        margin-top: 2px;
-        padding: 10px 12px;
-    }
-    .banner__all_btn_while svg {
-        width: 16px; 
-        height: 10px; 
-      }
-
     .banner__all_btn {
         white-space: nowrap;
-        margin-bottom: 2px;
-        margin-top: 2px;
         margin-right: 4px;
-        padding: 4px px;
+        padding: 4px;
         width: min-content;
     
     }
@@ -1461,18 +1327,6 @@ margin-top: -70px ;
     .btn__text {
         padding: 8px;
         font-size: 4px;
-    }
-    .header__menu {
-        padding-left: px;
-    }
-    
-    .header__top-inner {
-        margin: 20px 34px 0;
-        min-height: 28px;
-    }
-    .header__logo svg {
-        width: 32px;
-        height: 32px; 
     }
     .header__logo {
         margin-top: 4px;
@@ -1509,51 +1363,11 @@ margin-top: -70px ;
         font-size: 6px;
     }
     .title--3 {
-        color: #2A2A2A;
-        font-size: 24px;
         padding-right: 5px;
-    }
-    .title--5 {
-        font-size: 4px;
-        padding: 2px 8px;
-    }
-    .title--6 {
-        font-size: 4px;
-        padding: 2px 8px;
-    }
-
-    .user_name {
-        font-size: 8px;
-    }
-    .networks {
-        left: 34px; 
-        right: 34px; 
-    }
-    .banner__missionary--movemen {
-        padding-right: 20px;
-    }
-    .banner__missionary--movemen img {
-        width: 100px;
-        height: 110px;
-    }
-    .project__title {
-        font-size: 8px;
-    }
-    .title--4 {
-        font-size: 14px;
-    }
-    .title--8 {
-        font-size: 6px;
-        margin: 4px 0 10px;
     }
     .text_top {
         margin: 0 0 0 10px;
     }
-
-    .banner__donat {
-    padding: 6px;
-    margin: 10px 10px 10px;
-}
     .expanded_btn {
         padding: 4px 4px;
     }
@@ -1563,56 +1377,29 @@ margin-top: -70px ;
     .banner__team_expanded_btn a {
         font-size: 4px;
     }
-    .banner__donat svg {
-        width: 8px;
-        height: 8px;
-      }
-    .money a {
-        font-size: 4px;
-    }
     .money {
         margin: 4px 4px 4px;
     }
-    .financial_contributions {
-        width: 40%;
-    }
     .financial-text_subscription {
         font-size: 5px;
-    }
-    .financial_text_one_time {
-        margin-right: 0px;
-        font-size: 7px;
-    }
-    .banner__financial_btn {
-        padding: 4px;
     }
     .account_text {
         padding: 10px 0 5px 10px;
         font-size: 12px;
     }
-    .text {
+    .account__text {
         margin: 10px 0 0 0;
         font-size: 6px;
-        padding-left: 10px ;
-        padding-right: 10px;
-    }
-
-    .edr{
-        padding-left: 10px;
     }
     .one_time {
         margin-bottom: 0px;
         font-size: 6px;
     }
     .organization {
-        margin-top: 6px;
-        margin-bottom: 6px; 
-        padding-left: 10px;
         font-size: 8px;
     }
     .score_edrpou {
         font-size: 6px;
-        padding-left: 10px;
     }
     .uan {
         padding-left: 6px;
@@ -1639,7 +1426,6 @@ margin-top: -70px ;
         height: 16px; 
     }
     .top--text {
-        white-space: nowrap;
         font-size: 4px;
     }
     .footer__text_left__center {
@@ -1648,13 +1434,11 @@ margin-top: -70px ;
         font-size: 3px;
     }
     .footer__left--center {
-        white-space: nowrap;
         font-size: 3px;
         padding-top: 12px;
     }
     
     .footer__left--bottom {
-        white-space: nowrap;
         font-size: 3px;
         padding-top: 8px;
     }
@@ -1664,30 +1448,18 @@ margin-top: -70px ;
     .content_right {
         margin-top: 24px;
     }
-    .left--top {
-        margin-top: 16px;
-    }
     .footer__text_left__center br {
         display: none;
       }
       .footer__networks {
         margin-bottom: 10px;
     }
-      .footer__networks li {
-        margin-right: 30px;
-    }
     .content_right > div {
         margin-right: 12px;
       }
-      .footer__privacy-policy{
-         font-size: 4px;
-    }
     .footer__copy {
         font-size: 4px;
     margin-left: 0px;
-    }
-    .footer__networks img {
-        width: 50%;
     }
     .account_details {
         padding-right: 10px;
@@ -1699,40 +1471,9 @@ margin-top: -70px ;
     .content__bottom img {
         width: 40%;
     }
-    .icon_calendar {
-        margin-top: 12px;
-    margin-left: 6px;
-    }
-    .icon_calendar img {
-        width: 50%;
-     }
     .date {
         padding-left: 8px;
         font-size: 6px;
-    }
-    .content {
-        padding: 10px;
-    }
-    .financial_text_top {
-        padding: 10px;
-    }
-    .money_amount {
-        margin: 0 10px
-    }
-    .sum {
-        margin-bottom: 14px;
-    }
-    .currency {
-        margin-bottom: 14px;
-    }
-    .sum,.currency {
-        font-family: "a-EuclidBold"; 
-        color: #242424;
-        font-size: 12px; 
-        font-weight: 600;
-    }
-    .account_details {
-        margin-left: 10px;
     }
     .donation_btn img {
         width: 8px;
