@@ -846,6 +846,9 @@ margin-top: -70px ;
         margin-left: 50px;
         margin-right: 50px;
     }
+    .financial_text_one_time {
+        margin-right: 30px;
+    }
 
 }
 
@@ -1035,6 +1038,10 @@ margin-top: -70px ;
         margin-left: 30px;
         margin-right: 30px;
     }
+    .financial_text_one_time {
+        margin-right: 20px;
+    }
+
 }
 
 @media screen and (max-width: 720px) {
@@ -1242,13 +1249,6 @@ margin-top: -70px ;
     .btn-сonference {
         margin-right: 0px; 
     }
-
-    .financial-text_subscription {
-        font-family: "e-Ukraine";
-        font-weight: 400;
-        margin-bottom: 14px;
-        line-height: 2;
-      }
     .inner_title--2 {
         margin-bottom: 10px;
     }
@@ -1323,7 +1323,11 @@ margin-top: -70px ;
         display: none;
       }
       .footer__networks {
-        margin-bottom: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .footer__networks li {
+        margin-right: 10px;
     }
     .content_right > div {
         margin-right: 12px;
@@ -1355,4 +1359,9 @@ margin-top: -70px ;
     .column_two img {
         margin-right: 4px;
     }
+    .financial_text_one_time {
+        margin-right: 10px;
+    }
+
+
 }
