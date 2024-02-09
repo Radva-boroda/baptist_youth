@@ -273,7 +273,7 @@ ul {
     font-weight: 700;
     color: #242424;
     font-family: "e-UkraineHead";
-    font-size: 24px;
+    font-size: clamp(0.875rem, 0.75rem + 0.625vw, 1.5rem);
 }
 
 
@@ -342,11 +342,11 @@ ul {
     white-space: nowrap;
 }
 .financial-text_subscription {
-    font-size: 22px;
+    font-size: clamp(0.375rem, 0.175rem + 1vw, 1.375rem);
 }
 
 .financial_text_one_time {
-    font-size: 22px;
+    font-size: clamp(0.375rem, 0.175rem + 1vw, 1.375rem);
     font-family: "a-EuclidBold";
     margin-right: 50px;
     padding-right: 10px;
@@ -357,7 +357,7 @@ ul {
     margin-right: 58px;
     border-bottom: 2px solid  #6F6F6F;
     color: #242424;
-    font-size: 22px; 
+    font-size: clamp(0.375rem, 0.175rem + 1vw, 1.375rem);
     font-weight: 600;
     margin-bottom: 50px;
 }
@@ -375,11 +375,13 @@ ul {
 }
 
 .sum {
+    font-size: clamp(0.75rem, 0.725rem + 0.125vw, 0.875rem);
     margin-right: auto;
     margin-bottom: 14px;
 }
 
 .currency {
+    font-size: clamp(0.75rem, 0.725rem + 0.125vw, 0.875rem);
     margin-bottom: 5px;
 }
 
@@ -397,7 +399,7 @@ ul {
 }
 
 .organization {
-    font-size: 20px;
+    font-size: clamp(0.5rem, 0.35rem + 0.75vw, 1.25rem);
     font-family: "a-EuclidBold";
     padding-left: 50px;
     text-align: start;
@@ -412,7 +414,7 @@ ul {
 }
 
 .score_edrpou {
-    font-size: 18px;
+    font-size: clamp(0.375rem, 0.225rem + 0.75vw, 1.125rem);
     font-family: "a-EuclidBold";
     padding-left: 10px;
 }
@@ -434,7 +436,7 @@ ul {
 }
 
 .uan {
-    font-size: 18px;
+    font-size: clamp(0.25rem, 0.075rem + 0.875vw, 1.125rem);
     font-family: "a-EuclidBold";
     padding-left: 20px;
 }
@@ -454,16 +456,16 @@ ul {
 
 
 .btn__text {
+    font-size: clamp(0.3125rem, 0.2rem + 0.5625vw, 0.875rem);
     font-family: "e-UkraineHead";
     padding: 20px;
 }
 
 .support {
     margin-right: 10px;
-    font-size: 24px;
+    font-size: clamp(0.375rem, 0.15rem + 1.125vw, 1.5rem);
     font-family: "a-EuclidBold";
     color: #242424;
-    font-size: 18px;
     font-weight: 600;
 }
 
@@ -506,8 +508,9 @@ ul {
     font-family: "e-Ukraine";
     color: #7B7B7B;
     margin-top: 20px;
+    margin-left: 20px;
     padding-bottom: 50px;
-    font-size: 14px;
+    font-size: clamp(0.375rem, 0.275rem + 0.5vw, 0.875rem);
     line-height: 2;
 }
 
@@ -523,7 +526,7 @@ ul {
 
 .footer__privacy-policy {
     font-family: 'e-Ukraine';
-    font-size: 14px;
+    font-size: clamp(0.1875rem, 0.05rem + 0.6875vw, 0.875rem);
     color: #7B7B7B;
 }
 
@@ -552,7 +555,7 @@ ul {
 .footer__left--center {
     font-family: "e-Ukraine";
     color: #7B7B7B;
-    font-size: 14px;
+    font-size: clamp(0.1875rem, 0.05rem + 0.6875vw, 0.875rem);
     text-align: left;
     padding-top: 40px;
 }
@@ -560,7 +563,7 @@ ul {
 .footer__left--bottom {
     font-family: "e-Ukraine";
     color: #7B7B7B;
-    font-size: 14px;
+    font-size: clamp(0.1875rem, 0.05rem + 0.6875vw, 0.875rem);
     padding-top: 20px;
 }
 
@@ -582,7 +585,7 @@ margin-top: -70px ;
 
 .top--text {
     margin-right: 5px;
-    font-size: 18px;
+    font-size: clamp(0.25rem, 0.075rem + 0.875vw, 1.125rem);
     font-family: "e-UkraineHead";
 }
 .banner__vision {
@@ -591,7 +594,7 @@ margin-top: -70px ;
 
 .project__title {
     font-family: "a-EuclidBold";
-    font-size: 20px;
+    font-size: clamp(0.5rem, 0.35rem + 0.75vw, 1.25rem);
 }
 .banner__btn {
     border: 1px solid grey;
@@ -667,22 +670,22 @@ margin-top: -70px ;
 .title {
     font-family: "a-Euclid";
     font-weight: 700;
-  }
-  
-  .title--1 {
+}
+
+.title--1 {
     color: #FFF;
     text-align: center;
     font-family: "e-UkraineHead";
-    font-size: 72px;
+    font-size: clamp(1.25rem, 0.6rem + 3.25vw, 4.5rem);
     font-weight: 700;
     text-transform: capitalize;
     white-space: nowrap;
     width: min-content;
-  }
-  
+}
+
   .title--2 {
     font-family: "e-Ukraine";
-    font-size: 18px;
+    font-size: clamp(0.375rem, 0.225rem + 0.75vw, 1.125rem);
     font-weight: 400;
     margin-bottom: 50px;
     line-height: 2;
@@ -694,20 +697,20 @@ margin-top: -70px ;
   
   .title--3 {
     color: #2A2A2A;
-    font-size: 60px;
+    font-size: clamp(1.5rem, 1.05rem + 2.25vw, 3.75rem);
   }
   
   .title--4 {
     color: #242424;
     font-family: "a-EuclidBold";
-    font-size: 30px;
+    font-size: clamp(0.875rem, 0.675rem + 1vw, 1.875rem);
     padding-bottom: 30px;
   }
   
   .title--5 {
     color: #FFF;
     text-align: center;
-    font-size: 14px;
+    font-size: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
     background-color: #6A00fa;
     text-decoration: none;
     padding: 2px 30px;
@@ -716,7 +719,7 @@ margin-top: -70px ;
 .title--6 {
     color: #242424;
     text-align: center;
-    font-size: 14px;
+    font-size: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
     text-decoration: none;
     padding: 14px 18px;
     font-weight: 300;
@@ -725,7 +728,7 @@ margin-top: -70px ;
   .title--8 {
     color: #6F6F6F;
     text-align: center;
-    font-size: 14px;
+    font-size: clamp(0.625rem, 0.575rem + 0.25vw, 0.875rem);
     font-weight: 300;
     margin: 10px 0 30px;
 }
@@ -765,7 +768,7 @@ margin-top: -70px ;
 .date {
     color: #7B7B7B;
     padding-left: 10px;
-    font-size: 14px;
+    font-size: clamp(0.375rem, 0.275rem + 0.5vw, 0.875rem);
     font-weight: 300;
 }
 
@@ -782,7 +785,7 @@ margin-top: -70px ;
 
 .account_text {
     font-family: "a-Euclid";
-    font-size: 30px;
+    font-size: clamp(0.75rem, 0.525rem + 1.125vw, 1.875rem);
     padding: 50px 0 24px 50px;
 }
 
@@ -798,12 +801,10 @@ margin-top: -70px ;
 
 @media screen and (max-width: 1200px) {
 
-    .title--1 {
-        font-size: 50px;
-    }
-    .user_name {
+
+    /* .user_name {
         font-size: 20px;
-    }
+    } */
     .container_project {
         padding-left: 75px;
     }
@@ -812,7 +813,6 @@ margin-top: -70px ;
     }
     .one_time { 
         margin-right: 30px;
-        font-size: 18px;
         margin-bottom: 10px;
     }
     .column_two {
@@ -879,9 +879,6 @@ margin-top: -70px ;
     .menu__list {
         font-size: 14px;
     }
-    .btn__text {
-        font-size: 14px;
-    }
     .header__menu {
         padding-left: 30px;
     }
@@ -898,32 +895,19 @@ margin-top: -70px ;
         margin-top: 4px;
         margin-left: 10px;
     }
-    .title--1 {
-        font-size: 40px;
-    }
     .inner_title--2 {
         margin-bottom: 30px;
         font-size: 14px;
     }
-    .title--2 {
-        font-size: 14px;
-    }
     .title--3 {
-        font-size: 40px;
         padding-right: 40px;
     }
     .title--5 {
-        font-size: 10px;
         background-color: #6A00fa;
         padding: 2px 12px;
     }
     .title--6 {
-        font-size: 10px;
         padding: 4px 10px;
-    }
-
-    .user_name {
-        font-size: 16px;
     }
     .networks {
         left: 34px; 
@@ -932,9 +916,6 @@ margin-top: -70px ;
     .banner__missionary--movemen {
         padding-right: 40px;
         padding-left: 0px;
-    }
-    .title--4 {
-        font-size: 22px;
     }
     .text_top {
         margin: 0 0 10px 30px;
@@ -967,18 +948,11 @@ margin-top: -70px ;
     .financial_contributions {
         width: 40%;
     }
-    .financial-text_subscription {
-        font-size: 10px;
-    }
-    .financial_text_one_time {
-        font-size: 14px;
-    }
     .banner__financial_btn {
         padding: 6px;
     }
     .account_text {
         padding: 30px 0 20px 30px;
-        font-size: 18px;
     }
     
     .account__text {
@@ -988,26 +962,13 @@ margin-top: -70px ;
     .edr{
         padding-left: 30px;
     }
-    .one_time, .subscription{
-        font-size: 12px;
-    }
     .organization {
         padding-left: 30px;
         flex-wrap: wrap;
-        font-size: 14px;
         margin-bottom: 10px; 
     }
-    .score_edrpou {
-        font-size: 14px;
-    }
-    .uan {
-        font-size: 14px;
-    }
     .number {
-        font-size: 14px;
-    }
-    .support {
-        font-size: 16px;
+        font-size: clamp(0.25rem, 0.125rem + 0.625vw, 0.875rem);
     }
     .donation_btn {
         margin: 20px 18px 30px;
@@ -1018,22 +979,18 @@ margin-top: -70px ;
     }
     .top--text {
         white-space: nowrap;
-        font-size: 10px;
     }
     .footer__text_left__center {
         margin-top: 16px;
         padding-bottom: 30px;
-        font-size: 8px;
     }
     .footer__left--center {
         white-space: nowrap;
-        font-size: 8px;
         padding-top: 30px;
     }
     
     .footer__left--bottom {
         white-space: nowrap;
-        font-size: 8px;
         padding-top: 16px;
     }
     .content_left {
@@ -1057,9 +1014,6 @@ margin-top: -70px ;
     .content_right > div {
         margin-right: 14px;
       }
-      .footer__privacy-policy,.footer__copy {
-         font-size: 8px;
-    }
     .footer__networks img {
         width: 50%;
     }
@@ -1072,15 +1026,8 @@ margin-top: -70px ;
     .content__bottom img {
         width: 50%;
     }
-    .title--8 {
-        font-size: 10px;
-    }
-    .project__title {
-        font-size: 14px;
-    }
     .date {
         padding-left: 8px;
-        font-size: 12px;
     }
 }
 
@@ -1100,9 +1047,6 @@ margin-top: -70px ;
     .menu__list {
         font-size: 8px;
     }
-    .btn__text {
-        font-size: 6px;
-    }
     .header__menu {
         padding-left: 6px;
     }
@@ -1118,32 +1062,17 @@ margin-top: -70px ;
 
     .financial-text_subscription {
         font-family: "e-Ukraine";
-        font-size: 8px;
         font-weight: 400;
         margin-bottom: 14px;
         line-height: 2;
       }
-    .title--1 {
-        font-size: 28px;
-    }
-    .title--2 {
-        font-size: 8px;
-    }
-    .title--3 {
-        font-size: 24px;
-    }
     .title--5 {
-        font-size: 4px;
         padding: 2px 8px;
     }
     .title--6 {
-        font-size: 4px;
         padding: 2px 8px;
     }
 
-    .user_name {
-        font-size: 8px;
-    }
     .banner__missionary--movemen {
         padding-right: 20px;
     }
@@ -1151,14 +1080,7 @@ margin-top: -70px ;
         width: 100px;
         height: 110px;
     }
-    .project__title {
-        font-size: 8px;
-    }
-    .title--4 {
-        font-size: 14px;
-    }
     .title--8 {
-        font-size: 6px;
         margin: 4px 0 10px;
     }
     .text_top {
@@ -1188,19 +1110,13 @@ margin-top: -70px ;
     .money {
         margin: 8px 8px 8px;
     }
-    .financial-text_subscription {
-        font-size: 6px;
-    }
-    .financial_text_one_time {
-        font-size: 6px;
-    }
+
     .banner__financial_btn {
         margin: 0 1px;
         padding: 4px;
     }
     .account_text {
         padding: 20px 0 10px 10px;
-        font-size: 14px;
     }
     .account__text {
         padding-left: 10px ;
@@ -1212,26 +1128,14 @@ margin-top: -70px ;
     }
     .one_time, .subscription{
         margin-bottom: 0px;
-        font-size: 8px;
     }
     .organization {
         margin-top: 6px;
         margin-bottom: 6px; 
         padding-left: 10px;
-        font-size: 10px;
-    }
-    .score_edrpou {
-        font-size: 8px;
-    }
-    .uan {
-        font-size: 8px;
-    }
-    .number {
-        font-size: 8px;
     }
     .support {
         margin-right: 4px;
-        font-size: 8px;
     }
     .donation_btn {
         margin: 10px 10px 0;
@@ -1240,19 +1144,8 @@ margin-top: -70px ;
         width: 24px;
         height: 24px; 
     }
-    .top--text {
-        font-size: 6px;
-    }
     .footer__text_left__center {
         padding-bottom: 0px;
-        font-size: 6px;
-    }
-    .footer__left--center {
-        font-size: 6px;
-    }
-    
-    .footer__left--bottom {
-        font-size: 6px;
     }
     .content_right {
         margin-top: 30px;
@@ -1262,13 +1155,9 @@ margin-top: -70px ;
     }
     .footer__text_left__center br {
         display: none;
-      }
-      .footer__privacy-policy,.footer__copy {
-         font-size: 4px;
     }
     .date {
         padding-left: 8px;
-        font-size: 6px;
     }
     .project__content {
         padding: 10px;
@@ -1285,7 +1174,6 @@ margin-top: -70px ;
     .sum,.currency {
         font-family: "a-EuclidBold"; 
         color: #242424;
-        font-size: 12px; 
         font-weight: 600;
     }
     .account_details {
@@ -1326,7 +1214,6 @@ margin-top: -70px ;
     }
     .btn__text {
         padding: 8px;
-        font-size: 4px;
     }
     .header__logo {
         margin-top: 4px;
@@ -1348,19 +1235,12 @@ margin-top: -70px ;
 
     .financial-text_subscription {
         font-family: "e-Ukraine";
-        font-size: 8px;
         font-weight: 400;
         margin-bottom: 14px;
         line-height: 2;
       }
-    .title--1 {
-        font-size: 18px;
-    }
     .inner_title--2 {
         margin-bottom: 10px;
-    }
-    .title--2 {
-        font-size: 6px;
     }
     .title--3 {
         padding-right: 5px;
@@ -1380,12 +1260,8 @@ margin-top: -70px ;
     .money {
         margin: 4px 4px 4px;
     }
-    .financial-text_subscription {
-        font-size: 5px;
-    }
     .account_text {
         padding: 10px 0 5px 10px;
-        font-size: 12px;
     }
     .account__text {
         margin: 10px 0 0 0;
@@ -1393,25 +1269,15 @@ margin-top: -70px ;
     }
     .one_time {
         margin-bottom: 0px;
-        font-size: 6px;
-    }
-    .organization {
-        font-size: 8px;
-    }
-    .score_edrpou {
-        font-size: 6px;
     }
     .uan {
         padding-left: 6px;
-        font-size: 4px;
     }
     .number {
         margin-left: 6px;
-        font-size: 4px;
     }
     .support {
         margin-right: 2px;
-        font-size: 6px;
     }
     .donation_btn {
         margin-top: 10;
@@ -1425,21 +1291,16 @@ margin-top: -70px ;
         width: 16px;
         height: 16px; 
     }
-    .top--text {
-        font-size: 4px;
-    }
     .footer__text_left__center {
         margin-top: 4px;
         padding-bottom: 0px;
         font-size: 3px;
     }
     .footer__left--center {
-        font-size: 3px;
         padding-top: 12px;
     }
     
     .footer__left--bottom {
-        font-size: 3px;
         padding-top: 8px;
     }
     .content_left {
@@ -1473,7 +1334,6 @@ margin-top: -70px ;
     }
     .date {
         padding-left: 8px;
-        font-size: 6px;
     }
     .donation_btn img {
         width: 8px;
