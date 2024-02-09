@@ -503,12 +503,14 @@ ul {
 .top--link {
     padding-right: 30px;
 }
-
+.accotext {
+    margin-left: 50px;
+    margin-right: 50px;
+}
 .footer__text_left__center {
     font-family: "e-Ukraine";
     color: #7B7B7B;
     margin-top: 20px;
-    margin-left: 20px;
     padding-bottom: 50px;
     font-size: clamp(0.375rem, 0.275rem + 0.5vw, 0.875rem);
     line-height: 2;
@@ -801,10 +803,6 @@ margin-top: -70px ;
 
 @media screen and (max-width: 1200px) {
 
-
-    /* .user_name {
-        font-size: 20px;
-    } */
     .container_project {
         padding-left: 75px;
     }
@@ -843,6 +841,10 @@ margin-top: -70px ;
     }
     .financial_contributions {
         width: 60%;
+    }
+    .accotext {
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
 }
@@ -1029,6 +1031,10 @@ margin-top: -70px ;
     .date {
         padding-left: 8px;
     }
+    .accotext {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
 }
 
 @media screen and (max-width: 720px) {
@@ -1138,7 +1144,7 @@ margin-top: -70px ;
         margin-right: 4px;
     }
     .donation_btn {
-        margin: 10px 10px 0;
+        margin: 10px 10px 30;
     }
     .logo__link svg {
         width: 24px;
@@ -1188,6 +1194,10 @@ margin-top: -70px ;
     }
     .column_two img {
         margin-right: 4px;
+    }
+    .accotext {
+        margin-left: 10px;
+        margin-right: 10px;
     }
 }
 @media screen and (max-width: 480px) {
