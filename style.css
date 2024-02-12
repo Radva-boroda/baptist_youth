@@ -913,11 +913,10 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 @media screen and (max-width: 350px) {
 
     .project__title {
-        font-family: "a-EuclidBold";
-        font-size: 4px;
+        font-size: 6px;
     }
     .date {
-        padding-left: 4px;
+        padding-left: 2px;
     }
     .support {
         font-size: 4px;
