@@ -325,16 +325,27 @@ ul {
 }
 
 .project__content{
+    white-space: nowrap;
     display: flex;
     align-items: center;
+    text-align: center;
+    justify-content: center;
     justify-content: space-between;
     padding: clamp(0.625rem, 0.5rem + 0.625vw, 1.25rem);
 }
 
 .icon {
+    white-space: nowrap;
     align-items: center;
+    text-align: center;
+    justify-content: center;
     display: flex; 
-    flex-wrap: wrap;
+}
+
+.icon img {
+    margin-top: 10px;
+    width: 10px;
+    height: 10px;
 }
 .financial_contributions {
     height: min-content;
@@ -640,8 +651,9 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 
 .project__title {
     font-family: "a-EuclidBold";
-    font-size: clamp(0.5rem, 0.35rem + 0.75vw, 1.25rem);
+    font-size: 6px;
 }
+
 .banner__btn {
     border: 1px solid grey;
     color: #242424;
@@ -813,7 +825,7 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 
 .date {
     color: #7B7B7B;
-    padding-left: clamp(0.5rem, 0.475rem + 0.125vw, 0.625rem);
+    padding-left: clamp(0.25rem, 0.175rem + 0.375vw, 0.625rem);
     font-size: clamp(0.375rem, 0.275rem + 0.5vw, 0.875rem);
     font-weight: 300;
 }
