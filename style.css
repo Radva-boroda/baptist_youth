@@ -138,7 +138,7 @@ ul {
 
 .networks {
     position: absolute;
-    bottom: 30px;
+    bottom: clamp(0.3125rem, 0rem + 1.5625vw, 1.875rem);
     left: clamp(2.125rem, 1.6125rem + 2.5625vw, 4.6875rem);
     right: clamp(2.125rem, 1.6125rem + 2.5625vw, 4.6875rem);
     display: flex;
