@@ -757,7 +757,7 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
   
 .inner_title--2 {
     margin-bottom: clamp(0.625rem, 0.375rem + 1.25vw, 1.875rem);
-    font-size: clamp(0.75rem, 0.725rem + 0.125vw, 0.875rem);
+    font-size: clamp(0.625rem, 0.575rem + 0.25vw, 0.875rem);
     color: #FFF;
   }
   
