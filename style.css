@@ -64,7 +64,7 @@ ul {
     background-color: #fff;
     border-radius: 50px;
     margin: clamp(1.25rem, 1rem + 1.25vw, 2.5rem)  clamp(2.125rem, 1.6125rem + 2.5625vw, 4.6875rem) 0;
-    min-height: clamp(2.125rem, 1.675rem + 2.25vw, 4.375rem);
+    min-height: clamp(1.5rem, 0.8625rem + 3.1875vw, 4.6875rem);
     position: fixed;
     left: 0; 
     right: 0;
@@ -418,7 +418,7 @@ ul {
     margin: clamp(0.25rem, 0.05rem + 1vw, 1.25rem) clamp(0.25rem, -0.2rem + 2.25vw, 2.5rem) clamp(0.25rem, -0.2rem + 2.25vw, 2.5rem);
 }
 .money a {
-    font-size: clamp(0.25rem, 0.2rem + 0.25vw, 0.5rem);
+    font-size: clamp(0.25rem, 0.1rem + 0.75vw, 1rem);
 }
 
 .account_details {
