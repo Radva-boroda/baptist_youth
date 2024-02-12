@@ -619,7 +619,7 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
     font-family: 'e-Ukraine';
     font-size: clamp(0.25rem, 0.125rem + 0.625vw, 0.875rem);
     color: #7B7B7B;
-    font-size: clamp(-6.25rem, -8.125rem + 9.375vw, 3.125rem);
+    margin-left: clamp(-6.25rem, -8.125rem + 9.375vw, 3.125rem);
 }
 
 
