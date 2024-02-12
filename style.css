@@ -344,8 +344,8 @@ ul {
 
 .icon img {
     margin-top: 10px;
-    width: 10px;
-    height: 10px;
+    width: clamp(0.625rem, 0.375rem + 1.25vw, 1.875rem);
+    height: clamp(0.625rem, 0.375rem + 1.25vw, 1.875rem);
 }
 .financial_contributions {
     height: min-content;
@@ -651,7 +651,7 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 
 .project__title {
     font-family: "a-EuclidBold";
-    font-size: 8px;
+    font-size: clamp(0.5rem, 0.3rem + 1vw, 1.5rem);
 }
 
 .banner__btn {
@@ -825,7 +825,7 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 
 .date {
     color: #7B7B7B;
-    padding-left: clamp(0.25rem, 0.175rem + 0.375vw, 0.625rem);
+    padding-left: clamp(0.125rem, 0.025rem + 0.5vw, 0.625rem);
     font-size: clamp(0.375rem, 0.275rem + 0.5vw, 0.875rem);
     font-weight: 300;
 }
