@@ -482,8 +482,8 @@ ul {
 .column_two img {
     margin-left: clamp(0.25rem, 0.125rem + 0.625vw, 0.875rem);
     margin-right: clamp(0.125rem, -0.025rem + 0.75vw, 0.875rem);
-    width: clamp(0.25rem, -0.2rem + 2.25vw, 2.5rem);
-    height: clamp(0.25rem, -0.2rem + 2.25vw, 2.5rem);
+    width: clamp(0.5rem, 0.3rem + 1vw, 1.5rem);
+    height: clamp(0.5rem, 0.3rem + 1vw, 1.5rem);
 }
 
 
@@ -897,4 +897,15 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
     .content__bottom img {
         width: 40%;
     }
+}
+@media screen and (max-width: 350px) {
+
+    .support {
+        font-size: 4px;
+    }
+    .column_two img {
+        width: 5px;
+        height: 5px;
+    }
+
 }
