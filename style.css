@@ -297,6 +297,7 @@ ul {
 }
 
 .banner__team_expanded_btn a:last-child {
+    padding-right: 5px;
     margin-right: 0;
 }
 
