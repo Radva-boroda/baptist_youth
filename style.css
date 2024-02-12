@@ -869,9 +869,6 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
     .financial_contributions {
         width: 40%;
     }
-    .footer__text_left__center br {
-        display: none;
-      }
     .footer__networks img {
         width: 50%;
     }
