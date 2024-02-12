@@ -484,8 +484,8 @@ ul {
 .column_two img {
     margin-left: clamp(0.25rem, 0.125rem + 0.625vw, 0.875rem);
     margin-right: clamp(0.125rem, -0.025rem + 0.75vw, 0.875rem);
-    width: clamp(0.625rem, 0.25rem + 1.875vw, 2.5rem);
-    height: clamp(0.625rem, 0.25rem + 1.875vw, 2.5rem);
+    width: clamp(0.5rem, 0.1rem + 2vw, 2.5rem);
+    height: clamp(0.5rem, 0.1rem + 2vw, 2.5rem);
 }
 
 
@@ -621,7 +621,7 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
     font-family: 'e-Ukraine';
     font-size: clamp(0.25rem, 0.125rem + 0.625vw, 0.875rem);
     color: #7B7B7B;
-    margin-left: clamp(-6.25rem, -7.25rem + 5vw, -1.25rem);
+    margin-left: clamp(-6.25rem, -7.75rem + 7.5vw, 1.25rem);
 }
 
 
