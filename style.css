@@ -484,8 +484,8 @@ ul {
 .column_two img {
     margin-left: clamp(0.25rem, 0.125rem + 0.625vw, 0.875rem);
     margin-right: clamp(0.125rem, -0.025rem + 0.75vw, 0.875rem);
-    width: clamp(0.5rem, 0.1rem + 2vw, 2.5rem);
-    height: clamp(0.5rem, 0.1rem + 2vw, 2.5rem);
+    width: clamp(0.25rem, -0.2rem + 2.25vw, 2.5rem);
+    height: clamp(0.25rem, -0.2rem + 2.25vw, 2.5rem);
 }
 
 
