@@ -92,7 +92,7 @@ ul {
 .banner--top {
     position: relative;
     width: 100%;
-    height: clamp(15.625rem, 7.6875rem + 39.6875vw, 55.3125rem);
+    height: clamp(21.875rem, 25.875rem + -20vw, 1.875rem);
     /* кавички на url */
     background-image: url(../baptist_youth/img/bg.svg);
     background-repeat: no-repeat;
