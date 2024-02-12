@@ -64,7 +64,7 @@ ul {
     background-color: #fff;
     border-radius: 50px;
     margin: clamp(1.25rem, 1rem + 1.25vw, 2.5rem)  clamp(2.125rem, 1.6125rem + 2.5625vw, 4.6875rem) 0;
-    min-height: clamp(1.5rem, 0.8625rem + 3.1875vw, 4.6875rem);
+    min-height: clamp(1.25rem, 0.5625rem + 3.4375vw, 4.6875rem);
     position: fixed;
     left: 0; 
     right: 0;
@@ -72,7 +72,7 @@ ul {
 }
 
 .header__logo {
-    margin: 0 clamp(0.25rem, 0.175rem + 0.375vw, 0.625rem);
+    margin: 0px clamp(0.25rem, 0.175rem + 0.375vw, 0.625rem);
 }
 
 .header__menu {
@@ -92,7 +92,7 @@ ul {
 .banner--top {
     position: relative;
     width: 100%;
-    height: clamp(21.875rem, 25.875rem + -20vw, 1.875rem);
+    height: clamp(28.125rem, 22.6875rem + 27.1875vw, 55.3125rem);
     /* кавички на url */
     background-image: url(../baptist_youth/img/bg.svg);
     background-repeat: no-repeat;
@@ -497,7 +497,6 @@ ul {
     height: clamp(0.5rem, 0.3rem + 1vw, 1.5rem);
 }
 
-
 .btn__text {
     font-size: clamp(0.3125rem, 0.2rem + 0.5625vw, 0.875rem);
     font-family: "e-UkraineHead";
@@ -837,7 +836,7 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
     margin-bottom: 68px;
     display: flex;
     justify-content: space-between;
-}
+}x
 
 .account_text {
     font-family: "a-Euclid";
