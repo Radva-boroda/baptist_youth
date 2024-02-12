@@ -916,11 +916,21 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
     .project__title {
         font-size: 6px;
     }
+    .icon img {
+        width: 7px;
+        height: 7px;
+    }
     .date {
-        padding-left: 2px;
+        margin-top: 6px;
+        font-size: 4px;
+        padding-left: 0px;
+    }
+    .icon_calendar {
+        margin-top: 8px;
+        margin-left: 2px;
     }
     .support {
-        font-size: 4px;
+        font-size: 6px;
     }
     .column_two img {
         width: 5px;
