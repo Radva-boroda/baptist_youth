@@ -652,7 +652,7 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 
 .project__title {
     font-family: "a-EuclidBold";
-    font-size: clamp(0.5rem, 0.3rem + 1vw, 1.5rem);
+    font-size: clamp(0.40625rem, 0.1875rem + 1.0938vw, 1.5rem);
 }
 
 .banner__btn {
