@@ -883,7 +883,7 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 @media screen and (max-width: 480px) {
 
     .support,.organization {
-        font-weight: 400;
+        font-weight: 300;
     }
     .networks img, .networks svg {
         width: 90%;
