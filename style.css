@@ -812,7 +812,7 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 
 .banner__team {
     margin-right: auto; 
-    margin-right: 10px; 
+    margin-right: clamp(0.25rem, 0.175rem + 0.375vw, 0.625rem);
 }
 
 .expanded--btn {
