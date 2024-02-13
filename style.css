@@ -953,6 +953,14 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 }
 @media screen and (max-width: 350px) {
 
+    .banner__all_btn,.banner__all_btn_while {
+        margin-right: clamp(0.25rem, 0.175rem + 0.375vw, 0.625rem);
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
     .title--5 {
         font-size: 12px;
       }
