@@ -129,6 +129,7 @@ ul {
     display: flex;
     align-items: center;
     text-align: left;
+    text-decoration: none;
 }
 
   .banner__team-text {
@@ -150,7 +151,12 @@ ul {
     margin: 0 8px;
   }
 
+  .banner__content_center {
+padding-right: 30px;
+  }
+
   .banner__item_bottom {
+    margin-right: clamp(0.3125rem, -0.625rem + 4.6875vw, 5rem);
     margin-top: 30px;
     color: #FFF;
     font-family: "e-Ukraine";
@@ -167,15 +173,6 @@ ul {
     font-size: 60px;
   }
 
-  .banner__inner_center {
-    text-decoration: none;
-  }
-
-  .banner__content_left,
-  .banner__content_center,
-  .banner__right {
-    flex: 1;
-  }
   
   .banner__column {
     display: flex;
