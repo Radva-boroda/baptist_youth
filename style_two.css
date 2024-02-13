@@ -52,7 +52,7 @@ ul {
     max-width: 1500px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 75px;
+    padding: 0 clamp(1.25rem, 0.5625rem + 3.4375vw, 4.6875rem);
 }
 
 .header__top-inner {
@@ -61,8 +61,8 @@ ul {
     align-items: center;
     background-color: #fff;
     border-radius: 50px;
-    margin: 40px 75px 0;
-    min-height: 70px;
+    margin: clamp(1.25rem, 1rem + 1.25vw, 2.5rem)  clamp(2.125rem, 1.6125rem + 2.5625vw, 4.6875rem) 0;
+    min-height: clamp(1.25rem, 0.5625rem + 3.4375vw, 4.6875rem);
     position: fixed;
     left: 0; 
     right: 0;
@@ -565,23 +565,24 @@ ul {
 }
 
 .footer__networks {
-    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-bottom: clamp(1.25rem, 0.75rem + 2.5vw, 3.75rem);
     list-style: none;
     display: flex;
 }
 
 .footer__networks li {
-    margin-right: 40px;
+    margin-right: clamp(0.625rem, 0.25rem + 1.875vw, 2.5rem);
 }
 
 .footer__privacy-policy {
     font-family: 'e-Ukraine';
-    font-size: 14px;
+    font-size: clamp(0.1875rem, 0.05rem + 0.6875vw, 0.875rem);
     color: #7B7B7B;
 }
 
 .content_left {
-    margin-right: 250px;
+    margin-right: clamp(1.25rem, -1.625rem + 14.375vw, 15.625rem);
 }
 .content__top  {
     display: flex;
@@ -594,12 +595,19 @@ ul {
     justify-content: space-between;
     flex-grow: 1;
     display: flex;
-    margin-top: 100px;
+    margin-top: clamp(1.5rem, 0.55rem + 4.75vw, 6.25rem);
 }
-.logo__link {
-    padding-right: 10px;
-}
+.content_right > div {
+    margin-right: clamp(0.75rem, 0.725rem + 0.125vw, 0.875rem);
+  }
 
+.logo__link {
+    padding-right: clamp(0.125rem, 0.025rem + 0.5vw, 0.625rem);
+}
+.logo__link svg {
+   width: clamp(1rem, 0.5125rem + 2.4375vw, 3.4375rem);
+   height: clamp(1rem, 0.5125rem + 2.4375vw, 3.4375rem); 
+}
 .course_content_top {
     align-items: center;
     display: flex;
@@ -624,39 +632,44 @@ ul {
 .top--link {
     padding-right: 30px;
 }
-.top--text{
-    font-size: 18px;
+
+.top--text {
+    white-space: nowrap;
+    margin-right: 5px;
+    font-size: clamp(0.25rem, 0.075rem + 0.875vw, 1.125rem);
     font-family: "e-UkraineHead";
 }
 
 .left--top {
     align-items: center;
     display: flex;
-    margin-top: 80px;
+    margin-top: clamp(1rem, 0.2rem + 4vw, 5rem);
 }
 
 .footer__text_left__center {
     font-family: "e-Ukraine";
     color: #7B7B7B;
-    margin-top: 20px;
-    padding-bottom: 50px;
-    font-size: 14px;
+    margin-top: clamp(0.25rem, 0.05rem + 1vw, 1.25rem);
+    padding-bottom: clamp(0rem, -0.625rem + 3.125vw, 3.125rem);
+    font-size: clamp(0.375rem, 0.275rem + 0.5vw, 0.875rem);
     line-height: 2;
 }
 
 .footer__left--center {
     font-family: "e-Ukraine";
     color: #7B7B7B;
-    font-size: 14px;
+    font-size: clamp(0.1875rem, 0.05rem + 0.6875vw, 0.875rem);
     text-align: left;
-    padding-top: 40px;
+    padding-top: clamp(0.75rem, 0.4rem + 1.75vw, 2.5rem);
+    white-space: nowrap;
 }
 
 .footer__left--bottom {
     font-family: "e-Ukraine";
     color: #7B7B7B;
-    font-size: 14px;
-    padding-top: 20px;
+    font-size: clamp(0.1875rem, 0.05rem + 0.6875vw, 0.875rem);
+    padding-top: clamp(0.375rem, 0.2rem + 0.875vw, 1.25rem);
+    white-space: nowrap;
 }
 
 .content__bottom{
@@ -668,19 +681,16 @@ ul {
 }
 
 .text_icon {
-margin-top: -70px ;
-}
+    margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
+    }
 
-.footer__copy {
+.footer__copy{
+    padding-left: 50px;
     font-family: 'e-Ukraine';
-    font-size: 14px;
+    font-size: clamp(0.25rem, 0.125rem + 0.625vw, 0.875rem);
     color: #7B7B7B;
-    margin-left: -100px;
+    margin-left: clamp(-6.25rem, -8.125rem + 9.375vw, 3.125rem);
 }
-
-
-
-
 .banner__vision .title--4 {
     margin-bottom: 25px;
 }
@@ -883,32 +893,25 @@ margin-top: -70px ;
     margin: 0 36px 10px 10px;
 }
 
-@media (max-width: 800px) {
-    .user_name {
-        font-size: 20px;
-        font-weight: 700;
+
+@media screen and (max-width: 1100px) {
+    .footer__networks img {
+        width: 50%;
     }
-    .banner__team_btn{
-        padding: 16px 56px;
+    .content__bottom img {
+        width: 50%;
+    }
+
+}
+@media screen and (max-width: 720px) {
+
+    .footer__text_left__center br {
+        display: none;
     }
 }
 
-@media (max-width: 570px) {
-    .user_name {
-        font-size: 16px;
-        font-weight: 700;
-    }
-    .banner__team_btn{
-        padding: 14px 52px;
-    }
-}
-
-@media (max-width: 320px) {
-    .user_name {
-        font-size: 14px;
-        font-weight: 700;
-    }
-    .banner__team_btn{
-        padding: 14px 48px;
+@media screen and (max-width: 480px) {
+    .content__bottom img {
+        width: 40%;
     }
 }

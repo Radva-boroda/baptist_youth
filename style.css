@@ -560,8 +560,6 @@ ul {
     align-items: center;
     display: flex;
     margin-top: clamp(1rem, 0.2rem + 4vw, 5rem);
-
-
 }
 
 .top--link {
@@ -939,18 +937,15 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
     }
     .networks img, .networks svg {
         width: 90%;
-    }
-    
+    } 
     .icon img {
         margin-top: 6px;
     }
-    .footer__text_left__center br {
-        display: none;
-      }
     .content__bottom img {
         width: 40%;
     }
 }
+
 @media screen and (max-width: 350px) {
 
     .banner__all_btn,.banner__all_btn_while {
@@ -960,14 +955,12 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
         padding-top: 4px;
         padding-bottom: 4px;
     }
-
     .title--5 {
         font-size: 12px;
       }
     .title--6 {
         font-size: 12px;
     }
-
     .expanded_btn {
         padding: clamp(0.5rem, 0.375rem + 0.625vw, 1.125rem) clamp(0.375rem, -0.175rem + 2.75vw, 3.125rem);
     }
