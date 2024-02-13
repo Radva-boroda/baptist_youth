@@ -196,6 +196,7 @@ ul {
     flex-direction: column;
     text-align: left;
     width: 100%; 
+    padding: 2px;
   }
   
   .banner__item {
