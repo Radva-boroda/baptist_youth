@@ -331,11 +331,20 @@ padding-right: 30px;
 }
 
 .btn__text {
+    font-size: clamp(0.3125rem, 0.2rem + 0.5625vw, 0.875rem);
     font-family: "e-UkraineHead";
-    white-space: nowrap;
-    padding: 20px;
+    padding-left: clamp(0.3125rem, 0.125rem + 0.9375vw, 1.25rem);
+    padding-right: clamp(0.3125rem, 0.125rem + 0.9375vw, 1.25rem);
+    padding-top: clamp(0.3125rem, 0.175rem + 0.6875vw, 1rem);
+    padding-bottom: clamp(0.3125rem, 0.175rem + 0.6875vw, 1rem);
+    max-height: 220px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
-
+.btn__text svg {
+    margin-left: clamp(0.125rem, 0.025rem + 0.5vw, 0.625rem);
+}
 .footer {
     margin-top: 100px;
     font-weight: 466px;
@@ -485,18 +494,36 @@ padding-right: 30px;
     font-weight: 500;
     border-radius: 50px;
 }
-
-.banner__all_btn {
-    color: #FFF;
+.banner__all_btn_while {
+    background-color: #FFF;
+    color:#242424;
     text-align: center;
     font-family: "a-Euclid";
     text-decoration: none;
-    margin-right: 10px;
-    padding: 18px 40px;
+    margin-right: clamp(0.25rem, 0.175rem + 0.375vw, 0.625rem);
+    padding: clamp(0.25rem, 0.075rem + 0.875vw, 1.125rem) clamp(1.875rem, 1.75rem + 0.625vw, 2.5rem);
     font-weight: 500;
     border-radius: 50px;
-    white-space: nowrap;
 }
+
+.banner__all_btn {
+    color: #FFF;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "a-Euclid";
+    text-decoration: none;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-right: clamp(0.25rem, 0.175rem + 0.375vw, 0.625rem);
+    padding: clamp(0.25rem, 0.075rem + 0.875vw, 1.125rem) clamp(1.875rem, 1.75rem + 0.625vw, 2.5rem);
+    font-weight: 500;
+    border-radius: 50px;
+}
+.banner__all_btn svg {
+    width: clamp(0.25rem, 0.1125rem + 0.6875vw, 0.9375rem);
+    height: clamp(0.25rem, 0.1125rem + 0.6875vw, 0.9375rem);
+  }
 
 .btn--violet {
     color: #FFF;
