@@ -159,6 +159,13 @@ ul {
     font-weight: 500;
   }
 
+  .banner__content_left,
+  .banner__content_center,
+  .banner__right {
+    flex: 1;
+    margin: 0 10px;
+  }
+
   .banner__item_bottom {
     margin-top: 30px;
     color: #FFF;
@@ -196,7 +203,6 @@ ul {
     flex-direction: column;
     text-align: left;
     width: 100%; 
-    padding: 2px;
   }
   
   .banner__item {
