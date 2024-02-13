@@ -875,6 +875,12 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 .footer__logo_social_networks {
     flex-grow: 1;
 }
+@media screen and (max-width: 350px) {
+
+    .title--2 {
+    font-size: 6
+  }
+}
 
 
 /* @media screen and (max-width: 1200px) {
@@ -947,6 +953,10 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 }
 
 @media screen and (max-width: 350px) {
+
+    .title--2 {
+    font-size: 6
+  }
 
     .banner__all_btn,.banner__all_btn_while {
         margin-right: clamp(0.25rem, 0.175rem + 0.375vw, 0.625rem);
