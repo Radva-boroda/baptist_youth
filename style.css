@@ -877,7 +877,7 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 }
 
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
 
     .financial_contributions {
         width: 60%;
@@ -997,4 +997,4 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
         height: 5px;
     }
 
-}
+} */
