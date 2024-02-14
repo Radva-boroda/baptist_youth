@@ -631,9 +631,8 @@ padding-right: 30px;
     top: calc(50% - 1px);
     height: 4px;
     width: clamp(3.125rem, -0.0396rem + 15.8228vw, 18.75rem);
-    background: linear-gradient(#FFF);
+    background: linear-gradient(to right, #000, #FFF);
 }
-
 .donat,
 .courses {
     margin-bottom: 50px;
