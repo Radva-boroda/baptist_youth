@@ -151,7 +151,7 @@ ul {
     margin: 0 8px;
   }
 
-  .banner__content_center {
+  .banner__content_center,.banner__content_left {
 padding-right: 30px;
   }
 
