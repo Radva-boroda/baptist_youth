@@ -731,4 +731,8 @@ padding-right: 30px;
     .title--6 {
         font-size: 12px;
     }
+    .grid_content {
+        display: flex;
+        white-space: nowrap;
+    }
 }
