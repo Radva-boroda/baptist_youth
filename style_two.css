@@ -417,6 +417,7 @@ padding-right: 30px;
     font-weight: 400;
     font-size: 18px;
     padding-left: 35px;
+    flex-wrap: wrap;
 }
 .grid_content {
     display: flex;
@@ -428,12 +429,22 @@ padding-right: 30px;
 .item_3,
 .item_4,
 .item_5,
-.item_6{
+.item_6 {
     margin: 10px;
     padding: 30px 44px;
     border: 2px solid #6F6F6F;
     border-radius: 20px;
 }
+
+.item_1:hover,
+.item_2:hover,
+.item_3:hover,
+.item_4:hover,
+.item_5:hover,
+.item_6:hover {
+    background-color: #6A00fa;
+}
+
 .item_center {
     white-space: nowrap;
 }
