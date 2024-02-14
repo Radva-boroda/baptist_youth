@@ -173,6 +173,13 @@ padding-right: 30px;
     font-size: 60px;
   }
 
+  .raight_center_top {
+    text-align: start;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    color: #FFF;
+    font-size: 60px;
+  }
   
   .banner__column {
     display: flex;
@@ -619,12 +626,12 @@ padding-right: 30px;
 .center_top::after {
     content: "";
     position: absolute;
-    color: #FFF;
-    right: 0;
+    background-color: #FFF;
+    left: 100px;
     top: calc(50% - 1px);
-    height: 2px;
-    width: 100px;
-    background: linear-gradient();
+    height: 4px;
+    width: clamp(3.125rem, -0.0396rem + 15.8228vw, 18.75rem);
+    background: linear-gradient(#FFF);
 }
 
 .donat,
