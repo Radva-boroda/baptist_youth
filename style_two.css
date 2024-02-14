@@ -613,6 +613,14 @@ padding-right: 30px;
     padding-bottom: clamp(1.25rem, 0.875rem + 1.875vw, 3.125rem);
 }
 
+.center_top_titlettt {
+    align-items: center;
+    display: flex;
+}
+.after {
+    color: #FFF;
+}
+
 .donat,
 .courses {
     margin-bottom: 50px;
