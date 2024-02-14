@@ -418,12 +418,36 @@ padding-right: 30px;
     font-size: 18px;
     padding-left: 35px;
 }
+.grid_content {
+    display: flex;
+    flex-wrap: wrap;
+}
 
-.grid-container {
+.item_1,
+.item_2,
+.item_3,
+.item_4,
+.item_5,
+.item_6{
+    margin: 10px;
     padding: 30px 44px;
     border: 2px solid #6F6F6F;
     border-radius: 20px;
 }
+.item_center {
+    white-space: nowrap;
+}
+.item_6 {
+    flex-basis: 98%;
+}
+.item_3, .item_4, .item_5 {
+    flex-basis: 31.5%;
+  }
+
+.item_1, .item_2 {
+    flex-basis: 48%;
+  }
+
 .top--link {
     padding-right: 30px;
 }
