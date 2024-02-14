@@ -613,12 +613,18 @@ padding-right: 30px;
     padding-bottom: clamp(1.25rem, 0.875rem + 1.875vw, 3.125rem);
 }
 
-.center_top_titlettt {
-    align-items: center;
-    display: flex;
+.center_top {
+    position: relative;
 }
-.after {
+.center_top::after {
+    content: "";
+    position: absolute;
     color: #FFF;
+    right: 0;
+    top: calc(50% - 1px);
+    height: 2px;
+    width: 100px;
+    background: linear-gradient();
 }
 
 .donat,
