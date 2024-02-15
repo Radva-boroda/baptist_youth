@@ -646,7 +646,14 @@ ul {
     list-style: none;
     display: flex;
 }
-
+.networks img {
+    width: 20px;
+    height: 20px;
+}
+.footer__networks img {
+    width: 20px;
+    height: 20px;
+}
 .footer__networks li {
     margin-right: clamp(0.625rem, 0.25rem + 1.875vw, 2.5rem);
 }

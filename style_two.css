@@ -365,7 +365,10 @@ padding-right: 30px;
     list-style: none;
     display: flex;
 }
-
+.footer__networks img {
+    width: 20px;
+    height: 20px;
+}
 .footer__networks li {
     margin-right: clamp(0.625rem, 0.25rem + 1.875vw, 2.5rem);
 }
@@ -435,6 +438,7 @@ padding-right: 30px;
     border: 2px solid #6F6F6F;
     border-radius: 20px;
 }
+
 
 .item_1:hover,
 .item_2:hover,
