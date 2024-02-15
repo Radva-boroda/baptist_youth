@@ -432,27 +432,85 @@ padding-right: 30px;
     height: clamp(1.25rem, -0.5222rem + 8.8608vw, 10rem);
 }
 
-.item_1,
-.item_2,
-.item_3,
-.item_4,
-.item_5,
-.item_6 {
+.item_style{
     margin: clamp(0.125rem, 0.0237rem + 0.5063vw, 0.625rem);
     padding: clamp(0.625rem, 0.3465rem + 1.3924vw, 2rem) clamp(0.625rem, 0.1693rem + 2.2785vw, 2.875rem);
     border: 2px solid #6F6F6F;
     border-radius: 20px;
 }
 
-
-.item_1:hover,
-.item_2:hover,
-.item_3:hover,
-.item_4:hover,
-.item_5:hover,
-.item_6:hover {
+.grid_content [class^="item_"]:hover {
     background-color: #6A00fa;
 }
+
+
+.item_1:hover .title--4,
+.item_1:hover .course_content_bottom {
+    color: #ffffff; /* Білий колір тексту при наведенні на .item_1 */
+}
+.item_1:hover .cls-2 {
+    fill: #ffffff; 
+}
+.item_1:hover .cls-1{
+    fill: rgb(167, 10, 167);
+}
+
+.item_2:hover .title--4,
+.item_2:hover .course_content_bottom {
+    color: #ffffff; /* Білий колір тексту при наведенні на .item_1 */
+}
+.item_2:hover .cls-2 {
+    fill: #ffffff; 
+}
+.item_2:hover .cls-1{
+    fill: rgb(167, 10, 167);
+}
+
+.item_3:hover .title--4,
+.item_3:hover .course_content_bottom {
+    color: #ffffff; /* Білий колір тексту при наведенні на .item_1 */
+}
+.item_3:hover .cls-2 {
+    fill: #ffffff; 
+}
+.item_3:hover .cls-1{
+    fill: rgb(167, 10, 167);
+}
+
+.item_4:hover .title--4,
+.item_4:hover .course_content_bottom {
+    color: #ffffff; /* Білий колір тексту при наведенні на .item_1 */
+}
+.item_4:hover .cls-2 {
+    fill: #ffffff; 
+}
+.item_4:hover .cls-1{
+    fill: rgb(167, 10, 167);
+}
+
+.item_5:hover .title--4,
+.item_5:hover .course_content_bottom {
+    color: #ffffff; /* Білий колір тексту при наведенні на .item_1 */
+}
+.item_5:hover .cls-2 {
+    fill: #ffffff; 
+}
+.item_5:hover .cls-1{
+    fill: rgb(167, 10, 167);
+}
+
+.item_6:hover .title--4,
+.item_6:hover .course_content_bottom {
+    color: #ffffff; /* Білий колір тексту при наведенні на .item_1 */
+}
+.item_6:hover .cls-2 {
+    fill: #ffffff; 
+}
+.item_6:hover .cls-1{
+    fill: rgb(167, 10, 167);
+}
+
+
 
 .item_center {
     white-space: nowrap;
@@ -642,7 +700,7 @@ padding-right: 30px;
     font-size: clamp(1.5rem, 1.05rem + 2.25vw, 3.75rem);
     padding-right: clamp(0.3125rem, -0.125rem + 2.1875vw, 2.5rem);
   }
-  
+
   .title--4 {
     color: #242424;
     font-family: "a-EuclidBold";
