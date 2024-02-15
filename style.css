@@ -860,6 +860,8 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
   
   .title--3 {
     color: #2A2A2A;
+    font-family: "a-Euclid";
+    font-weight: 400;
     font-size: clamp(1.5rem, 1.05rem + 2.25vw, 3.75rem);
     padding-right: clamp(0.3125rem, -0.125rem + 2.1875vw, 2.5rem);
   }
@@ -898,21 +900,15 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 }
 
 .our {
-    font-family: "a-Euclid";
-    font-weight: 400;
     margin-bottom: 50px;
 }
 
 .team {
-    font-family: "a-Euclid";
-    font-weight: 400;
     margin-right: auto;
     margin-bottom: 30px;
 }
 
 .banner__team {
-    font-family: "a-Euclid";
-    font-weight: 400;
     margin-right: auto; 
 }
 
@@ -921,6 +917,7 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 }
 
 .icon_calendar {
+    margin-top: 10px;
     margin-left: 10px;
 }
 
@@ -932,8 +929,6 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 }
 
 .title_text {
-    font-family: "a-Euclid";
-    font-weight: 400;
     margin: 100px 0 30px;
 }
 
