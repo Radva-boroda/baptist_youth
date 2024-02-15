@@ -445,69 +445,39 @@ padding-right: 30px;
 
 
 .item_1:hover .title--4,
-.item_1:hover .course_content_bottom {
-    color: #ffffff; /* Білий колір тексту при наведенні на .item_1 */
-}
-.item_1:hover .cls-2 {
-    fill: #ffffff; 
-}
-.item_1:hover .cls-1{
-    fill: rgb(167, 10, 167);
-}
-
 .item_2:hover .title--4,
-.item_2:hover .course_content_bottom {
-    color: #ffffff; /* Білий колір тексту при наведенні на .item_1 */
-}
-.item_2:hover .cls-2 {
-    fill: #ffffff; 
-}
-.item_2:hover .cls-1{
-    fill: rgb(167, 10, 167);
-}
-
 .item_3:hover .title--4,
-.item_3:hover .course_content_bottom {
-    color: #ffffff; /* Білий колір тексту при наведенні на .item_1 */
-}
-.item_3:hover .cls-2 {
-    fill: #ffffff; 
-}
-.item_3:hover .cls-1{
-    fill: rgb(167, 10, 167);
-}
-
 .item_4:hover .title--4,
-.item_4:hover .course_content_bottom {
-    color: #ffffff; /* Білий колір тексту при наведенні на .item_1 */
-}
-.item_4:hover .cls-2 {
-    fill: #ffffff; 
-}
-.item_4:hover .cls-1{
-    fill: rgb(167, 10, 167);
-}
-
 .item_5:hover .title--4,
-.item_5:hover .course_content_bottom {
-    color: #ffffff; /* Білий колір тексту при наведенні на .item_1 */
-}
-.item_5:hover .cls-2 {
-    fill: #ffffff; 
-}
-.item_5:hover .cls-1{
-    fill: rgb(167, 10, 167);
+.item_6:hover .title--4 {
+    color: #ffffff; 
 }
 
-.item_6:hover .title--4,
+.item_1:hover .course_content_bottom,
+.item_2:hover .course_content_bottom,
+.item_3:hover .course_content_bottom,
+.item_4:hover .course_content_bottom,
+.item_5:hover .course_content_bottom,
 .item_6:hover .course_content_bottom {
-    color: #ffffff; /* Білий колір тексту при наведенні на .item_1 */
+    color: #ffffff; 
 }
+
+.item_1:hover .cls-2,
+.item_2:hover .cls-2,
+.item_3:hover .cls-2,
+.item_4:hover .cls-2,
+.item_5:hover .cls-2,
 .item_6:hover .cls-2 {
     fill: #ffffff; 
 }
-.item_6:hover .cls-1{
-    fill: rgb(167, 10, 167);
+
+.item_1:hover .cls-1,
+.item_2:hover .cls-1,
+.item_3:hover .cls-1,
+.item_4:hover .cls-1,
+.item_5:hover .cls-1,
+.item_6:hover .cls-1 {
+    fill: rgb(167, 10, 167); 
 }
 
 
