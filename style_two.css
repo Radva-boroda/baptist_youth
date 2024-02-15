@@ -631,10 +631,6 @@ padding-right: 30px;
     font-weight: 400;
 }
 
-.title {
-    font-family: "a-Euclid";
-    font-weight: 700;
-  }
   .title--1 {
     color: #FFF;
     text-align: left;
@@ -666,6 +662,8 @@ padding-right: 30px;
   }
   
   .title--3 {
+    font-family: "a-Euclid";
+    font-weight: 400;
     color: #2A2A2A;
     font-size: clamp(1.5rem, 1.05rem + 2.25vw, 3.75rem);
     padding-right: clamp(0.3125rem, -0.125rem + 2.1875vw, 2.5rem);
