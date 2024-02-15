@@ -318,7 +318,7 @@ padding-right: 30px;
 }
 
 .user_name {
-    font-weight: 700;
+    font-weight: 400;
     color: #242424;
     font-family: "e-UkraineHead";
     font-size: clamp(0.875rem, 0.75rem + 0.625vw, 1.5rem);
