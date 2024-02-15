@@ -898,6 +898,8 @@ margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 }
 
 .our {
+    font-family: "a-Euclid";
+    font-weight: 400;
     margin-bottom: 50px;
 }
 
