@@ -96,7 +96,7 @@ ul {
     width: 100%;
     height: clamp(28.125rem, 22.6875rem + 27.1875vw, 55.3125rem);
     /* кавички на url */
-    background-image: url(../baptist_youth/img/bg.svg);
+    background-image: url(../baptist_youth/img/bg_2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
