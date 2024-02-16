@@ -76,8 +76,8 @@ ul {
 }
 
 .header__menu {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 200px;
+    padding-right: 100px;
     flex-grow: 1
 }
 
