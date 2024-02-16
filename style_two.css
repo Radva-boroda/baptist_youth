@@ -460,7 +460,12 @@ ul {
 .item_3:hover .title--4,
 .item_4:hover .title--4,
 .item_5:hover .title--4,
-.item_6:hover .title--4 {
+.item_6:hover .title--4,
+.item_7:hover .title--4,
+.item_8:hover .title--4,
+.item_9:hover .title--4,
+.item_10:hover .title--4,
+.item_11:hover .title--4 {
     color: #ffffff;
 }
 
@@ -469,7 +474,12 @@ ul {
 .item_3:hover .course_content_bottom,
 .item_4:hover .course_content_bottom,
 .item_5:hover .course_content_bottom,
-.item_6:hover .course_content_bottom {
+.item_6:hover .course_content_bottom,
+.item_7:hover .course_content_bottom,
+.item_8:hover .course_content_bottom,
+.item_9:hover .course_content_bottom,
+.item_10:hover .course_content_bottom,
+.item_11:hover .course_content_bottom {
     color: #ffffff;
 }
 
@@ -478,7 +488,12 @@ ul {
 .item_3:hover .cls-2,
 .item_4:hover .cls-2,
 .item_5:hover .cls-2,
-.item_6:hover .cls-2 {
+.item_6:hover .cls-2,
+.item_7:hover .cls-2,
+.item_8:hover .cls-2,
+.item_9:hover .cls-2,
+.item_10:hover .cls-2,
+.item_11:hover .cls-2 {
     fill: #ffffff;
 }
 
@@ -487,12 +502,28 @@ ul {
 .item_3:hover .cls-1,
 .item_4:hover .cls-1,
 .item_5:hover .cls-1,
-.item_6:hover .cls-1 {
+.item_6:hover .cls-1,
+.item_7:hover .cls-1,
+.item_8:hover .cls-1,
+.item_9:hover .cls-1,
+.item_10:hover .cls-1,
+.item_11:hover .cls-1 {
     fill: rgb(167, 10, 167);
 }
 
 .item_center {
     white-space: nowrap;
+}
+
+.item_11,
+.item_10,
+.item_9 {
+    flex-basis: 31.5%;
+}
+
+.item_8,
+.item_7 {
+    flex-basis: 48%;
 }
 
 .item_6 {
