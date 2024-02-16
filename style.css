@@ -89,7 +89,6 @@ ul {
     font-weight: 400;
     font-size: clamp(0.375rem, 0.225rem + 0.75vw, 1.125rem);
 }
-
 .banner--top {
     position: relative;
     width: 100%;
