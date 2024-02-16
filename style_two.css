@@ -826,9 +826,6 @@ ul {
 
 @media screen and (max-width: 720px) {
 
-    .banner__item_bottom br {
-        display: none;
-    }
 
     .banner_laptop_ready img {
         width: 80%;
