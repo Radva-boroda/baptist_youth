@@ -1,34 +1,34 @@
 @font-face {
     font-family: 'e-UkraineHead';
     src: url(fons/e-UkraineHead.woff) format('woff'),
-         url(fons/e-UkraineHead.woff2) format('woff2');
+        url(fons/e-UkraineHead.woff2) format('woff2');
 }
 
 @font-face {
     font-family: 'e-Ukraine';
     src: url(fons/e-Ukraine.woff) format('woff'),
-         url(fons/e-Ukraine.woff2) format('woff2');
+        url(fons/e-Ukraine.woff2) format('woff2');
 }
 
 @font-face {
     font-family: 'a-Euclid';
     src: url(fons/a-Euclid.woff) format('woff'),
-         url(fons/a-Euclid.woff2) format('woff2');
+        url(fons/a-Euclid.woff2) format('woff2');
 }
 
 @font-face {
     font-family: 'a-EuclidBold';
     src: url(fons/a-EuclidBolt.woff) format('woff'),
-         url(fons/a-EuclidBolt.woff2) format('woff2');
+        url(fons/a-EuclidBolt.woff2) format('woff2');
 }
 
-html{
+html {
     box-sizing: border-box;
 }
 
 *,
 *::after,
-*::before{
+*::before {
     box-sizing: inherit;
 }
 
@@ -36,16 +36,18 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
 * {
     margin: 0;
     padding: 0;
 }
-li{
+
+li {
     list-style: none
 }
 
 ul {
-    list-style:none;
+    list-style: none;
 }
 
 .container {
@@ -61,10 +63,10 @@ ul {
     align-items: center;
     background-color: #fff;
     border-radius: 50px;
-    margin: clamp(1.25rem, 1rem + 1.25vw, 2.5rem)  clamp(2.125rem, 1.6125rem + 2.5625vw, 4.6875rem) 0;
+    margin: clamp(1.25rem, 1rem + 1.25vw, 2.5rem) clamp(2.125rem, 1.6125rem + 2.5625vw, 4.6875rem) 0;
     min-height: clamp(1.25rem, 0.5625rem + 3.4375vw, 4.6875rem);
     position: fixed;
-    left: 0; 
+    left: 0;
     right: 0;
     z-index: 2;
 }
@@ -76,7 +78,7 @@ ul {
 .header__menu {
     padding-left: 50px;
     padding-right: 50px;
-     flex-grow:1
+    flex-grow: 1
 }
 
 .menu__list {
@@ -96,8 +98,8 @@ ul {
     /* кавички на url */
     background-image: url(../baptist_youth/img/bg.svg);
     background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     z-index: 1;
 }
 
@@ -107,8 +109,8 @@ ul {
     height: clamp(28.125rem, 22.6875rem + 27.1875vw, 55.3125rem);
     background-image: url(../baptist_youth/img/rectangle_fons.svg);
     background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     z-index: 1;
 }
 
@@ -117,15 +119,15 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
 
-  .ban {
+.ban {
     background-color: #f0f0f0;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
+}
+
 .banner__inner_center {
     display: flex;
     align-items: center;
@@ -133,30 +135,31 @@ ul {
     text-decoration: none;
 }
 
-  .banner__team-text {
+.banner__team-text {
     margin-top: 80px;
-  }
+}
 
-  .banner__item_center {
+.banner__item_center {
     color: #FFF;
     font-family: "a-Euclid";
     font-size: 30px;
     font-weight: 500;
     white-space: nowrap;
-  }
+}
 
-  .banner__content_left,
-  .banner__content_center,
-  .banner__right {
+.banner__content_left,
+.banner__content_center,
+.banner__right {
     flex: 1;
     margin: 0 8px;
-  }
+}
 
-  .banner__content_center,.banner__content_left {
-padding-right: 30px;
-  }
+.banner__content_center,
+.banner__content_left {
+    padding-right: 30px;
+}
 
-  .banner__item_bottom {
+.banner__item_bottom {
     margin-right: clamp(0.3125rem, -0.625rem + 4.6875vw, 5rem);
     margin-top: 30px;
     color: #FFF;
@@ -164,30 +167,30 @@ padding-right: 30px;
     font-size: 18px;
     font-weight: 400;
     line-height: 2;
-  }
+}
 
-  .center_top {
+.center_top {
     text-align: start;
     margin-top: 40px;
     margin-bottom: 25px;
     color: #FFF;
     font-size: 60px;
-  }
+}
 
-  .raight_center_top {
+.raight_center_top {
     text-align: start;
     margin-top: 40px;
     margin-bottom: 25px;
     color: #FFF;
     font-size: 60px;
-  }
-  
-  .banner__column {
+}
+
+.banner__column {
     display: flex;
     flex-direction: column;
     text-align: left;
-    width: 100%; 
-  }
+    width: 100%;
+}
 
 .banner__inner_laptop {
     padding-top: 80px;
@@ -230,38 +233,40 @@ padding-right: 30px;
     border-bottom: 2px solid #6F6F6F;
     margin-bottom: 50px;
     align-items: center;
-  }
+}
 
 .btn_back,
 .btn_go {
     margin-bottom: 30px;
-    margin-left: auto; 
+    margin-left: auto;
     margin-left: 10px;
 }
 
 .banner__team-info .swiper-slide {
     padding-bottom: 50px;
     box-sizing: border-box;
-    width: 100%; 
-} 
+    width: 100%;
+}
+
 .container_project {
     padding-bottom: 2px;
     display: flex;
     max-width: 100%;
 }
+
 .swiperrr_mySwiper {
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .swiperr_mySwiper {
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 .swiper_mySwiper {
     position: relative;
     overflow: hidden;
 }
-  
+
 .swiper-container {
     display: flex;
     align-items: center;
@@ -271,21 +276,21 @@ padding-right: 30px;
 }
 
 .our-vision {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .swiper-container_partners {
-  width: 100%;
-  margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .team-info__content {
@@ -295,7 +300,7 @@ padding-right: 30px;
     justify-content: center;
     background-color: #fff;
     border: 1px solid grey;
-    border-radius: 10px; 
+    border-radius: 10px;
     box-sizing: border-box;
 }
 
@@ -309,7 +314,7 @@ padding-right: 30px;
     margin: 15px 0;
     align-items: center;
     text-align: center;
-    justify-content:center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -328,6 +333,7 @@ padding-right: 30px;
     background-color: #fff;
     box-sizing: border-box;
 }
+
 .ready {
     margin-right: 50px;
     padding-bottom: 25px;
@@ -346,9 +352,11 @@ padding-right: 30px;
     justify-content: center;
     align-items: center;
 }
+
 .btn__text svg {
     margin-left: clamp(0.125rem, 0.025rem + 0.5vw, 0.625rem);
 }
+
 .footer {
     margin-top: 100px;
     font-weight: 466px;
@@ -362,10 +370,12 @@ padding-right: 30px;
     list-style: none;
     display: flex;
 }
+
 .footer__networks img {
     width: 20px;
     height: 20px;
 }
+
 .footer__networks li {
     margin-right: clamp(0.625rem, 0.25rem + 1.875vw, 2.5rem);
 }
@@ -393,17 +403,20 @@ padding-right: 30px;
     display: flex;
     margin-top: clamp(1.5rem, 0.55rem + 4.75vw, 6.25rem);
 }
-.content_right > div {
+
+.content_right>div {
     margin-right: clamp(0.75rem, 0.725rem + 0.125vw, 0.875rem);
-  }
+}
 
 .logo__link {
     padding-right: clamp(0.125rem, 0.025rem + 0.5vw, 0.625rem);
 }
+
 .logo__link svg {
-   width: clamp(1rem, 0.5125rem + 2.4375vw, 3.4375rem);
-   height: clamp(1rem, 0.5125rem + 2.4375vw, 3.4375rem); 
+    width: clamp(1rem, 0.5125rem + 2.4375vw, 3.4375rem);
+    height: clamp(1rem, 0.5125rem + 2.4375vw, 3.4375rem);
 }
+
 .course_content_top {
     align-items: center;
     display: flex;
@@ -420,10 +433,12 @@ padding-right: 30px;
     padding-left: 35px;
     flex-wrap: wrap;
 }
+
 .grid_content {
     display: flex;
     flex-wrap: wrap;
 }
+
 .grid_content svg {
     width: clamp(1.25rem, -0.5222rem + 8.8608vw, 10rem);
     height: clamp(1.25rem, -0.5222rem + 8.8608vw, 10rem);
@@ -446,7 +461,7 @@ padding-right: 30px;
 .item_4:hover .title--4,
 .item_5:hover .title--4,
 .item_6:hover .title--4 {
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 .item_1:hover .course_content_bottom,
@@ -455,7 +470,7 @@ padding-right: 30px;
 .item_4:hover .course_content_bottom,
 .item_5:hover .course_content_bottom,
 .item_6:hover .course_content_bottom {
-    color: #ffffff; 
+    color: #ffffff;
 }
 
 .item_1:hover .cls-2,
@@ -464,7 +479,7 @@ padding-right: 30px;
 .item_4:hover .cls-2,
 .item_5:hover .cls-2,
 .item_6:hover .cls-2 {
-    fill: #ffffff; 
+    fill: #ffffff;
 }
 
 .item_1:hover .cls-1,
@@ -473,20 +488,25 @@ padding-right: 30px;
 .item_4:hover .cls-1,
 .item_5:hover .cls-1,
 .item_6:hover .cls-1 {
-    fill: rgb(167, 10, 167); 
+    fill: rgb(167, 10, 167);
 }
 
 .item_center {
     white-space: nowrap;
 }
+
 .item_6 {
     flex-basis: 97%;
 }
-.item_3, .item_4, .item_5 {
-    flex-basis: 31.5%;
-  }
 
-.item_1, .item_2 {
+.item_3,
+.item_4,
+.item_5 {
+    flex-basis: 31.5%;
+}
+
+.item_1,
+.item_2 {
     flex-basis: 48%;
 }
 
@@ -539,24 +559,24 @@ padding-right: 30px;
 
 .text_icon {
     margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
-    }
+}
 
-    .banner__btn {
-        border: 1px solid grey;
-        color: #242424;
-        text-align: center;
-        font-family: "a-Euclid";
-        text-decoration: none;
-        padding: clamp(0.5rem, 0.375rem + 0.625vw, 1.125rem) clamp(0.875rem, 0.425rem + 2.25vw, 3.125rem);
-        font-weight: 500;
-        border-radius: 50px;
-    }
+.banner__btn {
+    border: 1px solid grey;
+    color: #242424;
+    text-align: center;
+    font-family: "a-Euclid";
+    text-decoration: none;
+    padding: clamp(0.5rem, 0.375rem + 0.625vw, 1.125rem) clamp(0.875rem, 0.425rem + 2.25vw, 3.125rem);
+    font-weight: 500;
+    border-radius: 50px;
+}
 
-    .banner__expanded_btn {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 10px 0 50px;
-    }
+.banner__expanded_btn {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0 50px;
+}
 
 .footer__copy {
     padding-left: 50px;
@@ -573,7 +593,7 @@ padding-right: 30px;
 .btn {
     border: 1px solid grey;
     background-color: #FFF;
-    color: #242424; 
+    color: #242424;
     text-align: center;
     font-family: "a-Euclid";
     text-decoration: none;
@@ -584,7 +604,7 @@ padding-right: 30px;
 
 .banner__all_btn_while {
     background-color: #FFF;
-    color:#242424;
+    color: #242424;
     text-align: center;
     font-family: "a-Euclid";
     text-decoration: none;
@@ -612,11 +632,11 @@ padding-right: 30px;
 .banner__all_btn svg {
     width: clamp(0.25rem, 0.1125rem + 0.6875vw, 0.9375rem);
     height: clamp(0.25rem, 0.1125rem + 0.6875vw, 0.9375rem);
-  }
+}
 
 .btn--violet {
     color: #FFF;
-    background-color: #6A00fa; 
+    background-color: #6A00fa;
     font-weight: 400;
 }
 
@@ -624,7 +644,7 @@ padding-right: 30px;
     color: #FFF;
     text-align: left;
     font-family: "e-UkraineHead";
-    font-size:  clamp(1.25rem, 0.9209rem + 1.6456vw, 2.875rem);
+    font-size: clamp(1.25rem, 0.9209rem + 1.6456vw, 2.875rem);
     font-weight: 700;
     text-transform: capitalize;
     white-space: nowrap;
@@ -637,7 +657,7 @@ padding-right: 30px;
     margin-bottom: 50px;
     line-height: 2;
 }
-  
+
 .inner_title--2 {
     padding-top: 20px;
     color: #FFF;
@@ -649,7 +669,7 @@ padding-right: 30px;
     white-space: nowrap;
     line-height: 2;
 }
-  
+
 .title--3 {
     font-family: "a-Euclid";
     font-weight: 400;
@@ -665,9 +685,9 @@ padding-right: 30px;
     font-size: clamp(0.875rem, 0.675rem + 1vw, 1.875rem);
     padding-bottom: clamp(0.125rem, -0.1915rem + 1.5823vw, 1.6875rem);
 }
-  
+
 .title--5 {
-    font-family: "a-Euclid"; 
+    font-family: "a-Euclid";
     font-weight: 400;
     color: #FFF;
     text-align: center;
@@ -683,8 +703,8 @@ padding-right: 30px;
     text-align: center;
     font-size: clamp(0.875rem, 0.875rem + 0vw, 0.875rem);
     text-decoration: none;
-    padding:  clamp(0.125rem, -0.025rem + 0.75vw, 0.875rem) clamp(0.5rem, 0.375rem + 0.625vw, 1.125rem);
-    font-family: "a-Euclid"; 
+    padding: clamp(0.125rem, -0.025rem + 0.75vw, 0.875rem) clamp(0.5rem, 0.375rem + 0.625vw, 1.125rem);
+    font-family: "a-Euclid";
     font-weight: 400;
 }
 
@@ -707,6 +727,7 @@ padding-right: 30px;
 .center_top {
     position: relative;
 }
+
 .center_top::after {
     content: "";
     position: absolute;
@@ -717,6 +738,7 @@ padding-right: 30px;
     width: clamp(3.125rem, -0.0396rem + 15.8228vw, 18.75rem);
     background: linear-gradient(to right, #000, #FFF);
 }
+
 .donat,
 .courses {
     margin-bottom: 50px;
@@ -725,6 +747,7 @@ padding-right: 30px;
 .сourse {
     padding-bottom: 80px;
 }
+
 .donat__inner {
     margin-top: 90px;
     text-align: center;
@@ -742,15 +765,16 @@ padding-right: 30px;
 }
 
 .banner__team {
-    margin-right: auto; 
-    margin-right: 10px; 
+    margin-right: auto;
+    margin-right: 10px;
 }
 
-.project-info__content img{
+.project-info__content img {
     max-width: 100%;
     height: auto;
 }
-.project-info__content_bm img{
+
+.project-info__content_bm img {
     margin-top: 30px;
     max-width: 100%;
     height: auto;
@@ -783,7 +807,8 @@ padding-right: 30px;
 @media screen and (max-width: 350px) {
     .title--5 {
         font-size: 12px;
-      }
+    }
+
     .title--6 {
         font-size: 12px;
     }
