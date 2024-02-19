@@ -677,7 +677,6 @@ ul {
     font-family: "e-UkraineHead";
     font-size: clamp(1.25rem, 0.9209rem + 1.6456vw, 2.875rem);
     font-weight: 700;
-    text-transform: capitalize;
     white-space: nowrap;
 }
 
