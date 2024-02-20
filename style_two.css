@@ -561,12 +561,12 @@ ul {
 }
 
 .certificate {
-    height: 300px;
+    height: 500px;
     padding: 30px 30px;
     background-color: rgb(230, 227, 221);
 }
 .certificate--plus {
-    height: 300px;
+    height: 500px;
     padding: 30px 30px;
     background-color: #6A00fa;
 }
