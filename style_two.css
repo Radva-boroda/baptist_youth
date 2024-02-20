@@ -561,15 +561,44 @@ ul {
 }
 
 .certificate {
-    height: 500px;
+    border-radius: 50px;
+    height: 600px;
     padding: 30px 30px;
     background-color: rgb(230, 227, 221);
 }
 .certificate--plus {
-    height: 500px;
+    border-radius: 50px;
+    height: 600px;
     padding: 30px 30px;
     background-color: #6A00fa;
 }
+
+.certificate_btn {
+        font-size: clamp(0.3125rem, 0.2rem + 0.5625vw, 0.875rem);
+        font-family: "e-UkraineHead";
+        padding-left: clamp(0.3125rem, 0.125rem + 0.9375vw, 1.25rem);
+        padding-right: clamp(0.3125rem, 0.125rem + 0.9375vw, 1.25rem);
+        padding-top: clamp(0.3125rem, 0.1986rem + 0.5696vw, 0.875rem);
+        padding-bottom: clamp(0.3125rem, 0.1986rem + 0.5696vw, 0.875rem);
+        max-height: 220px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .pay {
+        margin-left: auto;
+        margin-bottom: auto;
+    }
+    .pay_text_one {
+        font-family: "e-UkraineHead";
+        margin-bottom: 10px;
+        color: #242424;
+    }
+    .pay_text_two {
+        font-family: "e-UkraineHead";
+        margin-bottom: 10px;
+        color: #FFF;
+    }
 .certificate_text {
     color: #242424;
 }
