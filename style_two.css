@@ -560,6 +560,41 @@ ul {
     margin-top: clamp(1rem, 0.2rem + 4vw, 5rem);
 }
 
+.certificate {
+    background-color: #7B7B7B;
+}
+.certificate--plus {
+    background-color: #6A00fa;
+}
+.banner--education {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .banner--education {
+    text-align: center; 
+    margin: 0; 
+  }
+  .banner__inner_education {
+    display: flex;
+    justify-content: space-evenly; 
+  }
+  
+  .banner__column {
+    flex: 1; 
+    margin: 0 10px; 
+  }
+
+.banner--education {
+    margin-top: 90px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.education {
+    margin-bottom: 30px;
+}
+
 .footer__text_left__center {
     font-family: "e-Ukraine";
     color: #7B7B7B;
@@ -590,7 +625,7 @@ ul {
 }
 
 .content_right li {
-    padding-top: 20px; /* Додайте потрібний вам падінг-top */
+    padding-top: 20px;
 }
 
 .content__bottom {
