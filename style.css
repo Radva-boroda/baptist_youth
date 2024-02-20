@@ -716,7 +716,6 @@ ul {
     color: #7B7B7B;
     font-size: clamp(0.1875rem, 0.05rem + 0.6875vw, 0.875rem);
     text-align: left;
-    padding-top: clamp(0.75rem, 0.4rem + 1.75vw, 2.5rem);
     white-space: nowrap;
 }
 
@@ -724,7 +723,6 @@ ul {
     font-family: "e-Ukraine";
     color: #7B7B7B;
     font-size: clamp(0.1875rem, 0.05rem + 0.6875vw, 0.875rem);
-    padding-top: clamp(0.375rem, 0.2rem + 0.875vw, 1.25rem);
     white-space: nowrap;
 }
 
