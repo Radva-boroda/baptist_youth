@@ -561,11 +561,28 @@ ul {
 }
 
 .certificate {
-    background-color: #7B7B7B;
+    height: 300px;
+    padding: 30px 30px;
+    background-color: rgb(230, 227, 221);
 }
 .certificate--plus {
+    height: 300px;
+    padding: 30px 30px;
     background-color: #6A00fa;
 }
+.certificate_text {
+    color: #242424;
+}
+.certificate--plus_text {
+    color: #FFF;
+}
+.title--7 {
+    margin-bottom: 2px;
+    font-family: "a-Euclid";
+    font-size: clamp(0.875rem, 0.675rem + 1vw, 1.875rem);
+    padding-bottom: clamp(0.125rem, -0.1915rem + 1.5823vw, 1.6875rem);
+}
+
 .banner--education {
     display: flex;
     justify-content: center; 
@@ -574,17 +591,19 @@ ul {
   
   .banner--education {
     text-align: center; 
-    margin: 0; 
+    padding: 30px 30px; 
   }
   .banner__inner_education {
     display: flex;
     justify-content: space-evenly; 
   }
   
-  .banner__column {
-    flex: 1; 
-    margin: 0 10px; 
-  }
+  .certificate__column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
 
 .banner--education {
     margin-top: 90px;
@@ -592,7 +611,25 @@ ul {
     margin-bottom: 80px;
 }
 .education {
+        display: flex;
+        justify-content: center;
+        text-align: center;
     margin-bottom: 30px;
+}
+
+.style_text {
+    color: #FFF;
+}
+
+.text_style {
+    color: #6F6F6F;
+}
+.text__item {
+    text-align: center;
+    font-size: clamp(0.625rem, 0.575rem + 0.25vw, 0.875rem);
+    font-weight: 300;
+    margin: clamp(0.25rem, 0.175rem + 0.375vw, 0.625rem) 0 clamp(0.625rem, 0.375rem + 1.25vw, 1.875rem);
+    margin-right: auto;
 }
 
 .footer__text_left__center {
