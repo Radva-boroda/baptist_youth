@@ -697,7 +697,7 @@ ul {
 }
 
 .content_right> li {
-    margin-top: clamp(1.875rem, 1.7231rem + 0.7595vw, 2.625rem);
+    margin-top: clamp(0rem, -0.8861rem + 4.4304vw, 4.375rem);
     margin-right: clamp(0.75rem, 0.725rem + 0.125vw, 0.875rem);
 }
 
