@@ -567,6 +567,7 @@ ul {
     background-color: rgb(230, 227, 221);
 }
 .certificate--plus {
+    margin-left: 10px;
     border-radius: 50px;
     height: 600px;
     padding: 30px 30px;
@@ -591,6 +592,7 @@ ul {
     }
     .pay_text_one {
         font-family: "e-UkraineHead";
+        margin-top: 70px;
         margin-bottom: 10px;
         color: #242424;
     }
