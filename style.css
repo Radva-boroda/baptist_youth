@@ -93,7 +93,7 @@ ul {
     position: relative;
     width: 100%;
     height: clamp(28.125rem, 22.6875rem + 27.1875vw, 55.3125rem);
-    background-image: url(../baptist_youth/img/bg.svg);
+    background-image: url("../baptist_youth/img/bg.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -230,6 +230,7 @@ ul {
     margin-bottom: 30px;
     margin-left: auto;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .banner__team-info .swiper-slide {
@@ -606,6 +607,7 @@ ul {
     font-family: "a-Euclid";
     color: #242424;
     font-weight: 400;
+    cursor: pointer;
 }
 
 .footer {
@@ -725,7 +727,8 @@ ul {
     white-space: nowrap;
 }
 
-.text_icon {
+.go_top {
+    cursor: pointer;
     margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 }
 

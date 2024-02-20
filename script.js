@@ -83,3 +83,27 @@ window.onscroll = function () {
  
     prevScrollpos = currentScrollPos;
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  var copyButton = document.getElementById('copyNumber');
+  copyButton.addEventListener('click', function() {
+      var accountNumber = document.getElementById('uanNumber');
+      var tempInput = document.createElement('input');
+      document.body.appendChild(tempInput);
+      tempInput.setAttribute('value', accountNumber.textContent);
+      tempInput.select();
+      document.execCommand('copy');
+      document.body.removeChild(tempInput);
+      alert('Рахунок скопійовано: ' + accountNumber.textContent);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    var goTopButton = document.querySelector('.go_top');
+    goTopButton.addEventListener('click', function() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    });
+});

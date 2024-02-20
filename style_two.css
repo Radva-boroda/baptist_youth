@@ -50,6 +50,11 @@ ul {
     list-style: none;
 }
 
+.title {
+    font-family: "a-Euclid";
+    font-weight: 700;
+}
+
 .container {
     max-width: 1500px;
     width: 100%;
@@ -95,8 +100,7 @@ ul {
     position: relative;
     width: 100%;
     height: clamp(28.125rem, 22.6875rem + 27.1875vw, 55.3125rem);
-    /* кавички на url */
-    background-image: url(../baptist_youth/img/bg_2.jpg);
+    background-image: url("../baptist_youth/img/bg/bg_2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -107,7 +111,7 @@ ul {
     position: relative;
     width: 100%;
     height: clamp(28.125rem, 22.6875rem + 27.1875vw, 55.3125rem);
-    background-image: url(../baptist_youth/img/rectangle_fons.svg);
+    background-image: url("../baptist_youth/img/rectangle_fons.svg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -237,6 +241,7 @@ ul {
 
 .btn_back,
 .btn_go {
+    cursor: pointer;
     margin-bottom: 30px;
     margin-left: auto;
     margin-left: 10px;
@@ -588,7 +593,8 @@ ul {
     padding-bottom: 54px;
 }
 
-.text_icon {
+.go_top {
+    cursor: pointer;
     margin-top: clamp(-4.375rem, -5rem + 3.125vw, -1.25rem);
 }
 
