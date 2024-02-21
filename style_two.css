@@ -615,7 +615,7 @@ svg {
   }
   
     .pay {
-        margin-top: auto;
+        margin-top: 50px;
         flex: 1;
         text-align: start;
     }
