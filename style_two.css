@@ -588,6 +588,26 @@ svg {
     border: 2px solid #6F6F6F;
     flex: 1;
 }
+
+.certificate:hover {
+    background-color: #6A00fa; /* Новий колір фону при наведенні */
+}
+
+.certificate:hover .certificate_text,
+.certificate:hover .text__item,
+.certificate:hover .pay_text {
+    color: #FFF; /* Новий колір тексту при наведенні */
+}
+
+.certificate:hover .pay_btn {
+    background-color: #FFF;
+}
+.certificate:hover .btn__text {
+    color: #242424;
+}
+.pay_btn a:hover svg path {
+    fill: #242424;
+  }
     .pay {
         flex: 1;
         text-align: start;
@@ -770,17 +790,6 @@ svg {
     color: #FFF;
     background-color: #6A00fa;
     font-weight: 400;
-}
-
-.pay_btn_one{
-    background-color:#6A00fa;
-    color: #FFF;
-    text-align: center;
-    font-family: "a-Euclid";
-    text-decoration: none;
-    padding: 4px 30px;
-    font-weight: 500;
-    border-radius: 14px;
 }
 
 .pay_btn{
