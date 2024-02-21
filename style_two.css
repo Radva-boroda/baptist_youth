@@ -80,12 +80,11 @@ ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #fff;
  }
  .text_info {
     font-family: "a-Euclid";
     font-weight: 400;
-    color: #242424;
+    color: #FFF;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -837,7 +836,7 @@ svg {
     text-align: left;
     font-family: "e-UkraineHead";
     font-size: clamp(1.25rem, 0.9209rem + 1.6456vw, 2.875rem);
-    font-weight: 700;
+    font-weight: 500;
     white-space: nowrap;
 }
 
