@@ -582,7 +582,7 @@ svg {
 .certificate {
     margin: clamp(0.125rem, 0.0237rem + 0.5063vw, 0.625rem);
     border-radius: 26px;
-    height: 600px;
+    height: auto;
     padding: 30px 30px;
     background-color: #FFF;
     border: 2px solid #6F6F6F;
@@ -593,9 +593,8 @@ svg {
         text-align: start;
     }
     .pay_text {
-        font-family: "e-UkraineHead";
-        margin-top: 70px;
-        margin-bottom: 20px;
+        font-family: "e-UkraineHead"; 
+        margin-top: 50px;
         color: #242424;
     }
 
@@ -640,9 +639,9 @@ svg {
 .text__item {
     color: #6F6F6F;
     text-align: center;
-    font-size: clamp(0.875rem, 0.75rem + 0.625vw, 1.5rem);
+    font-size: clamp(0.875rem, 0.7231rem + 0.7595vw, 1.625rem);
     font-weight: 300;
-    margin: clamp(0.25rem, 0.175rem + 0.375vw, 0.625rem) 0 clamp(0.625rem, 0.375rem + 1.25vw, 1.875rem);
+    margin: 6px;
     margin-right: auto;
 }
 
@@ -790,6 +789,7 @@ svg {
     text-align: center;
     font-family: "a-Euclid";
     text-decoration: none;
+    margin-top: 50px;
     padding: 20px 30px;
     font-weight: 500;
     border-radius: 50px;
