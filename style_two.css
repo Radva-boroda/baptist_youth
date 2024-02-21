@@ -586,48 +586,19 @@ svg {
     padding: 30px 30px;
     background-color: #FFF;
     border: 2px solid #6F6F6F;
+    flex: 1;
 }
-.certificate--plus {
-    margin: clamp(0.125rem, 0.0237rem + 0.5063vw, 0.625rem);
-    border-radius: 26px;
-    height: 600px;
-    padding: 30px 30px;
-    background-color: #6A00fa;
-}
-
-.certificate_btn {
-        font-size: clamp(0.3125rem, 0.2rem + 0.5625vw, 0.875rem);
-        font-family: "e-UkraineHead";
-        padding-left: clamp(0.3125rem, 0.125rem + 0.9375vw, 1.25rem);
-        padding-right: clamp(0.3125rem, 0.125rem + 0.9375vw, 1.25rem);
-        padding-top: clamp(0.3125rem, 0.1986rem + 0.5696vw, 0.875rem);
-        padding-bottom: clamp(0.3125rem, 0.1986rem + 0.5696vw, 0.875rem);
-        max-height: 220px;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-    }
     .pay {
-        text-align: end;
-        margin-left: auto;
+        flex: 1;
+        text-align: start;
     }
-    .pay_text_one {
+    .pay_text {
         font-family: "e-UkraineHead";
         margin-top: 70px;
         margin-bottom: 20px;
         color: #242424;
     }
-    .pay_text_two {
-        font-family: "e-UkraineHead";
-        margin-bottom: 20px;
-        color: #FFF;
-    }
-.certificate_text {
-    color: #242424;
-}
-.certificate--plus_text {
-    color: #FFF;
-}
+
 .title--7 {
     margin-bottom: 2px;
     font-family: "a-Euclid";
@@ -643,11 +614,10 @@ svg {
   
   .banner--education {
     text-align: center; 
-    padding: 30px 30px; 
   }
   .banner__inner_education {
     display: flex;
-    justify-content: center; 
+    justify-content: space-between; 
   }
   
   .certificate__column {
@@ -658,9 +628,7 @@ svg {
 }
 
 .banner--education {
-    margin-top: 90px;
     text-align: center;
-    margin-bottom: 80px;
 }
 .education {
         display: flex;
@@ -669,14 +637,8 @@ svg {
     margin-bottom: 30px;
 }
 
-.style_text {
-    color: #FFF;
-}
-
-.text_style {
-    color: #6F6F6F;
-}
 .text__item {
+    color: #6F6F6F;
     text-align: center;
     font-size: clamp(0.875rem, 0.75rem + 0.625vw, 1.5rem);
     font-weight: 300;
@@ -783,6 +745,7 @@ svg {
     border-radius: 50px;
 }
 
+
 .banner__all_btn {
     color: #FFF;
     align-items: center;
@@ -797,6 +760,7 @@ svg {
     font-weight: 500;
     border-radius: 50px;
 }
+
 
 .banner__all_btn svg {
     width: clamp(0.25rem, 0.1125rem + 0.6875vw, 0.9375rem);
@@ -821,14 +785,20 @@ svg {
 }
 
 .pay_btn{
-    background-color: #FFF;
-    color: #242424;
+    background-color: #6A00fa;
+    color: #FFF;
     text-align: center;
     font-family: "a-Euclid";
     text-decoration: none;
-    padding: 4px 30px;
+    padding: 20px 30px;
     font-weight: 500;
-    border-radius: 14px;
+    border-radius: 50px;
+}
+
+.pay_btn svg {
+
+    width: clamp(0.25rem, 0.1125rem + 0.6875vw, 0.9375rem);
+    height: clamp(0.25rem, 0.1125rem + 0.6875vw, 0.9375rem);
 }
 
 .title--1 {
