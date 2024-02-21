@@ -561,14 +561,16 @@ ul {
 }
 
 .certificate {
-    border-radius: 50px;
+    margin: clamp(0.125rem, 0.0237rem + 0.5063vw, 0.625rem);
+    border-radius: 26px;
     height: 600px;
     padding: 30px 30px;
-    background-color: rgb(230, 227, 221);
+    background-color: #FFF;
+    border: 2px solid #6F6F6F;
 }
 .certificate--plus {
-    margin-left: 10px;
-    border-radius: 50px;
+    margin: clamp(0.125rem, 0.0237rem + 0.5063vw, 0.625rem);
+    border-radius: 26px;
     height: 600px;
     padding: 30px 30px;
     background-color: #6A00fa;
@@ -587,18 +589,18 @@ ul {
         align-items: center;
     }
     .pay {
+        text-align: end;
         margin-left: auto;
-        margin-bottom: auto;
     }
     .pay_text_one {
         font-family: "e-UkraineHead";
         margin-top: 70px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         color: #242424;
     }
     .pay_text_two {
         font-family: "e-UkraineHead";
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         color: #FFF;
     }
 .certificate_text {
@@ -626,7 +628,7 @@ ul {
   }
   .banner__inner_education {
     display: flex;
-    justify-content: space-evenly; 
+    justify-content: center; 
   }
   
   .certificate__column {
@@ -786,6 +788,28 @@ ul {
     color: #FFF;
     background-color: #6A00fa;
     font-weight: 400;
+}
+
+.pay_btn_one{
+    background-color:#6A00fa;
+    color: #FFF;
+    text-align: center;
+    font-family: "a-Euclid";
+    text-decoration: none;
+    padding: 4px 30px;
+    font-weight: 500;
+    border-radius: 14px;
+}
+
+.pay_btn{
+    background-color: #FFF;
+    color: #242424;
+    text-align: center;
+    font-family: "a-Euclid";
+    text-decoration: none;
+    padding: 4px 30px;
+    font-weight: 500;
+    border-radius: 14px;
 }
 
 .title--1 {
