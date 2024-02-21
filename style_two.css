@@ -605,8 +605,13 @@ svg {
 .certificate:hover .btn__text {
     color: #242424;
 }
-.pay_btn a:hover svg path {
-    fill: #242424;
+
+.pay_btn a svg path {
+    fill: #FFF;
+  }
+  
+  .certificate:hover svg path {
+    fill: #242424; 
   }
     .pay {
         flex: 1;
