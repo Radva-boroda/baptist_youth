@@ -613,13 +613,14 @@ svg {
   .certificate:hover svg path {
     fill: #242424; 
   }
+  
     .pay {
+        margin-top: auto;
         flex: 1;
         text-align: start;
     }
     .pay_text {
         font-family: "e-UkraineHead"; 
-        margin-top: 50px;
         color: #242424;
     }
 
