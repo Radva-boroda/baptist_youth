@@ -655,16 +655,10 @@ svg {
 .banner--education {
     text-align: center;
 }
-.education {
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    margin-bottom: 30px;
-}
 
 .text__item {
     color: #6F6F6F;
-    text-align: center;
+    text-align: start;
     font-size: clamp(0.875rem, 0.7231rem + 0.7595vw, 1.625rem);
     font-weight: 300;
     margin: 6px;
