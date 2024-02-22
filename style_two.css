@@ -75,13 +75,15 @@ ul {
     right: 0;
     z-index: 2;
 }
+
 .banner__lesson-info-online {
     margin-top: 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
- }
- .text_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text_info {
     font-family: "a-Euclid";
     font-weight: 400;
     color: #FFF;
@@ -91,8 +93,10 @@ ul {
 }
 
 svg {
-    width: 30%; /* Встановіть бажаний розмір SVG */
-    height: 30%; /* Встановіть бажаний розмір SVG */
+    width: 30%;
+    /* Встановіть бажаний розмір SVG */
+    height: 30%;
+    /* Встановіть бажаний розмір SVG */
 }
 
 .header__logo {
@@ -428,7 +432,7 @@ svg {
     margin-top: 0;
 }
 
-.content_right> li {
+.content_right>li {
     margin-top: clamp(0rem, -0.8861rem + 4.4304vw, 4.375rem);
     margin-right: clamp(0.75rem, 0.725rem + 0.125vw, 0.875rem);
 }
@@ -590,39 +594,41 @@ svg {
 }
 
 .certificate:hover {
-    background-color: #6A00fa; /* Новий колір фону при наведенні */
+    background-color: #6A00fa;
 }
 
 .certificate:hover .certificate_text,
 .certificate:hover .text__item,
 .certificate:hover .pay_text {
-    color: #FFF; /* Новий колір тексту при наведенні */
+    color: #FFF;
 }
 
 .certificate:hover .pay_btn {
     background-color: #FFF;
 }
+
 .certificate:hover .btn__text {
     color: #242424;
 }
 
 .pay_btn a svg path {
     fill: #FFF;
-  }
-  
-  .certificate:hover svg path {
-    fill: #242424; 
-  }
-  
-    .pay {
-        margin-top: 50px;
-        flex: 1;
-        text-align: start;
-    }
-    .pay_text {
-        font-family: "e-UkraineHead"; 
-        color: #242424;
-    }
+}
+
+.certificate:hover svg path {
+    fill: #242424;
+}
+
+.pay {
+    margin-top: 50px;
+    flex: 1;
+    text-align: start;
+}
+
+.pay_text {
+    font-family: "e-UkraineHead";
+    color: #242424;
+}
 
 .title--7 {
     margin-bottom: 2px;
@@ -633,27 +639,21 @@ svg {
 
 .banner--education {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-  }
-  
-  .banner--education {
-    text-align: center; 
-  }
-  .banner__inner_education {
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+
+.banner__inner_education {
     display: flex;
-    justify-content: space-between; 
-  }
-  
-  .certificate__column {
+    justify-content: space-between;
+}
+
+.certificate__column {
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 100%;
-}
-
-.banner--education {
-    text-align: center;
 }
 
 .text__item {
@@ -662,7 +662,6 @@ svg {
     font-size: clamp(0.875rem, 0.7231rem + 0.7595vw, 1.625rem);
     font-weight: 300;
     margin: 6px;
-    margin-right: auto;
 }
 
 .footer__text_left__center {
@@ -792,7 +791,7 @@ svg {
     font-weight: 400;
 }
 
-.pay_btn{
+.pay_btn {
     background-color: #6A00fa;
     color: #FFF;
     text-align: center;
