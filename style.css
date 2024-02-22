@@ -131,7 +131,7 @@ ul {
     text-align: center;
     font-family: "a-Euclid";
     text-decoration: none;
-    margin-right: clamp(0.25rem, 0.175rem + 0.375vw, 0.625rem);
+    margin-left: clamp(0.375rem, 0.0206rem + 1.7722vw, 2.125rem);
     padding: clamp(0.25rem, 0.075rem + 0.875vw, 1.125rem) clamp(1.875rem, 1.75rem + 0.625vw, 2.5rem);
     font-weight: 500;
     border-radius: 50px;
