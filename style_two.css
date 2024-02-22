@@ -925,6 +925,11 @@ svg {
     text-align: left;
 }
 
+.сourse__program {
+    padding-top: clamp(0.625rem, -0.3877rem + 5.0633vw, 5.625rem);
+    text-align: left;
+}
+
 .team {
     margin-right: auto;
     margin-bottom: 30px;
