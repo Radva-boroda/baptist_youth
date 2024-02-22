@@ -586,7 +586,6 @@ svg {
     border-radius: 26px;
     height: auto;
     padding: clamp(1.125rem, 0.9731rem + 0.7595vw, 1.875rem)clamp(1.125rem, 0.9731rem + 0.7595vw, 1.875rem);
-    background-color: #FFF;
     border: 2px solid #6F6F6F;
     flex: 1;
 }
