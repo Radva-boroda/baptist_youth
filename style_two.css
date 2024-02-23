@@ -79,8 +79,8 @@ ul {
 .banner__lesson-info-online {
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 
 .text_info {
@@ -89,7 +89,7 @@ ul {
     color: #FFF;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
 }
 
 svg {
@@ -819,7 +819,6 @@ svg {
     font-family: "e-Ukraine";
     font-size: clamp(0.375rem, 0.225rem + 0.75vw, 1.125rem);
     font-weight: 400;
-    margin-bottom: 50px;
     line-height: 2;
 }
 
